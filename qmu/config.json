@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "configVersion": 3,
+  "company": {
+    "id": "company-workspace",
+    "name": "Company Workspace"
+  },
+  "modules": {
+    "email": true,
+    "nc": true,
+    "slotCatalog": true
+  },
+  "emailLanguages": {
+    "ru": { "label": "RU", "htmlLang": "ru" },
+    "kz": { "label": "KZ", "htmlLang": "kk" },
+    "uz": { "label": "UZ", "htmlLang": "uz" },
+    "az": { "label": "AZ", "htmlLang": "az" },
+    "es": { "label": "ES", "htmlLang": "es" },
+    "en": { "label": "EN", "htmlLang": "en" },
+    "fr": { "label": "FR", "htmlLang": "fr" },
+    "sw": { "label": "SW", "htmlLang": "sw" },
+    "mailru": { "label": "mail.ru", "htmlLang": "ru", "exclusive": true }
+  },
+  "emailGeoProfiles": [
+    { "id": "kz-uz", "label": "KZ / UZ", "eyebrow": "CENTRAL ASIA", "enabled": true, "projectIds": ["company-1", "company-3"], "primary": "ru", "languages": ["ru", "kz", "uz"], "description": "Russian, Kazakh and Uzbek email versions." },
+    { "id": "az", "label": "AZ", "eyebrow": "AZERBAIJAN", "enabled": true, "projectIds": ["company-1", "company-3"], "primary": "ru", "languages": ["ru", "az", "en"], "description": "Russian, Azerbaijani and optional English email versions.", "features": { "cryptoBanner": true, "cryptoRequired": true } },
+    { "id": "in-bd", "label": "IN / BD", "eyebrow": "SOUTH ASIA", "enabled": false, "projectIds": ["company-1", "company-3"], "primary": "en", "languages": [], "description": "Language pack is being prepared." },
+    { "id": "africa", "label": "Africa", "eyebrow": "NG / KE / CD", "enabled": true, "projectIds": ["company-1", "company-3"], "primary": "en", "languages": ["en", "fr", "sw"], "description": "English, French and Swahili email versions.", "features": { "age18Required": true, "googlePlayMacro": "%%googleplay%%" } },
+    { "id": "latam", "label": "LATAM", "eyebrow": "LATIN AMERICA", "enabled": true, "projectIds": ["company-1", "company-3"], "primary": "es", "languages": ["es", "en"], "description": "Spanish and optional English email versions.", "features": { "logoVariable": "[[logo]]" } },
+    { "id": "compact-ru-kz", "label": "RU / KZ", "eyebrow": "RU / KZ", "enabled": true, "projectIds": ["company-2"], "primary": "ru", "languages": ["ru", "kz", "mailru"], "description": "RU and KZ can be prepared together. mail.ru is a standalone email version.", "features": { "exclusiveLanguages": ["mailru"] } }
+  ],
+  "emailGameAssets": [
+    "qmu/email-games/game-1.jpg",
+    "qmu/email-games/game-2.jpg",
+    "qmu/email-games/game-3.jpg",
+    "qmu/email-games/game-4.jpg"
+  ],
+  "profiles": [
+    {
+      "id": "company-1",
+      "name": "PIN-UP",
+      "label": "PIN-UP",
+      "brandName": "PIN-UP",
+      "mode": "standard",
+      "accent": "#ff3b2f",
+      "capabilities": { "email": true, "nc": true },
+      "productTokens": ["Casino", "Sport", "Esports", "Poker"],
+      "logoAsset": "qmu/profiles/company-1/logo.png",
+      "avatars": [
+        { "id": "avatar-1", "label": "Default", "asset": "qmu/profiles/company-1/avatars/pinup-default.png" },
+        { "id": "avatar-2", "label": "Foil Cat", "asset": "qmu/profiles/company-1/avatars/pinup-foil-cat-custom.png" },
+        { "id": "avatar-3", "label": "Runner", "asset": "qmu/profiles/company-1/avatars/pinup-headphones-runner-custom.png" },
+        { "id": "avatar-4", "label": "Cool Duck", "asset": "qmu/profiles/company-1/avatars/pinup-cool-duck-custom.png" },
+        { "id": "avatar-5", "label": "One Eye", "asset": "qmu/profiles/company-1/avatars/pinup-one-eye.jpg" }
+      ],
+      "emailLogo": "https://storage.googleapis.com/pin-up-com/logo_casino.png",
+      "logoChoices": [
+        { "id": "vertical-1", "label": "Casino", "url": "https://storage.googleapis.com/pin-up-com/logo_casino.png" },
+        { "id": "vertical-2", "label": "Sport", "url": "https://storage.googleapis.com/pin-up-com/logo_sport_Pin_up.png" },
+        { "id": "vertical-3", "label": "Esport", "url": "https://storage.googleapis.com/pin-up-com/logo_esport.png" },
+        { "id": "universal", "label": "Universal", "url": "https://storage.googleapis.com/pin-up-com/logo_email_all_12_03.png" }
+      ],
+      "logoKeywords": {
+        "vertical-2": ["экспресс", "фрибет", "коэффициент", "матч", "футбол", "лига", "спорт", "букмекер", "тотал", "страховк", "уефа", "кпл", "ekspress", "fribet", "koeffitsiyent", "futbol", "liga", "sport", "jamoa"],
+        "vertical-1": ["слот", "спин", "фриспин", "прокрут", "казино", "барабан", "джекпот", "вейджер", "рулетк", "краш", "aviator", "провайдер", "бездеп", "slot", "spin", "frispin", "kazino", "jekpot", "ruletka", "provayder"]
+      },
+      "assets": {
+        "cryptoRu": "https://storage.googleapis.com/pin-up-com/cryptobanner_bigger_RU.png",
+        "cryptoAz": "https://storage.googleapis.com/pin-up-com/cryptobanner_bigger_AZ.png",
+        "cryptoEn": "https://storage.googleapis.com/pin-up-com/cryptobanner_bigger_EN.png",
+        "ageFr": "https://storage.googleapis.com/pin-up-com/endv_email_fr.png",
+        "ageEn": "https://storage.googleapis.com/pin-up-com/_endv_email_en.png",
+        "ageLatamEs": "https://storage.googleapis.com/pin-up-com/lat_endv_email_es.png",
+        "ageLatamEn": "https://storage.googleapis.com/pin-up-com/111endv_email_en.png"
+      }
+    },
+    {
+      "id": "company-2",
+      "name": "PINCO",
+      "label": "PINCO",
+      "brandName": "PINCO",
+      "mode": "compact",
+      "accent": "#ff1748",
+      "capabilities": { "email": true, "nc": false },
+      "productTokens": ["Casino", "Sport", "Esports", "Poker"],
+      "logoAsset": "qmu/profiles/company-2/logo.png",
+      "avatars": [
+        { "id": "avatar-1", "label": "Default", "asset": "qmu/profiles/company-2/avatars/pinco-default.png" },
+        { "id": "avatar-2", "label": "Business Cat", "asset": "qmu/profiles/company-2/avatars/pinco-business-cat-custom.png" },
+        { "id": "avatar-3", "label": "Sad Player", "asset": "qmu/profiles/company-2/avatars/pinco-sad-player-custom.png" },
+        { "id": "avatar-4", "label": "Bearded", "asset": "qmu/profiles/company-2/avatars/pinco-bearded-buddy.jpg" },
+        { "id": "avatar-5", "label": "Astral Cats", "asset": "qmu/profiles/company-2/avatars/pinco-astral-cats-custom.png" }
+      ],
+      "emailLogo": "https://storage.googleapis.com/pinco-win/PINCO_casino.png",
+      "logoChoices": [
+        { "id": "casino", "label": "Casino", "url": "https://storage.googleapis.com/pinco-win/PINCO_casino.png" },
+        { "id": "sport", "label": "Sport", "url": "https://storage.googleapis.com/pinco-win/PINCO_bet.png" },
+        { "id": "esport", "label": "Esport", "url": "https://storage.googleapis.com/pinco-win/PINCO_esports.png" },
+        { "id": "poker", "label": "Poker", "url": "https://storage.googleapis.com/pinco-win/PINCO_poker.png" },
+        { "id": "universal", "label": "Universal", "url": "https://storage.googleapis.com/pinco-win/WL_PINCO_mailru.png" }
+      ],
+      "logoKeywords": {
+        "sport": ["экспресс", "фрибет", "коэффициент", "матч", "футбол", "лига", "спорт", "букмекер", "тотал", "ekspress", "fribet", "futbol", "sport"],
+        "casino": ["слот", "спин", "фриспин", "прокрут", "казино", "джекпот", "вейджер", "рулетк", "краш", "aviator", "slot", "spin", "kazino"]
+      },
+      "assets": {
+        "mailLogo": "https://storage.googleapis.com/pinco-win/WL_PINCO_mailru.png",
+        "android": "https://storage.googleapis.com/pinco-win/download_android_pinco.png",
+        "annotationLogo": "https://storage.googleapis.com/pinco-win/PINCO_logo_Animation_001.gif",
+        "instagram": "https://storage.googleapis.com/pinco-win/instagram_pinco_logo.png",
+        "telegram": "https://storage.googleapis.com/pinco-win/telegram_logo_pinco.png"
+      }
+    },
+    {
+      "id": "company-3",
+      "name": "ZAZINO",
+      "label": "ZAZINO",
+      "brandName": "ZAZINO",
+      "mode": "standard",
+      "accent": "#28dff2",
+      "capabilities": { "email": true, "nc": false },
+      "productTokens": ["Casino", "Sport", "Esports", "Poker"],
+      "logoAsset": "qmu/profiles/company-3/logo.png",
+      "avatars": [
+        { "id": "avatar-1", "label": "Default", "asset": "qmu/profiles/company-3/avatars/zazino-default.png" },
+        { "id": "avatar-2", "label": "Candy Dog", "asset": "qmu/profiles/company-3/avatars/zazino-candy-dog-custom.png" },
+        { "id": "avatar-3", "label": "Headset", "asset": "qmu/profiles/company-3/avatars/zazino-headset-creature.jpg" },
+        { "id": "avatar-4", "label": "One Eye", "asset": "qmu/profiles/company-3/avatars/zazino-one-eye.jpg" },
+        { "id": "avatar-5", "label": "Lightning", "asset": "qmu/profiles/company-3/avatars/zazino-lightning-listener.jpg" }
+      ],
+      "emailLogo": "https://iznvff.stripocdn.email/content/guids/CABINET_58e378fba64a6a252de0fae588f67813eb67104d88da4e6f383037e32ca6b03a/images/property_1desktop.png"
+    }
+  ],
+  "emailAssets": {
+    "company-1": {
+      "cards": [
+        { "id": "pinup-card-01", "name": "Card 01", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_1kumo.png" },
+        { "id": "pinup-card-02", "name": "Card 02", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_2kumo.png" },
+        { "id": "pinup-card-03", "name": "Card 03", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_3kumo.png" },
+        { "id": "pinup-card-04", "name": "Card 04", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_4kumo.png" },
+        { "id": "pinup-card-05", "name": "Card 05", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_5kumo.png" },
+        { "id": "pinup-card-06", "name": "Card 06", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_6kumo.png" },
+        { "id": "pinup-card-07", "name": "Card 07", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_7kumo.png" },
+        { "id": "pinup-card-08", "name": "Card 08", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_8kumo.png" },
+        { "id": "pinup-card-09", "name": "Card 09", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_9kumo.png" },
+        { "id": "pinup-card-10", "name": "Card 10", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_10kumo.png" },
+        { "id": "pinup-card-11", "name": "Card 11", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_11kumo.png" },
+        { "id": "pinup-card-12", "name": "Card 12", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_12kumo.png" },
+        { "id": "pinup-card-13", "name": "Card 13", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_13kumo.png" },
+        { "id": "pinup-card-14", "name": "Card 14", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_14kumo.png" },
+        { "id": "pinup-card-15", "name": "Card 15", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_15kumo.png" },
+        { "id": "pinup-card-16", "name": "Card 16", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_16kumo.png" },
+        { "id": "pinup-card-17", "name": "Card 17", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_17kumo.png" },
+        { "id": "pinup-card-18", "name": "Card 18", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_18kumo.png" },
+        { "id": "pinup-card-19", "name": "Card 19", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_19kumo.png" },
+        { "id": "pinup-card-20", "name": "Card 20", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_20kumo.png" },
+        { "id": "pinup-card-21", "name": "Card 21", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_21kumo.png" },
+        { "id": "pinup-card-22", "name": "Card 22", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_22kumo.png" },
+        { "id": "pinup-card-23", "name": "Card 23", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_23kumo.png" },
+        { "id": "pinup-card-24", "name": "Card 24", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_24kumo.png" },
+        { "id": "pinup-card-25", "name": "Card 25", "url": "qmu/profiles/company-1/email-cards/new_promo_email_icon_25kumo.png" }
+      ]
+    },
+    "company-2": {
+      "casino": [
+        { "id": "casino-01", "name": "Cashback", "url": "https://storage.googleapis.com/pinco-win/Casino_1_Cashback.png" },
+        { "id": "casino-02", "name": "Moneybag", "url": "https://storage.googleapis.com/pinco-win/Casino_2_Moneybag.png" },
+        { "id": "casino-03", "name": "Dibs", "url": "https://storage.googleapis.com/pinco-win/Casino_3_Dibs.png" },
+        { "id": "casino-04", "name": "Tessera", "url": "https://storage.googleapis.com/pinco-win/Casino_4_Tessera.png" },
+        { "id": "casino-05", "name": "Dibs 2", "url": "https://storage.googleapis.com/pinco-win/Casino_5_Dibs2.png" },
+        { "id": "casino-06", "name": "777", "url": "https://storage.googleapis.com/pinco-win/Casino_6_777.png" },
+        { "id": "casino-07", "name": "FS", "url": "https://storage.googleapis.com/pinco-win/Casino_7_FS.png" },
+        { "id": "casino-08", "name": "Money Bag", "url": "https://storage.googleapis.com/pinco-win/Casino_8_MoneyBag.png" },
+        { "id": "casino-09", "name": "Bonus Money", "url": "https://storage.googleapis.com/pinco-win/Casino_9_BonusMoney.png" },
+        { "id": "casino-10", "name": "Bonus Money 2", "url": "https://storage.googleapis.com/pinco-win/Casino_10_BonusMoney2.png" },
+        { "id": "casino-11", "name": "Gift Box", "url": "https://storage.googleapis.com/pinco-win/Casino_11_GiftBox.png" },
+        { "id": "casino-12", "name": "Trophy Star", "url": "https://storage.googleapis.com/pinco-win/Casino_12_TrophyStar.png" }
+      ],
+      "esport": [
+        { "id": "esport-01", "name": "Battery", "url": "https://storage.googleapis.com/pinco-win/Esport_1_Battery.png" },
+        { "id": "esport-02", "name": "0", "url": "https://storage.googleapis.com/pinco-win/Esport_2_0.png" },
+        { "id": "esport-03", "name": "V Sport", "url": "https://storage.googleapis.com/pinco-win/Esport_3_Vsport.png" },
+        { "id": "esport-04", "name": "Joystick", "url": "https://storage.googleapis.com/pinco-win/Esport_4_Joystick.png" },
+        { "id": "esport-05", "name": "Dota", "url": "https://storage.googleapis.com/pinco-win/Esport_5_Dota1.png" },
+        { "id": "esport-06", "name": "CS", "url": "https://storage.googleapis.com/pinco-win/Esport_6_CS1.png" },
+        { "id": "esport-07", "name": "L", "url": "https://storage.googleapis.com/pinco-win/Esport_7_L.png" },
+        { "id": "esport-08", "name": "V2", "url": "https://storage.googleapis.com/pinco-win/Esport_8_V2.png" },
+        { "id": "esport-09", "name": "Quiz", "url": "https://storage.googleapis.com/pinco-win/Esport_9_Quiz.png" },
+        { "id": "esport-10", "name": "FB", "url": "https://storage.googleapis.com/pinco-win/Esport_10_FB.png" },
+        { "id": "esport-11", "name": "Esport Bonus", "url": "https://storage.googleapis.com/pinco-win/Esport_11_EsportBonus.png" },
+        { "id": "esport-12", "name": "Cashback", "url": "https://storage.googleapis.com/pinco-win/Esport_12_Cashback.png" },
+        { "id": "esport-13", "name": "Money Bag", "url": "https://storage.googleapis.com/pinco-win/Esport_13_MoneyBag.png" }
+      ],
+      "poker": [
+        { "id": "poker-01", "name": "Quiz", "url": "https://storage.googleapis.com/pinco-win/Poker_1_Quiz.png" }
+      ],
+      "sport": [
+        { "id": "sport-01", "name": "Balls", "url": "https://storage.googleapis.com/pinco-win/Sport_1_Balls.png" },
+        { "id": "sport-02", "name": "Tennis", "url": "https://storage.googleapis.com/pinco-win/Sport_2_Tennis.png" },
+        { "id": "sport-03", "name": "FB", "url": "https://storage.googleapis.com/pinco-win/Sport_3_FB.png" },
+        { "id": "sport-04", "name": "Jackpot", "url": "https://storage.googleapis.com/pinco-win/Sport_4_Jackpot.png" },
+        { "id": "sport-05", "name": "Trophy", "url": "https://storage.googleapis.com/pinco-win/Sport_5_Trophy.png" },
+        { "id": "sport-06", "name": "Water", "url": "https://storage.googleapis.com/pinco-win/Sport_6_Water.png" },
+        { "id": "sport-07", "name": "Timer Tennis", "url": "https://storage.googleapis.com/pinco-win/Sport_7_Timer_Tennis.png" },
+        { "id": "sport-08", "name": "Timer Basketball", "url": "https://storage.googleapis.com/pinco-win/Sport_8_Timer_Basketball.png" },
+        { "id": "sport-09", "name": "Timer Hockey", "url": "https://storage.googleapis.com/pinco-win/Sport_9_Timer_Hockey.png" },
+        { "id": "sport-10", "name": "Quiz", "url": "https://storage.googleapis.com/pinco-win/Sport_10_Quiz.png" },
+        { "id": "sport-11", "name": "Tableu", "url": "https://storage.googleapis.com/pinco-win/Sport_11_Tableu.png" },
+        { "id": "sport-12", "name": "x2", "url": "https://storage.googleapis.com/pinco-win/Sport_12_x2.png" },
+        { "id": "sport-13", "name": "Multibonus", "url": "https://storage.googleapis.com/pinco-win/Sport_13_Multibonus.png" },
+        { "id": "sport-14", "name": "Task", "url": "https://storage.googleapis.com/pinco-win/Sport_14_Task.png" },
+        { "id": "sport-15", "name": "Bet of the day", "url": "https://storage.googleapis.com/pinco-win/Sport_15_Betoftheday.png" },
+        { "id": "sport-16", "name": "Timer", "url": "https://storage.googleapis.com/pinco-win/Sport_16_Timer.png" },
+        { "id": "sport-17", "name": "Sport Bonus", "url": "https://storage.googleapis.com/pinco-win/Sport_17_SportBonus.png" },
+        { "id": "sport-18", "name": "Task 2", "url": "https://storage.googleapis.com/pinco-win/Sport_18_Task2.png" },
+        { "id": "sport-19", "name": "Football FB", "url": "https://storage.googleapis.com/pinco-win/Sport_19_FootballFB.png" },
+        { "id": "sport-20", "name": "Basketball FB", "url": "https://storage.googleapis.com/pinco-win/Sport_20_BasketballFB.png" },
+        { "id": "sport-21", "name": "Tennis FB", "url": "https://storage.googleapis.com/pinco-win/Sport_21_TennisFB.png" },
+        { "id": "sport-22", "name": "Hockey FB", "url": "https://storage.googleapis.com/pinco-win/Sport_22_HockeyFB.png" },
+        { "id": "sport-23", "name": "Tableu 20", "url": "https://storage.googleapis.com/pinco-win/Sport_23_Tableu20.png" }
+      ]
+    }
+  }
+}
