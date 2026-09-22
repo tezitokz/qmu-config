@@ -15,6 +15,8 @@
     "kz": { "label": "KZ", "htmlLang": "kk" },
     "uz": { "label": "UZ", "htmlLang": "uz" },
     "az": { "label": "AZ", "htmlLang": "az" },
+    "tj": { "label": "TJ", "htmlLang": "tg" },
+    "kg": { "label": "KG", "htmlLang": "ky" },
     "es": { "label": "ES", "htmlLang": "es" },
     "en": { "label": "EN", "htmlLang": "en" },
     "fr": { "label": "FR", "htmlLang": "fr" },
@@ -27,7 +29,10 @@
     { "id": "in-bd", "label": "IN / BD", "eyebrow": "SOUTH ASIA", "enabled": false, "projectIds": ["company-1", "company-3"], "primary": "en", "languages": [], "description": "Language pack is being prepared." },
     { "id": "africa", "label": "Africa", "eyebrow": "NG / KE / CD", "enabled": true, "projectIds": ["company-1", "company-3"], "primary": "en", "languages": ["en", "fr", "sw"], "description": "English, French and Swahili email versions.", "features": { "age18Required": true, "googlePlayMacro": "%%googleplay%%" } },
     { "id": "latam", "label": "LATAM", "eyebrow": "LATIN AMERICA", "enabled": true, "projectIds": ["company-1", "company-3"], "primary": "es", "languages": ["es", "en"], "description": "Spanish and optional English email versions.", "features": { "logoVariable": "[[logo]]" } },
-    { "id": "compact-ru-kz", "label": "RU / KZ", "eyebrow": "RU / KZ", "enabled": true, "projectIds": ["company-2"], "primary": "ru", "languages": ["ru", "kz", "mailru"], "description": "RU and KZ can be prepared together. mail.ru is a standalone email version.", "features": { "exclusiveLanguages": ["mailru"] } }
+    { "id": "compact-ru-kz", "label": "RU / KZ", "eyebrow": "RU / KZ", "enabled": true, "projectIds": ["company-2"], "primary": "ru", "languages": ["ru", "kz", "mailru"], "description": "RU and KZ can be prepared together. mail.ru is a standalone email version.", "features": { "exclusiveLanguages": ["mailru"] } },
+    {"id": "compact-ruk", "label": "RUK", "eyebrow": "CENTRAL ASIA", "enabled": true, "projectIds": ["company-2"], "primary": "ru", "languages": ["ru", "tj", "kg", "uz"], "description": "Russian is the primary language. Tajik, Kyrgyz and Uzbek are optional."},
+    {"id": "compact-az", "label": "AZ", "eyebrow": "AZERBAIJAN", "enabled": true, "projectIds": ["company-2"], "primary": "ru", "languages": ["ru", "az", "en"], "description": "Russian is the primary language. Azerbaijani and English are optional."},
+    {"id": "compact-ca", "label": "CA", "eyebrow": "CANADA", "enabled": false, "projectIds": ["company-2"], "primary": "ru", "languages": [], "description": "Languages to be confirmed."}
   ],
   "emailGameAssets": [
     "qmu/email-games/game-1.jpg",

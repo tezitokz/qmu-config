@@ -24,3 +24,9 @@ when this package is installed, replaced or reset.
 PIN-UP and PINCO artwork are deliberately stored as separate profile
 collections. PINCO card references are additionally grouped by vertical in
 `qmu/config.json`.
+
+## September 22, 2026 — PINCO language packs
+
+PINCO retains RU / KZ and standalone mail.ru. RUK adds RU (primary), TJ, KG and UZ. AZ adds RU (primary), AZ and EN without the other brands' crypto-banner requirement. Canada is visible but disabled until its language list is confirmed. TJ uses HTML language `tg` and KG uses `ky`; no unknown TG option is introduced.
+
+This is a compatible data update; configVersion remains 3. Install the refreshed ZIP through Kumo Settings. Drafts and personal settings are preserved.
