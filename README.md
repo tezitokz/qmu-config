@@ -30,3 +30,7 @@ collections. PINCO card references are additionally grouped by vertical in
 PINCO retains RU / KZ and standalone mail.ru. RUK adds RU (primary), TJ, KG and UZ. AZ adds RU (primary), AZ and EN without the other brands' crypto-banner requirement. Canada is visible but disabled until its language list is confirmed. TJ uses HTML language `tg` and KG uses `ky`; no unknown TG option is introduced.
 
 This is a compatible data update; configVersion remains 3. Install the refreshed ZIP through Kumo Settings. Drafts and personal settings are preserved.
+
+## Email card URL repair
+
+All 25 primary-project card assets now reference the original public HTTPS images. Email artwork must remain remotely addressable; packaged UI artwork can stay local. Compatible update: configVersion remains 3. Reinstall this package and use Kumo 0.21.92 to repair embedded backgrounds in existing Kumo-owned cards.
