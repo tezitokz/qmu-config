@@ -11,28 +11,237 @@
     "slotCatalog": true
   },
   "emailLanguages": {
-    "ru": { "label": "RU", "htmlLang": "ru" },
-    "kz": { "label": "KZ", "htmlLang": "kk" },
-    "uz": { "label": "UZ", "htmlLang": "uz" },
-    "az": { "label": "AZ", "htmlLang": "az" },
-    "tj": { "label": "TJ", "htmlLang": "tg" },
-    "kg": { "label": "KG", "htmlLang": "ky" },
-    "es": { "label": "ES", "htmlLang": "es" },
-    "en": { "label": "EN", "htmlLang": "en" },
-    "fr": { "label": "FR", "htmlLang": "fr" },
-    "sw": { "label": "SW", "htmlLang": "sw" },
-    "mailru": { "label": "mail.ru", "htmlLang": "ru", "exclusive": true }
+    "ru": {
+      "label": "RU",
+      "htmlLang": "ru"
+    },
+    "kz": {
+      "label": "KZ",
+      "htmlLang": "kk"
+    },
+    "uz": {
+      "label": "UZ",
+      "htmlLang": "uz"
+    },
+    "az": {
+      "label": "AZ",
+      "htmlLang": "az"
+    },
+    "tj": {
+      "label": "TJ",
+      "htmlLang": "tg"
+    },
+    "kg": {
+      "label": "KG",
+      "htmlLang": "ky"
+    },
+    "es": {
+      "label": "ES",
+      "htmlLang": "es"
+    },
+    "en": {
+      "label": "EN",
+      "htmlLang": "en"
+    },
+    "fr": {
+      "label": "FR",
+      "htmlLang": "fr"
+    },
+    "sw": {
+      "label": "SW",
+      "htmlLang": "sw"
+    },
+    "mailru": {
+      "label": "mail.ru",
+      "htmlLang": "ru",
+      "exclusive": true
+    },
+    "tr": {
+      "label": "TR",
+      "htmlLang": "tr"
+    }
   },
   "emailGeoProfiles": [
-    { "id": "kz-uz", "label": "KZ / UZ", "eyebrow": "CENTRAL ASIA", "enabled": true, "projectIds": ["company-1", "company-3"], "primary": "ru", "languages": ["ru", "kz", "uz"], "description": "Russian, Kazakh and Uzbek email versions." },
-    { "id": "az", "label": "AZ", "eyebrow": "AZERBAIJAN", "enabled": true, "projectIds": ["company-1", "company-3"], "primary": "ru", "languages": ["ru", "az", "en"], "description": "Russian, Azerbaijani and optional English email versions.", "features": { "cryptoBanner": true, "cryptoRequired": true } },
-    { "id": "in-bd", "label": "IN / BD", "eyebrow": "SOUTH ASIA", "enabled": false, "projectIds": ["company-1", "company-3"], "primary": "en", "languages": [], "description": "Language pack is being prepared." },
-    { "id": "africa", "label": "Africa", "eyebrow": "NG / KE / CD", "enabled": true, "projectIds": ["company-1", "company-3"], "primary": "en", "languages": ["en", "fr", "sw"], "description": "English, French and Swahili email versions.", "features": { "age18Required": true, "googlePlayMacro": "%%googleplay%%" } },
-    { "id": "latam", "label": "LATAM", "eyebrow": "LATIN AMERICA", "enabled": true, "projectIds": ["company-1", "company-3"], "primary": "es", "languages": ["es", "en"], "description": "Spanish and optional English email versions.", "features": { "logoVariable": "[[logo]]" } },
-    { "id": "compact-ru-kz", "label": "RU / KZ", "eyebrow": "RU / KZ", "enabled": true, "projectIds": ["company-2"], "primary": "ru", "languages": ["ru", "kz", "mailru"], "description": "RU and KZ can be prepared together. mail.ru is a standalone email version.", "features": { "exclusiveLanguages": ["mailru"] } },
-    {"id": "compact-ruk", "label": "RUK", "eyebrow": "CENTRAL ASIA", "enabled": true, "projectIds": ["company-2"], "primary": "ru", "languages": ["ru", "tj", "kg", "uz"], "description": "Russian is the primary language. Tajik, Kyrgyz and Uzbek are optional."},
-    {"id": "compact-az", "label": "AZ", "eyebrow": "AZERBAIJAN", "enabled": true, "projectIds": ["company-2"], "primary": "ru", "languages": ["ru", "az", "en"], "description": "Russian is the primary language. Azerbaijani and English are optional."},
-    {"id": "compact-ca", "label": "CA", "eyebrow": "CANADA", "enabled": false, "projectIds": ["company-2"], "primary": "ru", "languages": [], "description": "Languages to be confirmed."}
+    {
+      "id": "kz-uz",
+      "label": "KZ / UZ",
+      "eyebrow": "CENTRAL ASIA",
+      "enabled": true,
+      "projectIds": [
+        "company-1",
+        "company-3"
+      ],
+      "primary": "ru",
+      "languages": [
+        "ru",
+        "kz",
+        "uz"
+      ],
+      "description": "Russian, Kazakh and Uzbek email versions."
+    },
+    {
+      "id": "az",
+      "label": "AZ",
+      "eyebrow": "AZERBAIJAN",
+      "enabled": true,
+      "projectIds": [
+        "company-1",
+        "company-3"
+      ],
+      "primary": "ru",
+      "languages": [
+        "ru",
+        "az",
+        "en"
+      ],
+      "description": "Russian, Azerbaijani and optional English email versions.",
+      "features": {
+        "cryptoBanner": true,
+        "cryptoRequired": true
+      }
+    },
+    {
+      "id": "in-bd",
+      "label": "IN / BD",
+      "eyebrow": "SOUTH ASIA",
+      "enabled": false,
+      "projectIds": [
+        "company-1",
+        "company-3"
+      ],
+      "primary": "en",
+      "languages": [],
+      "description": "Language pack is being prepared."
+    },
+    {
+      "id": "africa",
+      "label": "Africa",
+      "eyebrow": "NG / KE / CD",
+      "enabled": true,
+      "projectIds": [
+        "company-1",
+        "company-3"
+      ],
+      "primary": "en",
+      "languages": [
+        "en",
+        "fr",
+        "sw"
+      ],
+      "description": "English, French and Swahili email versions.",
+      "features": {
+        "age18Required": true,
+        "googlePlayMacro": "%%googleplay%%"
+      }
+    },
+    {
+      "id": "latam",
+      "label": "LATAM",
+      "eyebrow": "LATIN AMERICA",
+      "enabled": true,
+      "projectIds": [
+        "company-1",
+        "company-3"
+      ],
+      "primary": "es",
+      "languages": [
+        "es",
+        "en"
+      ],
+      "description": "Spanish and optional English email versions.",
+      "features": {
+        "logoVariable": "[[logo]]"
+      }
+    },
+    {
+      "id": "compact-ru-kz",
+      "label": "RU / KZ",
+      "eyebrow": "RU / KZ",
+      "enabled": true,
+      "projectIds": [
+        "company-2"
+      ],
+      "primary": "ru",
+      "languages": [
+        "ru",
+        "kz",
+        "mailru"
+      ],
+      "description": "RU and KZ can be prepared together. mail.ru is a standalone email version.",
+      "features": {
+        "exclusiveLanguages": [
+          "mailru"
+        ]
+      }
+    },
+    {
+      "id": "compact-ruk",
+      "label": "RUK",
+      "eyebrow": "CENTRAL ASIA",
+      "enabled": true,
+      "projectIds": [
+        "company-2"
+      ],
+      "primary": "ru",
+      "languages": [
+        "ru",
+        "tj",
+        "kg",
+        "uz"
+      ],
+      "description": "Russian is the primary language. Tajik, Kyrgyz and Uzbek are optional."
+    },
+    {
+      "id": "compact-az",
+      "label": "AZ",
+      "eyebrow": "AZERBAIJAN",
+      "enabled": true,
+      "projectIds": [
+        "company-2"
+      ],
+      "primary": "ru",
+      "languages": [
+        "ru",
+        "az",
+        "en"
+      ],
+      "description": "Russian is the primary language. Azerbaijani and English are optional."
+    },
+    {
+      "id": "compact-ca",
+      "label": "CA",
+      "eyebrow": "CANADA",
+      "enabled": true,
+      "projectIds": [
+        "company-2"
+      ],
+      "primary": "en",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "description": "English is the primary language. French is optional.",
+      "features": {
+        "footerLocales": {
+          "en": "en-ca",
+          "fr": "fr-ca"
+        }
+      }
+    },
+    {
+      "id": "compact-tr",
+      "label": "TR",
+      "eyebrow": "TURKEY",
+      "enabled": true,
+      "projectIds": [
+        "company-2"
+      ],
+      "primary": "tr",
+      "languages": [
+        "tr"
+      ],
+      "description": "Turkish email version."
+    }
   ],
   "emailGameAssets": [
     "qmu/email-games/game-1.jpg",
@@ -107,6 +316,88 @@
       "logoKeywords": {
         "sport": ["экспресс", "фрибет", "коэффициент", "матч", "футбол", "лига", "спорт", "букмекер", "тотал", "ekspress", "fribet", "futbol", "sport"],
         "casino": ["слот", "спин", "фриспин", "прокрут", "казино", "джекпот", "вейджер", "рулетк", "краш", "aviator", "slot", "spin", "kazino"]
+      },
+      "emailFooterCopy": {
+        "ru": {
+          "social": "Мы в социальных сетях",
+          "apps": "Наши приложения",
+          "addr": "Это письмо получено тобой, так как ты являешься зарегистрированным клиентом клуба PINCO.",
+          "unsubLead": "Если хочешь отписаться от этой рассылки, пожалуйста, перейди по",
+          "unsubLink": "ссылке.",
+          "support": "Остались вопросы? Онлайн-чат службы поддержки доступен на сайте 24/7."
+        },
+        "kz": {
+          "social": "Біз әлеуметтік желілерде",
+          "apps": "Біздің қосымшалар",
+          "addr": "Сен бұл хатты PINCO клубының тіркелген клиенті болғандықтан алдың.",
+          "unsubLead": "Егер бұл таратудан бас тартқың келсе,",
+          "unsubLink": "сілтеме бойынша өт.",
+          "support": "Сұрақтарың қалды ма? Қолдау қызметінің онлайн чаты сайтта 24/7 қолжетімді."
+        },
+        "az": {
+          "social": "Biz sosial şəbəkələrdəyik",
+          "apps": "Bizim tətbiqlər",
+          "addr": "Bu məktub sənin tərəfindən alınıb, çünki sən PINCO klubunun qeydiyyatdan keçmiş müştərisisən.",
+          "unsubLead": "Əgər bu paylaşımdan imtina etmək istəyirsənsə, zəhmət olmasa, bu",
+          "unsubLink": "linkə keç.",
+          "support": "Suallar qaldı? Dəstək xidmətinin onlayn-çatı, saytda 24/7 aktivdir."
+        },
+        "uz": {
+          "social": "Biz ijtimoiy tarmoqlarda",
+          "apps": "Bizning Ilovalarimiz",
+          "addr": "Sen bu xatni PINCO klubining ro'yxatdan o'tgan mijozi bo'lganing sababli olding.",
+          "unsubLead": "Agar ushbu tarqatmaga obunani bekor qilmoqchi bo'lsang,",
+          "unsubLink": "havola orqali o't.",
+          "support": "Savollar qoldimi? Saytdagi qo'llab-quvvatlash onlayn chati 24/7 xizmatda."
+        },
+        "tr": {
+          "social": "Sosyal medyadayız.",
+          "apps": "Uygulamalarımız",
+          "addr": "Bu e-postayı, PINCO kulübünün kayıtlı bir müşterisi olduğun için aldın.",
+          "unsubLead": "Bu bülten aboneliğinden çıkmak istiyorsan,",
+          "unsubLink": "lütfen bağlantıya tıkla.",
+          "support": "Hala soruların var mı? Web sitesinde 7/24 canlı sohbet desteği mevcuttur."
+        },
+        "en": {
+          "social": "We on social networks",
+          "apps": "Our applications",
+          "addr": "You’ve received this email as a registered client of the PINCO club.",
+          "unsubLead": "If you want to unsubscribe from the mailing, please,",
+          "unsubLink": "click on the link.",
+          "support": "Have questions? Our customer support online chat is available on the website 24/7."
+        },
+        "kg": {
+          "social": "Биз социалдык тармактардабыз",
+          "apps": "Биздин колдонмолор",
+          "addr": "Сен бул катты алдың, анткени сен PINCO клубунун катталган кардарысың.",
+          "unsubLead": "Эгер сен маалымат жиберүүгө жазылууну токтоткуң келсе, сураныч, өт",
+          "unsubLink": "шилтемеге.",
+          "support": "Суроолор калдыбы? Колдоо кызматынын онлайн-чаты 24/7 сайтта жеткиликтүү."
+        },
+        "tj": {
+          "social": "Мо дар шабакаҳои иҷтимоӣ",
+          "apps": "Барномаҳои мо",
+          "addr": "Шумо ин мактубро ҳамчун мизоҷи сабтиномшудаи клуби PINCO гирифтед.",
+          "unsubLead": "Агар хоҳед, ки аз ин хабарнома даст кашед, лутфан ба ин",
+          "unsubLink": "ҷо гузаред.",
+          "support": "Савол доред? Онлайн-мусоҳибаи хадамоти дастгирӣ дар сомона 24/7 дастрас аст."
+        },
+        "fr-ca": {
+          "social": "Nous dans les réseaux sociaux",
+          "apps": "Nos applications",
+          "addr": "Tu as reçu ce courriel parce que tu es un client enregistré du club PINCO.",
+          "unsubLead": "Si tu souhaites te désabonner de cette liste de diffusion, merci de cliquer sur",
+          "unsubLink": "le lien.",
+          "support": "Des questions ? Le chat en ligne du service client est disponible sur le site 24h/24 et 7j/7."
+        },
+        "en-ca": {
+          "social": "We on social media",
+          "apps": "Our applications",
+          "addr": "You received this email because you are a registered customer of the PINCO club.",
+          "unsubLead": "If you want to unsubscribe from this mailing list, please click",
+          "unsubLink": "on the link.",
+          "support": "Questions? Customer support's online chat is available on the website 24/7."
+        }
       },
       "assets": {
         "mailLogo": "https://storage.googleapis.com/pinco-win/WL_PINCO_mailru.png",

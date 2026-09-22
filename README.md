@@ -34,3 +34,7 @@ This is a compatible data update; configVersion remains 3. Install the refreshed
 ## Email card URL repair
 
 All 25 primary-project card assets now reference the original public HTTPS images. Email artwork must remain remotely addressable; packaged UI artwork can stay local. Compatible update: configVersion remains 3. Reinstall this package and use Kumo 0.21.92 to repair embedded backgrounds in existing Kumo-owned cards.
+
+## PINCO footer translations
+
+PINCO includes the ten exact footer variants from `New footer` in the supplied WL Translations of footer sheet (RU, KZ, AZ, UZ, TR, EN, KG, TJ, CA-FR, CA-EN), with surrounding cell whitespace removed. Canada is enabled with EN primary and FR secondary; TR is enabled separately. `emailFooterCopy` is optional profile data and `features.footerLocales` selects Canadian wording without changing AZ English. Requires Kumo 0.21.93 to apply configured footer copy. Format version remains 3. Package ZIP entries use Store compression.
