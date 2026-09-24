@@ -10,7 +10,7 @@ catalog. It contains no executable code and no private user data.
 2. Open Kumo Settings.
 3. Choose **Install config** and select the downloaded ZIP.
 
-The current package version is **3**. Kumo keeps drafts and personal settings
+The current package version is **4**. Kumo keeps drafts and personal settings
 when this package is installed, replaced or reset.
 
 ## Package layout
@@ -38,3 +38,17 @@ All 25 primary-project card assets now reference the original public HTTPS image
 ## PINCO footer translations
 
 PINCO includes the ten exact footer variants from `New footer` in the supplied WL Translations of footer sheet (RU, KZ, AZ, UZ, TR, EN, KG, TJ, CA-FR, CA-EN), with surrounding cell whitespace removed. Canada is enabled with EN primary and FR secondary; TR is enabled separately. `emailFooterCopy` is optional profile data and `features.footerLocales` selects Canadian wording without changing AZ English. Requires Kumo 0.21.93 to apply configured footer copy. Format version remains 3. Package ZIP entries use Store compression.
+
+
+## September 24, 2026 — Configuration format 4
+
+Kumo now requires configuration format 4. Install the updated ZIP when asked;
+existing drafts and personal settings are preserved.
+
+The PIN-UP profile defines `boEmailDestinations` for BO Email import: exact
+visible destination labels, internal action keys and the mobile site path.
+These are data only. Other profiles do not inherit PIN-UP destinations and need
+their own verified mappings before using BO promolink automation. This package
+does not add support for other BO hosts.
+
+Requires the Kumo 0.21.98 build with configuration format 4 support.

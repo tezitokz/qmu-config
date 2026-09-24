@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "configVersion": 3,
+  "configVersion": 4,
   "company": {
     "id": "company-workspace",
     "name": "Company Workspace"
@@ -252,6 +252,17 @@
   "profiles": [
     {
       "id": "company-1",
+      "boEmailDestinations": {
+        "game": {
+          "label": "Main Casino game ID",
+          "actionKey": "openCasinoGameID"
+        },
+        "internal": {
+          "label": "Internal link",
+          "actionKey": "openInternalLink",
+          "path": "/mobile"
+        }
+      },
       "name": "PIN-UP",
       "label": "PIN-UP",
       "brandName": "PIN-UP",
