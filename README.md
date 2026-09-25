@@ -6,11 +6,11 @@ catalog. It contains no executable code and no private user data.
 
 ## Install
 
-1. Download [`qmu-company-config.zip`](https://github.com/tezitokz/qmu-config/releases/latest/download/qmu-company-config.zip).
+1. Download [`qmu-company-config.zip`](https://github.com/tezitokz/qmu-config/raw/refs/heads/main/qmu-company-config.zip).
 2. Open Kumo Settings.
 3. Choose **Install config** and select the downloaded ZIP.
 
-The current package version is **3**. Kumo keeps drafts and personal settings
+The current package version is **4**. Kumo keeps drafts and personal settings
 when this package is installed, replaced or reset.
 
 ## Package layout
@@ -59,5 +59,12 @@ import support.
 Release v3.0.5 restores `configVersion: 3` so users of the currently published
 Kumo extension can install the package while the new extension build awaits
 publication. Existing package data and optional BO destination mappings are
-preserved. This is the latest download; drafts and personal settings are not
+preserved. This was the temporary compatibility download; drafts and personal settings are not
 changed by configuration installation.
+
+## September 26, 2026 — Format 4 restored
+
+The main-branch package now declares format 4, matching the current Kumo build.
+BO destination mappings and all artwork/data are preserved. Use the ZIP linked
+above with a Kumo build requiring format 4; older format-3 builds must be updated
+first. This updates the repository package, not the historical release assets.
