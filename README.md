@@ -10,7 +10,7 @@ catalog. It contains no executable code and no private user data.
 2. Open Kumo Settings.
 3. Choose **Install config** and select the downloaded ZIP.
 
-The current package version is **4**. Kumo keeps drafts and personal settings
+The current package version is **3**. Kumo keeps drafts and personal settings
 when this package is installed, replaced or reset.
 
 ## Package layout
@@ -42,8 +42,8 @@ PINCO includes the ten exact footer variants from `New footer` in the supplied W
 
 ## September 24, 2026 — Configuration format 4
 
-Kumo now requires configuration format 4. Install the updated ZIP when asked;
-existing drafts and personal settings are preserved.
+This release originally used configuration format 4. It has been superseded
+by v3.0.5 for compatibility with the currently published Kumo extension.
 
 The PIN-UP profile defines `boEmailDestinations` for BO Email import: exact
 visible destination labels, internal action keys and the mobile site path.
@@ -51,4 +51,13 @@ These are data only. Other profiles do not inherit PIN-UP destinations and need
 their own verified mappings before using BO promolink automation. This package
 does not add support for other BO hosts.
 
-Requires the Kumo 0.21.98 build with configuration format 4 support.
+BO destination mappings are optional data used by Kumo builds with BO Email
+import support.
+
+## September 25, 2026 — Temporary format 3 compatibility
+
+Release v3.0.5 restores `configVersion: 3` so users of the currently published
+Kumo extension can install the package while the new extension build awaits
+publication. Existing package data and optional BO destination mappings are
+preserved. This is the latest download; drafts and personal settings are not
+changed by configuration installation.
