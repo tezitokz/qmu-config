@@ -95,3 +95,11 @@ KES is the currency code; authored amounts may use KSH. This requires the update
 Kumo BO core with Africa enabled and selection-to-date support. Format remains 4.
 Install the latest package in Kumo Settings and reload the updated extension and BO
 page. Reinstallation preserves drafts and personal settings.
+
+## September 28, 2026 — BO currency names (v3.0.9)
+
+Match the current BO picker labels: CDF → Franc Congolais, AZN → Azerbaijanian
+Manat, BOB → Bolivian Boliviano. Other configured currencies visible in the
+inspected BO picker match their existing labels. CAD and TRY were not available
+in that account's picker and are not claimed as live-verified. Format remains 4;
+reinstall the latest ZIP in Kumo Settings. Drafts and personal settings are preserved.

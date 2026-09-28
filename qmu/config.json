@@ -398,7 +398,7 @@
             "CLP": "Chilean Peso",
             "MXN": "Mexican Peso",
             "USD": "US Dollar",
-            "BOB": "Boliviano",
+            "BOB": "Bolivian Boliviano",
             "GTQ": "Quetzal",
             "HNL": "Lempira",
             "NIO": "Cordoba Oro"
@@ -435,7 +435,7 @@
             "AZ": "Azerbaijan"
           },
           "currencies": {
-            "AZN": "Azerbaijan Manat"
+            "AZN": "Azerbaijanian Manat"
           }
         },
         "africa": {
@@ -447,7 +447,7 @@
           "currencies": {
             "NGN": "Naira",
             "KES": "Kenyan Shilling",
-            "CDF": "Congolese Franc",
+            "CDF": "Franc Congolais",
             "USD": "US Dollar"
           },
           "languageCopies": {
@@ -696,7 +696,7 @@
             "AZ": "Azerbaijan"
           },
           "currencies": {
-            "AZN": "Azerbaijan Manat"
+            "AZN": "Azerbaijanian Manat"
           }
         },
         "compact-ca": {
@@ -769,7 +769,7 @@
             "AZ": "Azerbaijan"
           },
           "currencies": {
-            "AZN": "Azerbaijan Manat"
+            "AZN": "Azerbaijanian Manat"
           }
         },
         "africa": {
@@ -781,7 +781,7 @@
           "currencies": {
             "NGN": "Naira",
             "KES": "Kenyan Shilling",
-            "CDF": "Congolese Franc",
+            "CDF": "Franc Congolais",
             "USD": "US Dollar"
           },
           "languageCopies": {
@@ -822,7 +822,7 @@
             "CLP": "Chilean Peso",
             "MXN": "Mexican Peso",
             "USD": "US Dollar",
-            "BOB": "Boliviano",
+            "BOB": "Bolivian Boliviano",
             "GTQ": "Quetzal",
             "HNL": "Lempira",
             "NIO": "Cordoba Oro"
