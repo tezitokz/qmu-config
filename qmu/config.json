@@ -252,6 +252,54 @@
   "profiles": [
     {
       "id": "company-1",
+      "boEmailVariableProfiles": {
+        "latam": {
+          "regions": {
+            "CL": "Chile",
+            "MX": "Mexico",
+            "EC": "Ecuador",
+            "BO": "Bolivia",
+            "GT": "Guatemala",
+            "HN": "Honduras",
+            "NI": "Nicaragua"
+          },
+          "currencies": {
+            "CLP": "Chilean Peso",
+            "MXN": "Mexican Peso",
+            "USD": "US Dollar",
+            "BOB": "Boliviano",
+            "GTQ": "Quetzal",
+            "HNL": "Lempira",
+            "NIO": "Cordoba Oro"
+          },
+          "defaults": {
+            "logo": {
+              "rule": "GEO",
+              "values": {
+                "CL": "https://storage.googleapis.com/pin-up-com/latam_logo_coquimbo_inido_sadp.png",
+                "MX": "https://storage.googleapis.com/pin-up-com/latam_logo_coquimbo_inido_sadp.png",
+                "EC": "https://storage.googleapis.com/pin-up-com/2_logo_latam.png",
+                "BO": "https://storage.googleapis.com/pin-up-com/2_logo_latam.png",
+                "GT": "https://storage.googleapis.com/pin-up-com/2_logo_latam.png",
+                "HN": "https://storage.googleapis.com/pin-up-com/2_logo_latam.png",
+                "NI": "https://storage.googleapis.com/pin-up-com/2_logo_latam.png"
+              }
+            }
+          },
+          "languageCopies": {
+            "es": [
+              "es",
+              "es-cl",
+              "es-mx",
+              "es-ec",
+              "es-bo",
+              "es-gt",
+              "es-hn",
+              "es-ni"
+            ]
+          }
+        }
+      },
       "boEmailDestinations": {
         "game": {
           "label": "Main Casino game ID",

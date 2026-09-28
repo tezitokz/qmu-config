@@ -68,3 +68,14 @@ The main-branch package now declares format 4, matching the current Kumo build.
 BO destination mappings and all artwork/data are preserved. Use the ZIP linked
 above with a Kumo build requiring format 4; older format-3 builds must be updated
 first. This updates the repository package, not the historical release assets.
+
+## September 28, 2026 — LATAM BO variables
+
+The PIN-UP profile adds LATAM GEO defaults for logos, country/currency catalogs,
+and copies one Spanish email into ES and ES-CL/MX/EC/BO/GT/HN/NI. Dates and
+regional prize values use GEO; content-provided currency values use Currency.
+The current Kumo BO implementation is required. Configuration format remains 4.
+
+Download the latest release ZIP and **install it in Kumo Settings**. Reloading
+the extension alone does not replace the installed company package. Existing
+drafts and preferences are preserved.
