@@ -79,3 +79,10 @@ The current Kumo BO implementation is required. Configuration format remains 4.
 Download the latest release ZIP and **install it in Kumo Settings**. Reloading
 the extension alone does not replace the installed company package. Existing
 drafts and preferences are preserved.
+
+
+## September 28, 2026 — BO variable catalogs for all GEO profiles
+
+Version v3.0.7 adds country and currency catalogs for KZ/UZ, AZ, the compact RU/KZ, RUK, AZ, Canada and Turkey profiles, and prepares the Africa catalog. LATAM catalogs and regional language copies are available for both relevant brands; brand-specific logo defaults are not copied between brands. Africa remains unavailable in the BO editor until supported by Kumo core.
+
+Compatible data update: configuration format remains 4. Install the latest ZIP through Kumo Settings. These catalogs require the updated BO variable editor; installing config does not update extension code. Existing drafts and personal settings are preserved.
