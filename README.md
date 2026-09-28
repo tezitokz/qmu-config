@@ -10,7 +10,7 @@ catalog. It contains no executable code and no private user data.
 2. Open Kumo Settings.
 3. Choose **Install config** and select the downloaded ZIP.
 
-The current package version is **4**. Kumo keeps drafts and personal settings
+The current package version is **5**. Kumo keeps drafts and personal settings
 when this package is installed, replaced or reset.
 
 ## Package layout
@@ -103,3 +103,7 @@ Manat, BOB → Bolivian Boliviano. Other configured currencies visible in the
 inspected BO picker match their existing labels. CAD and TRY were not available
 in that account's picker and are not claimed as live-verified. Format remains 4;
 reinstall the latest ZIP in Kumo Settings. Drafts and personal settings are preserved.
+
+## September 29, 2026 — Configuration 5
+
+Kumo 0.22.10 requires configuration version 5. Reinstall the updated ZIP through Settings → Config. Existing drafts and personal settings are preserved.
