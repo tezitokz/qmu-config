@@ -86,3 +86,12 @@ drafts and preferences are preserved.
 Version v3.0.7 adds country and currency catalogs for KZ/UZ, AZ, the compact RU/KZ, RUK, AZ, Canada and Turkey profiles, and prepares the Africa catalog. LATAM catalogs and regional language copies are available for both relevant brands; brand-specific logo defaults are not copied between brands. Africa remains unavailable in the BO editor until supported by Kumo core.
 
 Compatible data update: configuration format remains 4. Install the latest ZIP through Kumo Settings. These catalogs require the updated BO variable editor; installing config does not update extension code. Existing drafts and personal settings are preserved.
+
+## September 28, 2026 — Africa BO support (v3.0.8)
+
+Africa adds USD alongside NGN, KES and CDF for both configured brands. BO language
+copies match the supplied campaign: EN → EN / EN-KE / EN-NG, FR → FR-CD, SW → SW.
+KES is the currency code; authored amounts may use KSH. This requires the updated
+Kumo BO core with Africa enabled and selection-to-date support. Format remains 4.
+Install the latest package in Kumo Settings and reload the updated extension and BO
+page. Reinstallation preserves drafts and personal settings.

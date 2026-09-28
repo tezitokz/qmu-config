@@ -447,7 +447,21 @@
           "currencies": {
             "NGN": "Naira",
             "KES": "Kenyan Shilling",
-            "CDF": "Congolese Franc"
+            "CDF": "Congolese Franc",
+            "USD": "US Dollar"
+          },
+          "languageCopies": {
+            "en": [
+              "en",
+              "en-ke",
+              "en-ng"
+            ],
+            "fr": [
+              "fr-cd"
+            ],
+            "sw": [
+              "sw"
+            ]
           }
         },
         "kz-uz": {
@@ -767,7 +781,21 @@
           "currencies": {
             "NGN": "Naira",
             "KES": "Kenyan Shilling",
-            "CDF": "Congolese Franc"
+            "CDF": "Congolese Franc",
+            "USD": "US Dollar"
+          },
+          "languageCopies": {
+            "en": [
+              "en",
+              "en-ke",
+              "en-ng"
+            ],
+            "fr": [
+              "fr-cd"
+            ],
+            "sw": [
+              "sw"
+            ]
           }
         },
         "kz-uz": {
