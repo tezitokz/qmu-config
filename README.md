@@ -6,7 +6,7 @@ catalog. It contains no executable code and no private user data.
 
 ## Install
 
-1. Download [`qmu-company-config.zip`](https://github.com/tezitokz/qmu-config/raw/refs/heads/main/qmu-company-config.zip).
+1. Download [`qmu-company-config.zip`](https://github.com/tezitokz/qmu-config/releases/latest/download/qmu-company-config.zip).
 2. Open Kumo Settings.
 3. Choose **Install config** and select the downloaded ZIP.
 
@@ -107,3 +107,15 @@ reinstall the latest ZIP in Kumo Settings. Drafts and personal settings are pres
 ## September 29, 2026 — Configuration 5
 
 Kumo 0.22.10 requires configuration version 5. Reinstall the updated ZIP through Settings → Config. Existing drafts and personal settings are preserved.
+
+## October 1, 2026 — Email games 5 and 6 (v3.0.10)
+
+The default Email game image collection now includes Gates of Kumo (5) and
+Book of Kumo (6), with the approved large digits and slot-specific artwork.
+All six images use the existing 250 × 197 JPEG format. The original four images
+are preserved. Both company profiles receive the shared collection.
+
+Compatible data update: configuration format remains 5. Download the latest
+release ZIP and reinstall it through **Kumo Settings → Config → Install config**.
+Existing drafts and personal settings are preserved. A Kumo build supporting
+1–6 games is required to use positions 5 and 6.
