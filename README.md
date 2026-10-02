@@ -24,13 +24,19 @@ when this package is installed, replaced or reset.
 ## October 2, 2026 — PINCO BO Email (v3.0.11)
 
 PINCO binds to `https://bo.pincowin.tech`; PIN-UP binds to its existing BO host.
-PINCO AZ adds optional Turkish last (RU / AZ / EN / TR); standalone TR and RUK
+PINCO AZ adds optional Turkish last (RU / AZ / EN / TR); standalone TR and TUK
 languages are preserved. Internal KG/TJ map to native KY/TG. One Canadian EN
 fills both EN-CA and EN; independent, optional FR fills FR-CA. NC remains disabled
 for PINCO.
 
+The Central Asia profile is named TUK. Its existing internal ID is preserved
+for saved projects and draft recovery.
+TUK uses selected TJ/KG/UZ currencies (TJS/KGS/UZS). Its shared Russian translation
+does not add RUB or a Russian GEO; historical shared native variables are not
+treated as the TUK currency catalog.
+
 Selected translations control exported Currency/GEO values. Without TR in AZ,
-TRY/TR are omitted; without TJ in RUK, TJS/TJ are omitted. Saved inactive values
+TRY/TR are omitted; without TJ in TUK, TJS/TJ are omitted. Saved inactive values
 remain recoverable. PINCO defines its observed currency units, with prefixes
 for CAD/TRY; already authored symbols, ISO codes and HTML entities are retained.
 RU/KZ use VK/Telegram social presets, Canada uses Instagram/Facebook. Other
@@ -59,7 +65,7 @@ collections. PINCO card references are additionally grouped by vertical in
 
 ## September 22, 2026 — PINCO language packs
 
-PINCO retains RU / KZ and standalone mail.ru. RUK adds RU (primary), TJ, KG and UZ. AZ adds RU (primary), AZ and EN without the other brands' crypto-banner requirement. Canada is visible but disabled until its language list is confirmed. TJ uses HTML language `tg` and KG uses `ky`; no unknown TG option is introduced.
+PINCO retains RU / KZ and standalone mail.ru. TUK adds RU (primary), TJ, KG and UZ. AZ adds RU (primary), AZ and EN without the other brands' crypto-banner requirement. Canada is visible but disabled until its language list is confirmed. TJ uses HTML language `tg` and KG uses `ky`; no unknown TG option is introduced.
 
 This is a compatible data update; configVersion remains 3. Install the refreshed ZIP through Kumo Settings. Drafts and personal settings are preserved.
 
@@ -115,7 +121,7 @@ drafts and preferences are preserved.
 
 ## September 28, 2026 — BO variable catalogs for all GEO profiles
 
-Version v3.0.7 adds country and currency catalogs for KZ/UZ, AZ, the compact RU/KZ, RUK, AZ, Canada and Turkey profiles, and prepares the Africa catalog. LATAM catalogs and regional language copies are available for both relevant brands; brand-specific logo defaults are not copied between brands. Africa remains unavailable in the BO editor until supported by Kumo core.
+Version v3.0.7 adds country and currency catalogs for KZ/UZ, AZ, the compact RU/KZ, TUK, AZ, Canada and Turkey profiles, and prepares the Africa catalog. LATAM catalogs and regional language copies are available for both relevant brands; brand-specific logo defaults are not copied between brands. Africa remains unavailable in the BO editor until supported by Kumo core.
 
 Compatible data update: configuration format remains 4. Install the latest ZIP through Kumo Settings. These catalogs require the updated BO variable editor; installing config does not update extension code. Existing drafts and personal settings are preserved.
 

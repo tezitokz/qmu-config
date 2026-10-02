@@ -188,7 +188,7 @@
     },
     {
       "id": "compact-ruk",
-      "label": "RUK",
+      "label": "TUK",
       "eyebrow": "CENTRAL ASIA",
       "enabled": true,
       "projectIds": [
@@ -756,7 +756,6 @@
             "UZ": "Uzbekistan"
           },
           "currencies": {
-            "RUB": "Russian Ruble",
             "TJS": "Somoni",
             "KGS": "Som",
             "UZS": "Uzbekistan Sum"
@@ -771,12 +770,8 @@
           },
           "languageSelection": {
             "ru": {
-              "regions": [
-                "RU"
-              ],
-              "currencies": [
-                "RUB"
-              ]
+              "regions": [],
+              "currencies": []
             },
             "tj": {
               "regions": [
@@ -804,10 +799,6 @@
             }
           },
           "currencyFormats": {
-            "RUB": {
-              "unit": "₽",
-              "position": "suffix"
-            },
             "TJS": {
               "unit": "SM",
               "position": "suffix"
