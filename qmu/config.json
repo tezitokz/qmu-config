@@ -171,6 +171,18 @@
       "features": {
         "exclusiveLanguages": [
           "mailru"
+        ],
+        "socialPresets": [
+          {
+            "name": "VK",
+            "image": "https://storage.googleapis.com/pinco-win/vk_logo.png",
+            "link": "%%vk%%"
+          },
+          {
+            "name": "Telegram",
+            "image": "https://storage.googleapis.com/pinco-win/telegram_logo_pinco.png",
+            "link": "%%TG%%"
+          }
         ]
       }
     },
@@ -189,7 +201,10 @@
         "kg",
         "uz"
       ],
-      "description": "Russian is the primary language. Tajik, Kyrgyz and Uzbek are optional."
+      "description": "Russian is the primary language. Tajik, Kyrgyz and Uzbek are optional.",
+      "features": {
+        "socialPresets": []
+      }
     },
     {
       "id": "compact-az",
@@ -203,9 +218,13 @@
       "languages": [
         "ru",
         "az",
-        "en"
+        "en",
+        "tr"
       ],
-      "description": "Russian is the primary language. Azerbaijani and English are optional."
+      "description": "Russian is the primary language. Azerbaijani, English and Turkish are optional.",
+      "features": {
+        "socialPresets": []
+      }
     },
     {
       "id": "compact-ca",
@@ -225,7 +244,19 @@
         "footerLocales": {
           "en": "en-ca",
           "fr": "fr-ca"
-        }
+        },
+        "socialPresets": [
+          {
+            "name": "Instagram",
+            "image": "https://storage.googleapis.com/pinco-win/instagram_pinco_logo.png",
+            "link": "%%inst%%"
+          },
+          {
+            "name": "Facebook",
+            "image": "https://storage.googleapis.com/pinco-win/facebook_icon___.png",
+            "link": "%%fb%%"
+          }
+        ]
       }
     },
     {
@@ -240,7 +271,10 @@
       "languages": [
         "tr"
       ],
-      "description": "Turkish email version."
+      "description": "Turkish email version.",
+      "features": {
+        "socialPresets": []
+      }
     }
   ],
   "emailGameAssets": [
@@ -476,7 +510,10 @@
             "UZS": "Uzbekistan Sum"
           }
         }
-      }
+      },
+      "boEmailOrigins": [
+        "https://bo.tech-pu.com"
+      ]
     },
     {
       "id": "company-2",
@@ -675,30 +712,168 @@
       "boEmailVariableProfiles": {
         "compact-ru-kz": {
           "regions": {
+            "RU": "Russia",
             "KZ": "Kazakhstan"
           },
           "currencies": {
-            "KZT": "Tenge"
+            "RUB": "Russian Ruble",
+            "KZT": "Kazakhstani Tenge"
+          },
+          "languageSelection": {
+            "ru": {
+              "regions": [
+                "RU"
+              ],
+              "currencies": [
+                "RUB"
+              ]
+            },
+            "kk": {
+              "regions": [
+                "KZ"
+              ],
+              "currencies": [
+                "KZT"
+              ]
+            }
+          },
+          "currencyFormats": {
+            "RUB": {
+              "unit": "₽",
+              "position": "suffix"
+            },
+            "KZT": {
+              "unit": "₸",
+              "position": "suffix"
+            }
           }
         },
         "compact-ruk": {
           "regions": {
+            "RU": "Russia",
             "TJ": "Tajikistan",
             "KG": "Kyrgyzstan",
             "UZ": "Uzbekistan"
           },
           "currencies": {
+            "RUB": "Russian Ruble",
             "TJS": "Somoni",
             "KGS": "Som",
             "UZS": "Uzbekistan Sum"
+          },
+          "languageCopies": {
+            "kg": [
+              "ky"
+            ],
+            "tj": [
+              "tg"
+            ]
+          },
+          "languageSelection": {
+            "ru": {
+              "regions": [
+                "RU"
+              ],
+              "currencies": [
+                "RUB"
+              ]
+            },
+            "tj": {
+              "regions": [
+                "TJ"
+              ],
+              "currencies": [
+                "TJS"
+              ]
+            },
+            "kg": {
+              "regions": [
+                "KG"
+              ],
+              "currencies": [
+                "KGS"
+              ]
+            },
+            "uz": {
+              "regions": [
+                "UZ"
+              ],
+              "currencies": [
+                "UZS"
+              ]
+            }
+          },
+          "currencyFormats": {
+            "RUB": {
+              "unit": "₽",
+              "position": "suffix"
+            },
+            "TJS": {
+              "unit": "SM",
+              "position": "suffix"
+            },
+            "KGS": {
+              "unit": "⊆",
+              "position": "suffix"
+            },
+            "UZS": {
+              "unit": "SO'M",
+              "position": "suffix"
+            }
           }
         },
         "compact-az": {
           "regions": {
-            "AZ": "Azerbaijan"
+            "AZ": "Azerbaijan",
+            "TR": "Turkey"
           },
           "currencies": {
-            "AZN": "Azerbaijanian Manat"
+            "AZN": "Azerbaijanian Manat",
+            "TRY": "Turkish lira"
+          },
+          "languageSelection": {
+            "ru": {
+              "regions": [
+                "AZ"
+              ],
+              "currencies": [
+                "AZN"
+              ]
+            },
+            "az": {
+              "regions": [
+                "AZ"
+              ],
+              "currencies": [
+                "AZN"
+              ]
+            },
+            "en": {
+              "regions": [
+                "AZ"
+              ],
+              "currencies": [
+                "AZN"
+              ]
+            },
+            "tr": {
+              "regions": [
+                "TR"
+              ],
+              "currencies": [
+                "TRY"
+              ]
+            }
+          },
+          "currencyFormats": {
+            "AZN": {
+              "unit": "₼",
+              "position": "suffix"
+            },
+            "TRY": {
+              "unit": "₺",
+              "position": "prefix"
+            }
           }
         },
         "compact-ca": {
@@ -707,6 +882,39 @@
           },
           "currencies": {
             "CAD": "Canadian Dollar"
+          },
+          "languageCopies": {
+            "en": [
+              "en-ca",
+              "en"
+            ],
+            "fr": [
+              "fr-ca"
+            ]
+          },
+          "languageSelection": {
+            "en": {
+              "regions": [
+                "CA"
+              ],
+              "currencies": [
+                "CAD"
+              ]
+            },
+            "fr": {
+              "regions": [
+                "CA"
+              ],
+              "currencies": [
+                "CAD"
+              ]
+            }
+          },
+          "currencyFormats": {
+            "CAD": {
+              "unit": "C$",
+              "position": "prefix"
+            }
           }
         },
         "compact-tr": {
@@ -714,8 +922,38 @@
             "TR": "Turkey"
           },
           "currencies": {
-            "TRY": "Turkish Lira"
+            "TRY": "Turkish lira"
+          },
+          "languageSelection": {
+            "tr": {
+              "regions": [
+                "TR"
+              ],
+              "currencies": [
+                "TRY"
+              ]
+            }
+          },
+          "currencyFormats": {
+            "TRY": {
+              "unit": "₺",
+              "position": "prefix"
+            }
           }
+        }
+      },
+      "boEmailOrigins": [
+        "https://bo.pincowin.tech"
+      ],
+      "boEmailDestinations": {
+        "game": {
+          "label": "Main Casino game ID",
+          "actionKey": "openCasinoGameID"
+        },
+        "internal": {
+          "label": "Internal link",
+          "actionKey": "openInternalLink",
+          "path": "/mobile"
         }
       }
     },

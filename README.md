@@ -21,6 +21,38 @@ when this package is installed, replaced or reset.
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
 
+## October 2, 2026 — PINCO BO Email (v3.0.11)
+
+PINCO binds to `https://bo.pincowin.tech`; PIN-UP binds to its existing BO host.
+PINCO AZ adds optional Turkish last (RU / AZ / EN / TR); standalone TR and RUK
+languages are preserved. Internal KG/TJ map to native KY/TG. One Canadian EN
+fills both EN-CA and EN; independent, optional FR fills FR-CA. NC remains disabled
+for PINCO.
+
+Selected translations control exported Currency/GEO values. Without TR in AZ,
+TRY/TR are omitted; without TJ in RUK, TJS/TJ are omitted. Saved inactive values
+remain recoverable. PINCO defines its observed currency units, with prefixes
+for CAD/TRY; already authored symbols, ISO codes and HTML entities are retained.
+RU/KZ use VK/Telegram social presets, Canada uses Instagram/Facebook. Other
+PINCO profiles have no automatic social presets; authored blocks are preserved.
+
+All eight PINCO Currency labels were read in native BO: RUB — Russian Ruble,
+KZT — Kazakhstani Tenge, KGS — Som, TJS — Somoni, UZS — Uzbekistan Sum,
+AZN — Azerbaijanian Manat, CAD — Canadian Dollar, TRY — Turkish lira.
+PIN-UP retains its own KZT label Tenge. Native destination labels are Main
+Casino game ID and Internal link; Android uses /mobile.
+
+Requires Kumo 0.22.29 for the host integration. Format remains 5 and all six
+existing Email game images are preserved. The package uses Store compression.
+Verified by config validation, 662 core node tests, eight isolated unpacked MV3
+PINCO import scenarios (including omitted FR/TR/TJ and social presets) and native
+Currency/GEO drawer fixtures. Ten examples per GEO and live catalogs were read
+without saving or scheduling campaigns.
+
+Download the latest release ZIP and **reinstall it in Kumo Settings → Config**.
+Existing drafts and personal settings are preserved. Updating config does not
+update extension code; reload the updated extension and BO page separately.
+
 PIN-UP and PINCO artwork are deliberately stored as separate profile
 collections. PINCO card references are additionally grouped by vertical in
 `qmu/config.json`.
