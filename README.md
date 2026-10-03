@@ -21,6 +21,20 @@ when this package is installed, replaced or reset.
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
 
+## October 3, 2026 — PINCO AZ/TR audit (v3.0.12)
+
+Adds the exact `fs124.png` combined FS/bonus artwork observed in Finished
+email 103065. Its complete `100 spin + %100 Bonus` keyword avoids replacing
+ordinary FS cards. Kumo 0.22.37 selects the most specific configured match;
+Turkish singular `spin` also recognizes existing FS assets.
+
+Existing Bonus Money and Sport FB artwork now has explicit `nakit/cash/кэш` and `freebet/ФБ` keywords. These select standard semantic artwork; a Welcome design without a send ID still needs a visual match.
+
+The data format remains version 5. Reinstall the latest configuration through
+Kumo Settings → Config. Existing profiles, languages, currencies, drafts and
+personal settings are preserved. Production campaign copy and dates are not
+modified by installing this package.
+
 ## October 2, 2026 — PINCO BO Email (v3.0.11)
 
 PINCO binds to `https://bo.pincowin.tech`; PIN-UP binds to its existing BO host.

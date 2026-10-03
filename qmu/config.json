@@ -1249,7 +1249,13 @@
         {
           "id": "casino-09",
           "name": "Bonus Money",
-          "url": "https://storage.googleapis.com/pinco-win/Casino_9_BonusMoney.png"
+          "url": "https://storage.googleapis.com/pinco-win/Casino_9_BonusMoney.png",
+          "keywords": [
+            "nakit",
+            "cash",
+            "кэш",
+            "кэшем"
+          ]
         },
         {
           "id": "casino-10",
@@ -1265,6 +1271,14 @@
           "id": "casino-12",
           "name": "Trophy Star",
           "url": "https://storage.googleapis.com/pinco-win/Casino_12_TrophyStar.png"
+        },
+        {
+          "id": "casino-combo-fs-bonus",
+          "name": "100 spin + %100 Bonus (BO 103065)",
+          "url": "https://storage.googleapis.com/pinco-win/fs124.png",
+          "keywords": [
+            "100 spin + %100 Bonus"
+          ]
         }
       ],
       "esport": [
@@ -1355,7 +1369,13 @@
         {
           "id": "sport-03",
           "name": "FB",
-          "url": "https://storage.googleapis.com/pinco-win/Sport_3_FB.png"
+          "url": "https://storage.googleapis.com/pinco-win/Sport_3_FB.png",
+          "keywords": [
+            "freebet",
+            "fribet",
+            "фб",
+            "fb"
+          ]
         },
         {
           "id": "sport-04",
