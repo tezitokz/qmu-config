@@ -1279,6 +1279,32 @@
           "keywords": [
             "100 spin + %100 Bonus"
           ]
+        },
+        {
+          "id": "ca-awol",
+          "name": "Canada AWOL (BO 102587 / 102601)",
+          "url": "https://storage.googleapis.com/pinco-win/bonus_money___1.png",
+          "keywords": [],
+          "geoKeywords": {
+            "compact-ca": [
+              "75 spins + 100% boost",
+              "150 spins + 100% boost",
+              "50 FS"
+            ]
+          }
+        },
+        {
+          "id": "ca-deposit",
+          "name": "Canada deposit match (BO 102532)",
+          "url": "https://storage.googleapis.com/pinco-win/4____1.png",
+          "keywords": [],
+          "geoKeywords": {
+            "compact-ca": [
+              "match on a deposit",
+              "60% on a deposit",
+              "100% on a deposit"
+            ]
+          }
         }
       ],
       "esport": [

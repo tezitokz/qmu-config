@@ -21,6 +21,17 @@ when this package is installed, replaced or reset.
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
 
+## October 3, 2026 — PINCO Canada audit (v3.0.13)
+
+Adds the exact AWOL and deposit-match card backgrounds observed in Finished
+emails 102587/102601 and 102532. Automatic matches are scoped to compact-ca
+through optional geoKeywords. Other PINCO GEO matches and all PIN-UP assets
+are unchanged. French inherits the artwork selected by primary English.
+
+Use local Kumo 0.22.40 or later for automatic GEO matches. Older compatible
+cores ignore geoKeywords and leave these new assets available for manual use.
+Format remains 5. Reinstall the latest configuration in Kumo Settings.
+
 ## October 3, 2026 — PINCO AZ/TR audit (v3.0.12)
 
 Adds the exact `fs124.png` combined FS/bonus artwork observed in Finished
