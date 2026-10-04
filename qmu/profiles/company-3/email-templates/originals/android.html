@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="uk">
+ <head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content="telephone=no" name="format-detection">
+  <title>Email base + android (ready)</title><!--[if (mso 16)]>
+    <style type="text/css">
+    a {text-decoration: none;}
+    </style>
+    <![endif]--><!--[if gte mso 9]><style>sup { font-size: 100% !important; }</style><![endif]--><!--[if gte mso 9]>
+<noscript>
+         <xml>
+           <o:OfficeDocumentSettings>
+           <o:AllowPNG></o:AllowPNG>
+           <o:PixelsPerInch>96</o:PixelsPerInch>
+           </o:OfficeDocumentSettings>
+         </xml>
+      </noscript>
+<![endif]--><!--[if mso]><xml>
+    <w:WordDocument xmlns:w="urn:schemas-microsoft-com:office:word">
+      <w:DontUseAdvancedTypographyReadingMail/>
+    </w:WordDocument>
+    </xml><![endif]-->
+  <style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+ html, body, div, p, a, li, td, span { -webkit-text-size-adjust: 100% !important; -ms-text-size-adjust: 100% !important; } .table600 { width: 600px; } @media only screen and (max-width: 600px) { .mobile-padding { padding-right: 10px !important; padding-left: 10px !important; } .table600 { width: 100% !important; max-width: 100% !important; } .show { display: block !important; font-size: 12px !important; line-height: 30px !important; width: 100% !important; height: auto !important; } .hide { display: none !important; width: 0 !important; height: 0 !important; padding: 0 !important; font-size: 0 !important; line-height: 0 !important; min-width: 0 !important; } .a, .b { display: table !important; float: none !important; margin: 0 auto !important; width: 270px !important; max-width: 100% !important; direction: ltr !important; } .mobile-h2 { font-size: 26px !important; line-height: 30px !important; } .mobile-p-20 { font-size: 20px !important; line-height: 24px !important; } .mobile-p-18 { font-size: 18px !important; line-height: 22px !important; } .mobile-p-12 { font-size: 12px !important; line-height: 16px !important; } } @media only screen and (min-width: 600px) { .table600 { width: 600px !important; } } @media only screen and (max-width: 600px) { u + .body .mobile-h2, div > u + .body .mobile-h2 { font-size: 26px !important; line-height: 30px !important; } u + .body .mobile-p-20, div > u + .body .mobile-p-20 { font-size: 20px !important; line-height: 24px !important; } u + .body .mobile-p-18, div > u + .body .mobile-p-18 { font-size: 18px !important; line-height: 22px !important; } u + .body .mobile-p-12, div > u + .body .mobile-p-12 { font-size: 12px !important; line-height: 16px !important; } } @media (prefers-color-scheme: light) { .bg-dark, u + .body .bg-dark { background-color: #001218 !important; color: #fffffd !important; } [data-ogsc] .bg-dark { background-color: #001218 !important; color: #fffffd !important; } .bg-grey, u + .body .bg-grey { background-color: #001A23 !important; } [data-ogsc] .bg-grey { background-color: #001A23 !important; } .text-white, u + .body .text-white, u + .body .text-white a, u + .body .text-white span { color: #fffffd !important; } [data-ogsc] .text-white { color: #fffffd !important; } } @media (prefers-color-scheme: dark) { .bg-dark, u + .body .bg-dark { background-color: #001218 !important; color: #fffffd !important; } [data-ogsc] .bg-dark { background-color: #001218 !important; color: #fffffd !important; } .bg-grey, u + .body .bg-grey { background-color: #001A23 !important; } [data-ogsc] .bg-grey { background-color: #001A23 !important; } .text-white, u + .body .text-white, u + .body .text-white a, u + .body .text-white span { color: #fffffd !important; } [data-ogsc] .text-white { color: #fffffd !important; } } @media only screen and (max-width: 480px) { u + .body .text-white { background-image: linear-gradient(#fffffd, #fffffd) !important; background-clip: text !important; -webkit-background-clip: text !important; color: transparent !important; } div > u + .body .text-white { background-image: none !important; background-clip: inherit !important; -webkit-background-clip: inherit !important; color: #fffffd !important; } u + .body .text-white ul, u + .body .text-white li, u + .body .text-white li p, u + .body .text-white a, u + .body .text-white span { background-image: linear-gradient(#fffffd, #fffffd) !important; background-clip: text !important; -webkit-background-clip: text !important; color: #fffffd !important; } u + .body { background-image: linear-gradient(#001218, #001218) !important; } u + .body .bg-dark { background-image: linear-gradient(#001218, #001218) !important; } u + .body .bg-grey { background-image: linear-gradient(#001A23, #001A23) !important; } }
+u + .body img ~ div div {
+  display:none;
+}
+#outlook a {
+  padding:0;
+}
+span.MsoHyperlink,
+span.MsoHyperlinkFollowed {
+  color:inherit;
+  mso-style-priority:99;
+}
+a.m {
+  mso-style-priority:100!important;
+  text-decoration:none!important;
+}
+a[x-apple-data-detectors],
+#MessageViewBody a {
+  color:inherit!important;
+  text-decoration:none!important;
+  font-size:inherit!important;
+  font-family:inherit!important;
+  font-weight:inherit!important;
+  line-height:inherit!important;
+}
+.w {
+  display:none;
+  float:left;
+  overflow:hidden;
+  width:0;
+  max-height:0;
+  line-height:0;
+  mso-hide:all;
+}
+.bc, .esd-header-popover:not(.bb) { background-color:transparent }
+.bd, .esd-footer-popover:not(.bb) { background-color:transparent }
+@media only screen and (max-width:600px) {.bw.bw, .bw.bw a { line-height:120%!important } .bv.bv, .bv.bv a { line-height:130%!important } .bu { padding-right:20px!important } .bt { padding-top:10px!important } .bs { padding-bottom:20px!important } .br { padding-right:10px!important }  *[class="gmail-fix"] { display:none!important } p, a { line-height:150%!important } h1, h1 a { line-height:120%!important } h2, h2 a { line-height:120%!important } h3, h3 a { line-height:120%!important } h4, h4 a { line-height:120%!important } h5, h5 a { line-height:120%!important } h6, h6 a { line-height:120%!important } h1 { font-size:40px!important; text-align:left } h2 { font-size:32px!important; text-align:left } h3 { font-size:28px!important; text-align:left } h4 { font-size:24px!important; text-align:left } h5 { font-size:20px!important; text-align:left } h6 { font-size:16px!important; text-align:left }       .bp p, .bp a { font-size:14px!important } .bo p, .bo a { font-size:14px!important } .bn p, .bn a { font-size:14px!important }   .r, .r h1, .r h2, .r h3, .r h4, .r h5, .r h6 { text-align:right!important }   .r img, .u img, .t img { display:inline!important }    .bk { display:inline-table } a.m, button.m { display:inline-block!important; font-size:14px!important; padding:10px 20px 10px 20px!important; line-height:120%!important } .bj { display:inline-block!important } .bh, .bh.bi, .bh .m { display:block!important } .bf, .bf .m, .bg, .bg td, .s.q { display:inline-block!important } .be table, .a, .b { width:100%!important; border-collapse:separate!important } .bb table, .bc table, .bd table, .bb, .bd, .bc { width:100%!important; max-width:600px!important } .adapt-img { width:100%!important; height:auto!important }  .y, .z { display:none!important }  .w { width:auto!important; overflow:visible!important; float:none!important; max-height:inherit!important; line-height:inherit!important } tr.w { display:table-row!important }      table.q, .esd-block-html table, .r .s td, .t .s td, .u .s td { width:auto!important } .h-auto { height:auto!important } .img-5150 { width:114px!important } .p { width:0px!important } a.m.o { padding:20px 0 0!important }          }
+@media screen and (max-width:384px) {.mail-message-content { width:414px!important } }</style>
+ </head>
+ <body class="body" style="width:100%;height:100%;font-family:arial, 'helvetica neue', helvetica, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;Margin:0">
+  <div dir="ltr" class="es-wrapper-color" lang="uk" style="background-color:#F6F6F6"><!--[if gte mso 9]>
+			<v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+				<v:fill type="tile" color="#f6f6f6"></v:fill>
+			</v:background>
+		<![endif]-->
+   <table width="100%" cellspacing="0" cellpadding="0" class="es-wrapper" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;padding:0;Margin:0;width:100%;height:100%">
+     <tr>
+      <td valign="top" style="padding:0;Margin:0">
+       <table cellspacing="0" cellpadding="0" align="center" class="bc" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:100%;table-layout:fixed !important">
+         <tr>
+          <td align="center" style="padding:0;Margin:0">
+           <table cellspacing="0" cellpadding="0" bgcolor="#ffffff" align="center" class="bp" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#001218;width:600px;background-image:linear-gradient(to bottom, #001218 0%, #001218 100%) !important">
+             <tr>
+              <td align="left" style="padding:20px 20px 0;Margin:0">
+               <table cellspacing="0" cellpadding="0" class="esdev-mso-table" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:560px">
+                 <tr>
+                  <td valign="top" class="esdev-mso-td" style="padding:0;Margin:0">
+                   <table cellpadding="0" align="left" cellspacing="0" class="a" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left">
+                     <tr>
+                      <td align="center" valign="top" style="padding:0;Margin:0;width:181px">
+                       <table cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:181px">
+                         <tr>
+                          <td align="center" style="padding:0;Margin:0;font-size:0"><img src="https://iznvff.stripocdn.email/content/guids/CABINET_58e378fba64a6a252de0fae588f67813eb67104d88da4e6f383037e32ca6b03a/images/property_1desktop.png" alt="" width="151" class="img-5150" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none;margin:0"></td>
+                         </tr>
+                       </table></td>
+                     </tr>
+                   </table></td>
+                  <td class="p bu" style="padding:0;Margin:0;width:20px"></td>
+                  <td valign="top" class="esdev-mso-td" style="padding:0;Margin:0">
+                   <table cellpadding="0" align="right" cellspacing="0" class="b" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:right">
+                     <tr>
+                      <td align="left" style="padding:0;Margin:0;width:359px">
+                       <table cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:359px">
+                         <tr>
+                          <td align="right" class="bt r" style="padding:20px 0 0;Margin:0"><!--[if mso]><a href="" target="_blank" hidden>
+	<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" esdevVmlButton href="" style="height:36px; v-text-anchor:middle; width:136px" arcsize="42%" stroke="f"  fillcolor="#000000">
+		<w:anchorlock></w:anchorlock>
+		<center style='color:#00f6ff; font-family:arial, "helvetica neue", helvetica, sans-serif; font-size:12px; font-weight:400; line-height:12px;  mso-text-raise:1px'>КАБИНЕТ</center>
+	</v:roundrect></a>
+<![endif]--><!--[if !mso]><!-- --><span class="bj es-il msohide" style="border-style:solid;border-color:#2cb543;background:transparent;border-width:0px;display:inline-block;border-radius:15px;width:auto;mso-hide:all;text-decoration:underline"><a href="" target="_blank" class="m" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#00f6ff;font-size:14px;font-weight:normal;padding:10px 20px;display:inline-block;background:transparent;border-radius:15px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-style:normal;line-height:17px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;text-transform:none;mso-border-alt:10px solid transparent"><img src="https://iznvff.stripocdn.email/content/guids/CABINET_58e378fba64a6a252de0fae588f67813eb67104d88da4e6f383037e32ca6b03a/images/union.png" alt="icon" width="18" align="absmiddle" style="display:inline-block;font-size:14px;border:0;outline:none;text-decoration:none;margin:0;vertical-align:middle;margin-right:5px"><span style="text-decoration:underline">КАБИНЕТ</span></a></span><!--<![endif]--></td>
+                         </tr>
+                       </table></td>
+                     </tr>
+                   </table></td>
+                 </tr>
+               </table></td>
+             </tr>
+           </table></td>
+         </tr>
+       </table>
+       <table cellspacing="0" cellpadding="0" align="center" class="bb" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:100%;table-layout:fixed !important">
+         <tr>
+          <td align="center" style="padding:0;Margin:0">
+           <table cellspacing="0" cellpadding="0" bgcolor="#ffffff" align="center" class="bo" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#001218;width:600px;background-image:linear-gradient(to bottom, #001218 0%, #001218 100%) !important">
+             <tr>
+              <td align="left" style="padding:20px 20px 0;Margin:0">
+               <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px">
+                 <tr>
+                  <td valign="top" align="center" style="padding:0;Margin:0;width:560px">
+                   <table cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:560px">
+                     <tr class="y">
+                      <td align="center" style="padding:0;Margin:0;font-size:0"><img src="https://iznvff.stripocdn.email/content/guids/CABINET_58e378fba64a6a252de0fae588f67813eb67104d88da4e6f383037e32ca6b03a/images/property_1desktop_t04.png" alt="Zazino banner" width="560" title="Zazino banner" class="adapt-img" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none;margin:0"></td>
+                     </tr><!--[if !mso]><!-- -->
+                     <tr class="w" style="display:none;float:left;overflow:hidden;width:0;max-height:0;line-height:0;mso-hide:all">
+                      <td align="center" style="padding:0;Margin:0;font-size:0"><img alt="" width="560" src="https://iznvff.stripocdn.email/content/guids/CABINET_58e378fba64a6a252de0fae588f67813eb67104d88da4e6f383037e32ca6b03a/images/property_1mobile.png" class="adapt-img" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none;margin:0"></td>
+                     </tr><!--<![endif]-->
+                     <tr>
+                      <td align="center" class="es-m-text" style="padding:20px 0 0;Margin:0"><p class="text-white bw d mobile-h2" style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:36px;letter-spacing:0;font-weight:normal;color:#FFFFFF;font-size:30px">Сәлемдесу пакеті</p><p class="text-white bw f mobile-h2" style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:38px;letter-spacing:0;font-weight:700;color:#FFFFFF;font-size:32px">200 000 ₽ дейін + 375 FS</p><p class="text-white bw d mobile-p-20" style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:26px;letter-spacing:0;font-weight:400;color:#FFFFFF;font-size:22px">Виграші до х 6 500</p></td>
+                     </tr>
+                     <tr>
+                      <td align="center" style="padding:20px 0 10px;Margin:0"><!--[if mso]><a href="" target="_blank" hidden>
+	<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" esdevVmlButton href="" style="height:60px; v-text-anchor:middle; width:532px" arcsize="50%" stroke="f"  fillcolor="#000000">
+		<w:anchorlock></w:anchorlock>
+		<center style='color:#ffffff; font-family:arial, "helvetica neue", helvetica, sans-serif; font-size:16px; font-weight:700; line-height:16px;  mso-text-raise:1px'>ПОЛУЧИТЬ</center>
+	</v:roundrect></a>
+<![endif]--><!--[if !mso]><!-- --><span class="bj bh msohide" style="border-style:solid;border-color:#2cb543;background:#071875;border-width:0px;display:inline-block;border-radius:32px;width:80%;mso-hide:all"><a href="" target="_blank" class="m o" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:16px;font-weight:700;padding:10px;display:inline-block;background:radial-gradient(117.91% 153.75% at 50% 141.25%, #071875 0.32%, #00F6FF 100%);border-radius:32px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-style:normal;line-height:40px;width:100%;text-align:center;letter-spacing:0;mso-padding-alt:0;text-transform:none;mso-border-alt:10px solid #071875;text-aligh:center;height:40px"><span class="text-white"> ПОЛУЧИТЬ </span></a></span><!--<![endif]--></td>
+                     </tr>
+                     <tr>
+                      <td align="center" style="padding:20px 30px 0;Margin:0;font-size:0">
+                       <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0" class="bk" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px">
+                         <tr>
+                          <td style="padding:0;Margin:0;background:linear-gradient(90deg, #00B2FF00 0.48%, #00B2FF 50%, #00B2FF00 100%);height:2px;width:100%;margin:0;font-size:2px;line-height:2px"></td>
+                         </tr>
+                       </table></td>
+                     </tr>
+                   </table></td>
+                 </tr>
+               </table></td>
+             </tr>
+             <tr>
+              <td align="left" style="padding:20px 35px 0;Margin:0">
+               <table width="100%" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px">
+                 <tr>
+                  <td align="left" style="padding:0;Margin:0;width:530px">
+                   <table cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px">
+                     <tr>
+                      <td align="left" style="padding:0;Margin:0" class="es-m-text"><p class="d text-white mobile-p-20" style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:24px;letter-spacing:0;font-weight:normal;color:#FFFFFF;font-size:20px">Станьте багатшими та щасливішими з провайдером 3Oaks, отримуючи щоденні грошові подарунки.</p></td>
+                     </tr>
+                     <tr>
+                      <td align="left" class="text-white es-m-text" style="Margin:0;padding:12px 28px 24px 10px"><p class="text-white mobile-p-18" style="Margin:0;mso-line-height-rule:exactly;font-family:Roboto, sans-serif, Arial;line-height:24px;letter-spacing:0;font-weight:400;color:#fffffd;font-size:16px;text-size-adjust:100%;margin:0px;display:block">&nbsp;&nbsp;•&nbsp;&nbsp;Турнірний період: 30.03–13.04</p><p class="text-white bv mobile-p-18" style="Margin:0;mso-line-height-rule:exactly;font-family:Roboto, sans-serif, Arial;line-height:24px;letter-spacing:0;font-weight:400;color:#fffffd;font-size:16px;margin:0px;display:block;text-size-adjust:100%">&nbsp;&nbsp;•&nbsp;&nbsp;150 нагород в одноденних турнірах.</p><p class="text-white mobile-p-18" style="Margin:0;mso-line-height-rule:exactly;font-family:Roboto, sans-serif, Arial;line-height:24px;letter-spacing:0;font-weight:400;color:#fffffd;font-size:16px;text-size-adjust:100%;margin:0px;display:block">&nbsp;&nbsp;•&nbsp;&nbsp;200 додаткових нагород за підсумками кожного тижня.</p><p class="text-white mobile-p-18" style="Margin:0;mso-line-height-rule:exactly;font-family:Roboto, sans-serif, Arial;line-height:24px;letter-spacing:0;font-weight:400;color:#fffffd;font-size:16px;text-size-adjust:100%;margin:0px;display:block">&nbsp;&nbsp;•&nbsp;&nbsp;Механіка: максимальний множник + максимальний виграш.</p></td>
+                     </tr>
+                     <tr>
+                      <td align="center" class="bt" style="padding:20px 0 10px;Margin:0"><!--[if mso]><a href="" target="_blank" hidden>
+	<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" esdevVmlButton href="" style="height:60px; v-text-anchor:middle; width:532px" arcsize="50%" stroke="f"  fillcolor="#000000">
+		<w:anchorlock></w:anchorlock>
+		<center style='color:#ffffff; font-family:arial, "helvetica neue", helvetica, sans-serif; font-size:16px; font-weight:700; line-height:16px;  mso-text-raise:1px'>ЗАБРАТЬ</center>
+	</v:roundrect></a>
+<![endif]--><!--[if !mso]><!-- --><span class="bj bh msohide" style="border-style:solid;border-color:#2cb543;background:#071875;border-width:0px;display:inline-block;border-radius:32px;width:80%;mso-hide:all"><a target="_blank" href="" class="m o" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:16px;font-weight:700;padding:10px;display:inline-block;background:radial-gradient(117.91% 153.75% at 50% 141.25%, #071875 0.32%, #00F6FF 100%);border-radius:32px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-style:normal;line-height:40px;width:100%;text-align:center;letter-spacing:0;mso-padding-alt:0;text-transform:none;text-aligh:center;height:40px;mso-border-alt:10px solid #071875"><span class="text-white"> ЗАБРАТЬ </span></a></span><!--<![endif]--></td>
+                     </tr>
+                     <tr>
+                      <td align="center" style="padding:20px 0 0;Margin:0;font-size:0">
+                       <table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" class="bk" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px">
+                         <tr>
+                          <td style="padding:0;Margin:0;width:100%;margin:0;font-size:2px;line-height:2px;background:linear-gradient(90deg, #00B2FF00 0.48%, #00B2FF 50%, #00B2FF00 100%);height:2px"></td>
+                         </tr>
+                       </table></td>
+                     </tr>
+                   </table></td>
+                 </tr>
+               </table></td>
+             </tr>
+           </table></td>
+         </tr>
+       </table>
+       <table cellspacing="0" cellpadding="0" align="center" class="bd" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:100%;table-layout:fixed !important">
+         <tr>
+          <td align="center" style="padding:0;Margin:0">
+           <table cellspacing="0" cellpadding="0" bgcolor="#ffffff" align="center" class="bn" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#001218;width:600px;background-image:linear-gradient(to bottom, #001218 0%, #001218 100%) !important">
+             <tr>
+              <td align="left" style="Margin:0;padding:20px">
+               <table cellspacing="0" cellpadding="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px">
+                 <tr>
+                  <td align="left" class="bs" style="padding:0;Margin:0;width:560px">
+                   <table cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:560px">
+                     <tr>
+                      <td align="center" style="padding:0;Margin:0"><p class="text-white" style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;letter-spacing:0;font-weight:normal;color:#ffffff;font-size:14px">Наши приложения</p></td>
+                     </tr>
+                     <tr>
+                      <td align="center" style="padding:10px 0 15px;Margin:0;font-size:0"><img alt="" width="156" src="https://iznvff.stripocdn.email/content/guids/CABINET_bb551308e19e51037b4e4cad9c0ecc2a953e44951d7cf193fae46955cfb7e4e5/images/download_android_1.png" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none;margin:0"></td>
+                     </tr>
+                     <tr>
+                      <td align="center" style="padding:0;Margin:0" class="es-m-text"><p class="h text-white" style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:24px;letter-spacing:0;font-weight:normal;color:#ffffff;font-size:16px">Мы в социальных сетях</p></td>
+                     </tr>
+                     <tr>
+                      <td align="center" style="padding:15px 0;Margin:0;font-size:0">
+                       <table cellpadding="0" cellspacing="0" class="q bg" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px">
+                         <tr>
+                          <td align="center" valign="top" class="br" style="padding:0 10px 0 0;Margin:0"><img title="Instagram" src="https://iznvff.stripocdn.email/content/guids/CABINET_58e378fba64a6a252de0fae588f67813eb67104d88da4e6f383037e32ca6b03a/images/socials.png" alt="IG" height="32" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none;margin:0"></td>
+                          <td align="center" valign="top" class="br" style="padding:0 10px 0 0;Margin:0"><img height="32" src="https://iznvff.stripocdn.email/content/guids/CABINET_58e378fba64a6a252de0fae588f67813eb67104d88da4e6f383037e32ca6b03a/images/socials1.png" title="Telegram" alt="TG" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none;margin:0"></td>
+                          <td align="center" valign="top" class="br" style="padding:0 10px 0 0;Margin:0"><img alt="VBR" height="32" title="Viber" src="https://iznvff.stripocdn.email/content/guids/CABINET_58e378fba64a6a252de0fae588f67813eb67104d88da4e6f383037e32ca6b03a/images/socials2.png" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none;margin:0"></td>
+                          <td align="center" valign="top" class="br" style="padding:0 10px 0 0;Margin:0"><img height="32" src="https://iznvff.stripocdn.email/content/guids/CABINET_58e378fba64a6a252de0fae588f67813eb67104d88da4e6f383037e32ca6b03a/images/socials3.png" title="CUSTOM_ICON" alt="CUSTOM_ICON" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none;margin:0"></td>
+                          <td align="center" valign="top" style="padding:0;Margin:0"><img alt="XCOM" height="32" src="https://iznvff.stripocdn.email/content/guids/CABINET_58e378fba64a6a252de0fae588f67813eb67104d88da4e6f383037e32ca6b03a/images/socials4.png" title="X" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none;margin:0"></td>
+                         </tr>
+                       </table></td>
+                     </tr>
+                     <tr>
+                      <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;letter-spacing:0;font-weight:normal;color:#8da1be;font-size:14px">Ты получил это письмо, так как зарегистрирован на Zazino.  Если ты больше не хочешь получать наши рассылки, можешь отписаться здесь. Есть вопросы? Наша онлайн-поддержка на связи 24/7.</p></td>
+                     </tr>
+                   </table></td>
+                 </tr>
+               </table></td>
+             </tr>
+           </table></td>
+         </tr>
+       </table></td>
+     </tr>
+   </table>
+  </div>
+ </body>
+</html>

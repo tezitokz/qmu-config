@@ -21,6 +21,40 @@ when this package is installed, replaced or reset.
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
 
+## October 5, 2026 — ZAZINO reference layouts (v3.0.14)
+
+Collected all seven exact HTML exports from the supplied ZAZINO Stripo account.
+Six ready examples are installed once into **Reference layouts** in the shared
+Workspace/BO email library: base, single bonus, dual bonus, dual bonus with timer,
+timer without a bonus image, and Android. The seventh base-2 example remains in
+`qmu/profiles/company-3/email-templates/originals/` as a reference. The manifest
+records source URL, names, export options and SHA-256 for each unmodified original.
+Adapted layouts preserve the authored tables, responsive styles, Outlook buttons,
+logo, banner, timer and footer. Blank campaign URLs gain editable placeholders;
+unsubscribe uses `{{{unsubscribe}}}` and Android uses `%%Android%%`.
+
+ZAZINO now has its own RU/KZ/KG/AZ language profile, removing inherited PIN-UP GEO
+routes. AZ is available for future supplied copy; no AZ example or translation
+has been fabricated. Templates contain the original placeholder/mixed-language
+campaign copy. The supplied Russian legal footer is retained in every language
+until reviewed translations are provided. Instagram, Telegram, Viber, VK and X retain their supplied artwork and selectable destinations.
+A bonus image can be added or removed independently of its title, description
+and CTA. Company design, shell and template HTML are optional format-5 data.
+
+Use **Kumo 0.22.48 or later**. Older compatible cores ignore these optional fields.
+Reinstall the latest ZIP in Kumo Settings → Config, select ZAZINO and its new
+language profile, then reload the updated local extension. Existing edits, trash,
+folders and recovery buffers remain intact; references are never overwritten on
+reinstallation. Native ZAZINO BO host integration requires a verified origin and
+is not added by this package. The BO editor surface is checked in an isolated
+extension profile; production BO and email-client delivery are not verified.
+
+Validated by package parsing/materialization, original-file hashes, 737 Kumo
+node tests and real unpacked Chromium scenarios in both email editors. Countdown
+slots and their original URLs are preserved; the timer service itself is not
+live-tested. Other companies' artwork, configuration and language routes remain
+unchanged. The package retains Store compression and configuration format **5**.
+
 ## October 3, 2026 — PINCO Canada audit (v3.0.13)
 
 Adds the exact AWOL and deposit-match card backgrounds observed in Finished

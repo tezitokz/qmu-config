@@ -1,0 +1,68 @@
+{
+  "source": "https://my.stripo.email/account/273611/1823148/emails",
+  "project": "ZAZINO",
+  "collected": "2026-10-04",
+  "exportOptions": {
+    "minify": false,
+    "injectImageDimensions": false,
+    "accessibility": false
+  },
+  "templates": [
+    {
+      "slug": "single-bonus",
+      "name": "Email base + single bonus (ready)",
+      "file": "single-bonus.html",
+      "bytes": 30204,
+      "sha256": "a24fef4a6de7fd7ff9842d74434e70acde70aeb96eb75b23574c6dcd6ea03300",
+      "adapt": true
+    },
+    {
+      "slug": "base",
+      "name": "Email base (ready)",
+      "file": "base.html",
+      "bytes": 27917,
+      "sha256": "aab02e2f790782f46dba38571dc86096af46307d4533c1a4f70761f9c4eb56ad",
+      "adapt": true
+    },
+    {
+      "slug": "dual-timer-no-image",
+      "name": "Email base + dual bonus + timer (ready) without image",
+      "file": "dual-timer-no-image.html",
+      "bytes": 30636,
+      "sha256": "689ed5e16a37197197a6d9632177d84c1d52fc8ddd48912f3b7fca36e530705d",
+      "adapt": true
+    },
+    {
+      "slug": "dual-timer",
+      "name": "Email base + dual bonus + timer (ready)",
+      "file": "dual-timer.html",
+      "bytes": 31476,
+      "sha256": "53bd71705831010fb02a0e610a95f82df04b4d4d160716f8ffb27f321f689b33",
+      "adapt": true
+    },
+    {
+      "slug": "dual-bonus",
+      "name": "Email base + dual bonus (ready)",
+      "file": "dual-bonus.html",
+      "bytes": 30544,
+      "sha256": "7ff28af8994bfcba84bfd74ef7a3e4fe8708962025cfcd26c295168aeebe3024",
+      "adapt": true
+    },
+    {
+      "slug": "android",
+      "name": "Email base + android (ready)",
+      "file": "android.html",
+      "bytes": 28660,
+      "sha256": "21e9809a48095ffd98f786b49379a85e2b16278838c7025bd968376994b61073",
+      "adapt": true
+    },
+    {
+      "slug": "base-2-reference",
+      "name": "Email base 2 (done)",
+      "file": "base-2-reference.html",
+      "bytes": 33238,
+      "sha256": "ee02c44d4dbb48b21a485aaa61baa99a4cc12d58201751ef962731c6f6472a07",
+      "adapt": false
+    }
+  ]
+}

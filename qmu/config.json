@@ -68,8 +68,7 @@
       "eyebrow": "CENTRAL ASIA",
       "enabled": true,
       "projectIds": [
-        "company-1",
-        "company-3"
+        "company-1"
       ],
       "primary": "ru",
       "languages": [
@@ -85,8 +84,7 @@
       "eyebrow": "AZERBAIJAN",
       "enabled": true,
       "projectIds": [
-        "company-1",
-        "company-3"
+        "company-1"
       ],
       "primary": "ru",
       "languages": [
@@ -106,8 +104,7 @@
       "eyebrow": "SOUTH ASIA",
       "enabled": false,
       "projectIds": [
-        "company-1",
-        "company-3"
+        "company-1"
       ],
       "primary": "en",
       "languages": [],
@@ -119,8 +116,7 @@
       "eyebrow": "NG / KE / CD",
       "enabled": true,
       "projectIds": [
-        "company-1",
-        "company-3"
+        "company-1"
       ],
       "primary": "en",
       "languages": [
@@ -140,8 +136,7 @@
       "eyebrow": "LATIN AMERICA",
       "enabled": true,
       "projectIds": [
-        "company-1",
-        "company-3"
+        "company-1"
       ],
       "primary": "es",
       "languages": [
@@ -274,6 +269,57 @@
       "description": "Turkish email version.",
       "features": {
         "socialPresets": []
+      }
+    },
+    {
+      "id": "zazino",
+      "label": "RU / KZ / KG / AZ",
+      "eyebrow": "ZAZINO",
+      "enabled": true,
+      "projectIds": [
+        "company-3"
+      ],
+      "primary": "ru",
+      "languages": [
+        "ru",
+        "kz",
+        "kg",
+        "az"
+      ],
+      "features": {
+        "socialPresets": [
+          {
+            "name": "Instagram",
+            "image": "https://iznvff.stripocdn.email/content/guids/CABINET_58e378fba64a6a252de0fae588f67813eb67104d88da4e6f383037e32ca6b03a/images/socials.png",
+            "link": "%%Instagram%%"
+          },
+          {
+            "name": "Telegram",
+            "image": "https://iznvff.stripocdn.email/content/guids/CABINET_58e378fba64a6a252de0fae588f67813eb67104d88da4e6f383037e32ca6b03a/images/socials1.png",
+            "link": "%%TG%%"
+          },
+          {
+            "name": "Viber",
+            "image": "https://iznvff.stripocdn.email/content/guids/CABINET_58e378fba64a6a252de0fae588f67813eb67104d88da4e6f383037e32ca6b03a/images/socials2.png",
+            "link": "%%Viber%%"
+          },
+          {
+            "name": "VK",
+            "image": "https://iznvff.stripocdn.email/content/guids/CABINET_58e378fba64a6a252de0fae588f67813eb67104d88da4e6f383037e32ca6b03a/images/socials3.png",
+            "link": "%%VK%%"
+          },
+          {
+            "name": "X",
+            "image": "https://iznvff.stripocdn.email/content/guids/CABINET_58e378fba64a6a252de0fae588f67813eb67104d88da4e6f383037e32ca6b03a/images/socials4.png",
+            "link": "%%X%%"
+          }
+        ],
+        "footerLocales": {
+          "ru": "ru",
+          "kz": "ru",
+          "kg": "ru",
+          "az": "ru"
+        }
       }
     }
   ],
@@ -995,83 +1041,138 @@
       ],
       "emailLogo": "https://iznvff.stripocdn.email/content/guids/CABINET_58e378fba64a6a252de0fae588f67813eb67104d88da4e6f383037e32ca6b03a/images/property_1desktop.png",
       "boEmailVariableProfiles": {
-        "az": {
+        "zazino": {
           "regions": {
+            "KZ": "Kazakhstan",
+            "KG": "Kyrgyzstan",
             "AZ": "Azerbaijan"
           },
           "currencies": {
-            "AZN": "Azerbaijanian Manat"
-          }
-        },
-        "africa": {
-          "regions": {
-            "NG": "Nigeria",
-            "KE": "Kenya",
-            "CD": "Congo, Democratic Republic of the"
-          },
-          "currencies": {
-            "NGN": "Naira",
-            "KES": "Kenyan Shilling",
-            "CDF": "Franc Congolais",
-            "USD": "US Dollar"
-          },
-          "languageCopies": {
-            "en": [
-              "en",
-              "en-ke",
-              "en-ng"
-            ],
-            "fr": [
-              "fr-cd"
-            ],
-            "sw": [
-              "sw"
-            ]
-          }
-        },
-        "kz-uz": {
-          "regions": {
-            "KZ": "Kazakhstan",
-            "UZ": "Uzbekistan"
-          },
-          "currencies": {
             "KZT": "Tenge",
-            "UZS": "Uzbekistan Sum"
-          }
-        },
-        "latam": {
-          "regions": {
-            "CL": "Chile",
-            "MX": "Mexico",
-            "EC": "Ecuador",
-            "BO": "Bolivia",
-            "GT": "Guatemala",
-            "HN": "Honduras",
-            "NI": "Nicaragua"
+            "KGS": "Som",
+            "AZN": "Azerbaijanian Manat"
           },
-          "currencies": {
-            "CLP": "Chilean Peso",
-            "MXN": "Mexican Peso",
-            "USD": "US Dollar",
-            "BOB": "Bolivian Boliviano",
-            "GTQ": "Quetzal",
-            "HNL": "Lempira",
-            "NIO": "Cordoba Oro"
+          "languageSelection": {
+            "ru": {
+              "regions": [],
+              "currencies": []
+            },
+            "kg": {
+              "regions": [
+                "KG"
+              ],
+              "currencies": [
+                "KGS"
+              ]
+            },
+            "az": {
+              "regions": [
+                "AZ"
+              ],
+              "currencies": [
+                "AZN"
+              ]
+            },
+            "kk": {
+              "regions": [
+                "KZ"
+              ],
+              "currencies": [
+                "KZT"
+              ]
+            }
           },
-          "languageCopies": {
-            "es": [
-              "es",
-              "es-cl",
-              "es-mx",
-              "es-ec",
-              "es-bo",
-              "es-gt",
-              "es-hn",
-              "es-ni"
-            ]
-          }
+          "defaults": {}
         }
-      }
+      },
+      "emailDesign": {
+        "canvas": "#001218",
+        "surface": "#001a23",
+        "heading": "#ffffff",
+        "text": "#ffffff",
+        "accent": "#00f6ff",
+        "cta": "#071875",
+        "ctaForeground": "#ffffff",
+        "headingSize": 32,
+        "headingLine": 38,
+        "subtitleSize": 22,
+        "subtitleLine": 26,
+        "sectionSize": 24,
+        "sectionLine": 29,
+        "bodySize": 20,
+        "bodyLine": 24,
+        "ctaSize": 16,
+        "ctaLine": 40,
+        "ctaRadius": 32,
+        "ctaPadding": "10px",
+        "headingPadding": "20px 20px 0",
+        "subtitlePadding": "0 20px 10px",
+        "paragraphPadding": "20px 20px 0",
+        "ctaPaddingCell": "20px 20px 10px",
+        "font": "Arial,'Helvetica Neue',Helvetica,sans-serif",
+        "socialIconSize": 32,
+        "cardPresentation": "separate-image",
+        "ctaBackground": "radial-gradient(117.91% 153.75% at 50% 141.25%, #071875 0.32%, #00f6ff 100%)"
+      },
+      "assets": {
+        "defaultBanner": "https://iznvff.stripocdn.email/content/guids/CABINET_58e378fba64a6a252de0fae588f67813eb67104d88da4e6f383037e32ca6b03a/images/property_1desktop_t04.png",
+        "android": "https://iznvff.stripocdn.email/content/guids/CABINET_bb551308e19e51037b4e4cad9c0ecc2a953e44951d7cf193fae46955cfb7e4e5/images/download_android_1.png"
+      },
+      "emailFooterCopy": {
+        "ru": {
+          "addr": "Ты получил это письмо, так как зарегистрирован на Zazino.",
+          "unsubLead": "Если ты больше не хочешь получать наши рассылки, можешь отписаться",
+          "unsubLink": "здесь.",
+          "support": "Есть вопросы? Наша онлайн-поддержка на связи 24/7.",
+          "apps": "Наши приложения",
+          "social": "Мы в социальных сетях"
+        }
+      },
+      "emailShell": "qmu/profiles/company-3/email-templates/shell.html",
+      "emailTemplates": [
+        {
+          "id": "single-bonus",
+          "name": "Email base + single bonus (ready)",
+          "language": "ru",
+          "html": "qmu/profiles/company-3/email-templates/single-bonus.html",
+          "originalHTML": "qmu/profiles/company-3/email-templates/originals/single-bonus.html"
+        },
+        {
+          "id": "base",
+          "name": "Email base (ready)",
+          "language": "ru",
+          "html": "qmu/profiles/company-3/email-templates/base.html",
+          "originalHTML": "qmu/profiles/company-3/email-templates/originals/base.html"
+        },
+        {
+          "id": "dual-timer-no-image",
+          "name": "Email base + dual bonus + timer (ready) without image",
+          "language": "ru",
+          "html": "qmu/profiles/company-3/email-templates/dual-timer-no-image.html",
+          "originalHTML": "qmu/profiles/company-3/email-templates/originals/dual-timer-no-image.html"
+        },
+        {
+          "id": "dual-timer",
+          "name": "Email base + dual bonus + timer (ready)",
+          "language": "ru",
+          "html": "qmu/profiles/company-3/email-templates/dual-timer.html",
+          "originalHTML": "qmu/profiles/company-3/email-templates/originals/dual-timer.html"
+        },
+        {
+          "id": "dual-bonus",
+          "name": "Email base + dual bonus (ready)",
+          "language": "ru",
+          "html": "qmu/profiles/company-3/email-templates/dual-bonus.html",
+          "originalHTML": "qmu/profiles/company-3/email-templates/originals/dual-bonus.html"
+        },
+        {
+          "id": "android",
+          "name": "Email base + android (ready)",
+          "language": "ru",
+          "html": "qmu/profiles/company-3/email-templates/android.html",
+          "originalHTML": "qmu/profiles/company-3/email-templates/originals/android.html"
+        }
+      ]
     }
   ],
   "emailAssets": {
@@ -1502,6 +1603,39 @@
           "id": "sport-23",
           "name": "Tableu 20",
           "url": "https://storage.googleapis.com/pinco-win/Sport_23_Tableu20.png"
+        }
+      ]
+    },
+    "company-3": {
+      "cards": [
+        {
+          "id": "bonus-1",
+          "name": "Free Spins",
+          "url": "https://iznvff.stripocdn.email/content/guids/CABINET_a7d541397142f11a23a82dc254b7caa286a64c730e378aced3bd99a78415ed2a/images/fs.png",
+          "keywords": [
+            "fs",
+            "free spins",
+            "фс",
+            "фриспин"
+          ]
+        },
+        {
+          "id": "bonus-2",
+          "name": "Birthday bonus",
+          "url": "https://iznvff.stripocdn.email/content/guids/CABINET_aa7f31f341b5853328a70057c8444c9883eb4a6c5d5f93b2b6053b993f9553bb/images/birthdaybonusv22_1.png",
+          "keywords": []
+        }
+      ],
+      "banners": [
+        {
+          "id": "default",
+          "name": "Desktop",
+          "url": "https://iznvff.stripocdn.email/content/guids/CABINET_58e378fba64a6a252de0fae588f67813eb67104d88da4e6f383037e32ca6b03a/images/property_1desktop_t04.png"
+        },
+        {
+          "id": "mobile",
+          "name": "Mobile",
+          "url": "https://iznvff.stripocdn.email/content/guids/CABINET_58e378fba64a6a252de0fae588f67813eb67104d88da4e6f383037e32ca6b03a/images/property_1mobile.png"
         }
       ]
     }
