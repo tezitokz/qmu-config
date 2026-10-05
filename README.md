@@ -21,6 +21,24 @@ when this package is installed, replaced or reset.
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
 
+## October 5, 2026 — LATAM BO regional Spanish (v3.0.15)
+
+One source ES email now fills only ES-CL, ES-MX, ES-EC, ES-BO, ES-GT, ES-HN
+and ES-NI in BO. Generic ES is no longer a destination. Independent EN remains
+optional. ES stays available as the source language in both Kumo editors;
+country/currency catalogs, logo URLs and other GEO routes are preserved.
+
+Reinstall the latest ZIP in Kumo Settings → Config. Format remains **5** and
+existing drafts and personal settings are retained. Existing compatible cores
+use the updated destinations; local Kumo **0.22.50** also lists them in the BO
+language step. On a successful import, an old generic ES tab is backed up and
+removed by the existing extra-language cleanup. Failed imports retain the tab.
+
+Validation: 88 focused Kumo language/import/routing and configuration regressions,
+package parsing/materialization and Store compression checks, plus isolated
+unpacked Chromium LATAM imports with ES-only and ES+EN sources. Authenticated
+production BO is not covered.
+
 ## October 5, 2026 — ZAZINO reference layouts (v3.0.14)
 
 Collected all seven exact HTML exports from the supplied ZAZINO Stripo account.
