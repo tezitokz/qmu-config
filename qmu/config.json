@@ -1638,5 +1638,720 @@
         }
       ]
     }
+  },
+  "defaultDocuments": [
+    {
+      "title": "Platforms",
+      "links": [
+        [
+          "Jira CRM Dashboard",
+          "https://jira-dev.time2go.tech/secure/Dashboard.jspa?selectPageId=16712"
+        ],
+        [
+          "Jira Marketing Plan",
+          "https://jira-dev.time2go.tech/secure/Dashboard.jspa?selectPageId=16803"
+        ],
+        [
+          "BO 2.0",
+          "https://bo.tech-pu.com"
+        ],
+        [
+          "Old admin segments",
+          "https://spacer-way.com/logbook/segmentsNew/?license=com"
+        ],
+        [
+          "Stripo",
+          "https://my.stripo.email/account/"
+        ],
+        [
+          "Sendgrid",
+          "https://login.sendgrid.com/login/identifier"
+        ],
+        [
+          "Miro",
+          "https://miro.com/app/dashboard"
+        ]
+      ]
+    },
+    {
+      "title": "Tools",
+      "links": [
+        [
+          "DeepL translator",
+          "https://www.deepl.com/en/translator"
+        ],
+        [
+          "Text case converter",
+          "https://ru.texthandler.com/text-tools/letter-case-converter/#google_vignette"
+        ],
+        [
+          "Diffchecker",
+          "https://www.diffchecker.com/"
+        ],
+        [
+          "Time zones",
+          "https://time.is/compare#google_vignette"
+        ],
+        [
+          "Emoji guide",
+          "https://emojiguide.org/ru/"
+        ],
+        [
+          "Email timer",
+          "https://www.sendtric.com/"
+        ],
+        [
+          "Email content formatter",
+          "https://emailcontentformatter.netlify.app/"
+        ]
+      ]
+    },
+    {
+      "title": "Documentation",
+      "links": [
+        [
+          "CRM onboarding",
+          "https://wiki.time2go.tech/display/MAR/Onboarding+CRM+Manager"
+        ],
+        [
+          "Redirect list",
+          "https://docs.google.com/spreadsheets/d/11nhnFhhaqNseh7taiYvx3qMaA0CxqfmUk9m1R-xfMyU/edit?gid=1219342198#gid=1219342198"
+        ],
+        [
+          "Email domains",
+          "https://docs.google.com/spreadsheets/d/1FB2Dv7_xpprk0aP4qULGCI_26i2LtRObBDEJCnhahug/edit?gid=1862323202#gid=1862323202"
+        ],
+        [
+          "Domain reputation",
+          "https://docs.google.com/spreadsheets/d/1VjWmOVuFfms9_EV_jj2jcyG74n93X4RbCa-dZk0eghU/edit?gid=89148775#gid=89148775"
+        ],
+        [
+          "Weekly base coverage",
+          "https://docs.google.com/spreadsheets/d/1RIf59r5BxPe3rvc1boqoZ0lYpuL-3iYgAVdE1LWjOUM/edit?gid=1106208377#gid=1106208377&fvid=2085375064"
+        ],
+        [
+          "Triggers",
+          "https://wiki.time2go.tech/display/MAR/Triggers"
+        ],
+        [
+          "Trigger Chains 2.0 manual",
+          "https://wiki.time2go.tech/display/MDM/Trigger+Chains+2.0+Manual"
+        ],
+        [
+          "CRM estimates",
+          "https://docs.google.com/spreadsheets/d/10efPjULEo2nUqd84Le21ZZ_obAq10EkEWciSRdRx5oU/edit?pli=1&gid=33308057#gid=33308057"
+        ],
+        [
+          "Slots icons and links",
+          "https://docs.google.com/spreadsheets/d/1cQiyjt9qEz9fBF4CPVV4jKhIeKJrZwra6subNJQarXs/edit?gid=0#gid=0"
+        ],
+        [
+          "SMS Policy",
+          "https://docs.google.com/spreadsheets/d/1DNwb32Y-_iUMdsd1YSqwtxCSKUgsSdPRGKJzhWhn63Y/edit?gid=1848747598#gid=1848747598"
+        ],
+        [
+          "Email Policy",
+          "https://docs.google.com/presentation/d/1CVi4qcFqmoA44gf3w7RmPyYjn5ivI5BgntJIRPwR_ys/edit?slide=id.g308021fc98d_0_0#slide=id.g308021fc98d_0_0"
+        ]
+      ]
+    },
+    {
+      "title": "Reports",
+      "links": [
+        [
+          "Email funnel",
+          "https://tableau.time2go.tech/#/views/marketingcommunication_17079475472570/Emailfunnel_1/f041435b-ee2c-4ada-b9db-9caab843fe85/EmailDailyCheck?:iid=1"
+        ],
+        [
+          "SMS funnel",
+          "https://tableau.time2go.tech/#/views/marketingcommunication_17079475472570/Smsfunnel/3ffcf96a-7abf-4e16-b006-a93fb3c5d74d/EmailDailyCheck?:iid=1"
+        ],
+        [
+          "Notification center",
+          "https://tableau.time2go.tech/#/views/notificationcenter/notificationcenterbell?:iid=1"
+        ],
+        [
+          "Push funnel",
+          "https://tableau.time2go.tech/#/views/pushfunnelreport/Push?:iid=1"
+        ],
+        [
+          "Pop-Up report",
+          "https://tableau.time2go.tech/#/views/Pop-upreport/pop-upreport?:iid=2"
+        ],
+        [
+          "WhatsApp funnel",
+          "https://tableau.time2go.tech/#/views/messengerfunnel/Whatsappfunnel?:iid=3"
+        ],
+        [
+          "Trigger funnel",
+          "https://tableau.time2go.tech/#/views/triggerfunnel/Triggerfunnel?:iid=1"
+        ],
+        [
+          "Global communication",
+          "https://tableau.time2go.tech/#/views/globalcommunication/globalcommunication?:iid=1"
+        ]
+      ]
+    }
+  ],
+  "bellImages": [
+    {
+      "id": "technical-works",
+      "label": "Technical works",
+      "png": "qmu/bell-icons/technical-works.png",
+      "webp": "qmu/bell-icons/technical-works.webp",
+      "aliases": [
+        "maintenance",
+        "tech works",
+        "тех работы",
+        "техработы"
+      ],
+      "keywords": [
+        "technical works",
+        "maintenance",
+        "scheduled maintenance",
+        "технические работы",
+        "техработ",
+        "обслуживание"
+      ],
+      "priority": 1
+    },
+    {
+      "id": "error-pay",
+      "label": "Error pay",
+      "png": "qmu/bell-icons/error-pay.png",
+      "webp": "qmu/bell-icons/error-pay.webp",
+      "aliases": [
+        "payment error",
+        "failed pay"
+      ],
+      "keywords": [
+        "payment failed",
+        "deposit failed",
+        "withdrawal failed",
+        "payment error",
+        "ошибка оплаты",
+        "ошибка пополнения",
+        "платеж отклонен"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "success-pay",
+      "label": "Success pay",
+      "png": "qmu/bell-icons/success-pay.png",
+      "webp": "qmu/bell-icons/success-pay.webp",
+      "aliases": [
+        "payment success",
+        "successful pay"
+      ],
+      "keywords": [
+        "payment successful",
+        "deposit successful",
+        "withdrawal successful",
+        "funds credited",
+        "успешное пополнение",
+        "успешная выплата",
+        "средства зачислены"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "no-deposit-bonus",
+      "label": "No deposit bonus",
+      "png": "qmu/bell-icons/no-deposit-bonus.png",
+      "webp": "qmu/bell-icons/no-deposit-bonus.webp",
+      "aliases": [
+        "no_deposit_bonus",
+        "nodeposit",
+        "бездеп"
+      ],
+      "keywords": [
+        "no deposit bonus",
+        "no-deposit bonus",
+        "бездепозит*",
+        "бездеп*"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "cashback",
+      "label": "Cashback",
+      "png": "qmu/bell-icons/cashback.png",
+      "webp": "qmu/bell-icons/cashback.webp",
+      "aliases": [
+        "cash back",
+        "кешбек"
+      ],
+      "keywords": [
+        "cashback",
+        "cash back",
+        "кэшбэк",
+        "кешбэк",
+        "кешбек"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "free-spins",
+      "label": "FS",
+      "png": "qmu/bell-icons/free-spins.png",
+      "webp": "qmu/bell-icons/free-spins.webp",
+      "aliases": [
+        "free spins",
+        "freespins",
+        "фриспины"
+      ],
+      "keywords": [
+        "free spins",
+        "free spin",
+        "freespins",
+        "фриспин*",
+        "fs"
+      ],
+      "priority": 6
+    },
+    {
+      "id": "freebet",
+      "label": "FB",
+      "png": "qmu/bell-icons/freebet.png",
+      "webp": "qmu/bell-icons/freebet.webp",
+      "aliases": [
+        "free bet",
+        "fribet",
+        "фрибет"
+      ],
+      "keywords": [
+        "free bet",
+        "freebet",
+        "fribet",
+        "фрибет*",
+        "fb"
+      ],
+      "priority": 7
+    },
+    {
+      "id": "welcome-back",
+      "label": "Welcome back",
+      "png": "qmu/bell-icons/welcome-back.png",
+      "webp": "qmu/bell-icons/welcome-back.webp",
+      "aliases": [
+        "welcome_back",
+        "comeback"
+      ],
+      "keywords": [
+        "welcome back",
+        "come back",
+        "we miss you",
+        "вернись",
+        "возвращайся",
+        "с возвращением"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "quiz",
+      "label": "Quiz",
+      "png": "qmu/bell-icons/quiz.png",
+      "webp": "qmu/bell-icons/quiz.webp",
+      "aliases": [
+        "квиз",
+        "викторина"
+      ],
+      "keywords": [
+        "quiz",
+        "квиз*",
+        "викторин*",
+        "ответь на вопросы",
+        "вопросы"
+      ],
+      "priority": 9
+    },
+    {
+      "id": "esports",
+      "label": "Esports",
+      "png": "qmu/bell-icons/esports.png",
+      "webp": "qmu/bell-icons/esports.webp",
+      "aliases": [
+        "e-sport",
+        "cybersport",
+        "киберспорт"
+      ],
+      "keywords": [
+        "esports",
+        "e-sport",
+        "cybersport",
+        "киберспорт"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "aviator",
+      "label": "Aviator",
+      "png": "qmu/bell-icons/aviator.png",
+      "webp": "qmu/bell-icons/aviator.webp",
+      "aliases": [
+        "aviator base",
+        "crash"
+      ],
+      "keywords": [
+        "aviator",
+        "авиатор",
+        "crash game"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "aviator-alt",
+      "label": "Aviator-1",
+      "png": "qmu/bell-icons/aviator-alt.png",
+      "webp": "qmu/bell-icons/aviator-alt.webp",
+      "aliases": [
+        "aviator alt",
+        "aviator_1"
+      ],
+      "keywords": [],
+      "priority": 12
+    },
+    {
+      "id": "roulette",
+      "label": "Roulette",
+      "png": "qmu/bell-icons/roulette.png",
+      "webp": "qmu/bell-icons/roulette.webp",
+      "aliases": [
+        "рулетка"
+      ],
+      "keywords": [
+        "roulette",
+        "рулетк"
+      ],
+      "priority": 13
+    },
+    {
+      "id": "jackpot",
+      "label": "Jackpot",
+      "png": "qmu/bell-icons/jackpot.png",
+      "webp": "qmu/bell-icons/jackpot.webp",
+      "aliases": [
+        "джекпот"
+      ],
+      "keywords": [
+        "jackpot",
+        "джекпот"
+      ],
+      "priority": 14
+    },
+    {
+      "id": "tournament",
+      "label": "Tournament",
+      "png": "qmu/bell-icons/tournament.png",
+      "webp": "qmu/bell-icons/tournament.webp",
+      "aliases": [
+        "турнир",
+        "championship"
+      ],
+      "keywords": [
+        "tournament",
+        "leaderboard",
+        "championship",
+        "турнир",
+        "лидерборд",
+        "чемпионат"
+      ],
+      "priority": 15
+    },
+    {
+      "id": "vip",
+      "label": "VIP",
+      "png": "qmu/bell-icons/vip.png",
+      "webp": "qmu/bell-icons/vip.webp",
+      "aliases": [
+        "vip club"
+      ],
+      "keywords": [
+        "vip",
+        "вип"
+      ],
+      "priority": 16
+    },
+    {
+      "id": "security",
+      "label": "Security",
+      "png": "qmu/bell-icons/security.png",
+      "webp": "qmu/bell-icons/security.webp",
+      "aliases": [
+        "verification",
+        "безопасность"
+      ],
+      "keywords": [
+        "security",
+        "verification",
+        "verify account",
+        "password",
+        "безопасност",
+        "верификац",
+        "пароль"
+      ],
+      "priority": 18
+    },
+    {
+      "id": "support",
+      "label": "Support",
+      "png": "qmu/bell-icons/support.png",
+      "webp": "qmu/bell-icons/support.webp",
+      "aliases": [
+        "help",
+        "поддержка"
+      ],
+      "keywords": [
+        "support",
+        "contact us",
+        "help center",
+        "поддержк",
+        "помощь"
+      ],
+      "priority": 19
+    },
+    {
+      "id": "exclusives",
+      "label": "Exclusives",
+      "png": "qmu/bell-icons/exclusives.png",
+      "webp": "qmu/bell-icons/exclusives.webp",
+      "aliases": [
+        "exclusive"
+      ],
+      "keywords": [
+        "exclusive",
+        "only for you",
+        "эксклюзив",
+        "только для тебя"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "recommendation",
+      "label": "Recommendation",
+      "png": "qmu/bell-icons/recommendation.png",
+      "webp": "qmu/bell-icons/recommendation.webp",
+      "aliases": [
+        "recomendation",
+        "recommended"
+      ],
+      "keywords": [
+        "recommendation",
+        "recommended",
+        "we recommend",
+        "рекоменд",
+        "подборка"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "png": "qmu/bell-icons/present.png",
+      "webp": "qmu/bell-icons/present.webp",
+      "aliases": [
+        "gift",
+        "present white",
+        "present(1)"
+      ],
+      "keywords": [
+        "present",
+        "gift",
+        "surprise",
+        "подарок",
+        "сюрприз"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "bonus-ticket",
+      "label": "Bonus ticket",
+      "png": "qmu/bell-icons/bonus-ticket.png",
+      "webp": "qmu/bell-icons/bonus-ticket.webp",
+      "aliases": [
+        "coupon",
+        "promo code",
+        "bonus coupon"
+      ],
+      "keywords": [
+        "promo code",
+        "promocode",
+        "coupon",
+        "промокод",
+        "купон"
+      ],
+      "priority": 23
+    },
+    {
+      "id": "bonus-cash",
+      "label": "Bonus-1",
+      "png": "qmu/bell-icons/bonus-cash.png",
+      "webp": "qmu/bell-icons/bonus-cash.webp",
+      "aliases": [
+        "bonus cash",
+        "money bag",
+        "bonus_1"
+      ],
+      "keywords": [
+        "cash reward",
+        "money prize",
+        "денежный приз",
+        "мешок денег"
+      ],
+      "priority": 24
+    },
+    {
+      "id": "bonus",
+      "label": "Bonus",
+      "png": "qmu/bell-icons/bonus.png",
+      "webp": "qmu/bell-icons/bonus.webp",
+      "aliases": [
+        "bonus white",
+        "reward"
+      ],
+      "keywords": [
+        "bonus",
+        "reload",
+        "reward",
+        "бонус",
+        "награда"
+      ],
+      "priority": 25
+    },
+    {
+      "id": "winner",
+      "label": "Winner",
+      "png": "qmu/bell-icons/winner.png",
+      "webp": "qmu/bell-icons/winner.webp",
+      "aliases": [
+        "победитель"
+      ],
+      "keywords": [
+        "winner",
+        "you won",
+        "victory",
+        "победитель",
+        "победа",
+        "ты выиграл"
+      ],
+      "priority": 26
+    },
+    {
+      "id": "calendar",
+      "label": "Calendar",
+      "png": "qmu/bell-icons/calendar.png",
+      "webp": "qmu/bell-icons/calendar.webp",
+      "aliases": [
+        "date",
+        "schedule"
+      ],
+      "keywords": [
+        "calendar",
+        "schedule",
+        "daily",
+        "календар",
+        "расписание",
+        "каждый день"
+      ],
+      "priority": 27
+    },
+    {
+      "id": "book",
+      "label": "Book",
+      "png": "qmu/bell-icons/book.png",
+      "webp": "qmu/bell-icons/book.webp",
+      "aliases": [
+        "guide",
+        "rules"
+      ],
+      "keywords": [
+        "guide",
+        "rules",
+        "terms",
+        "read more",
+        "инструкция",
+        "правила",
+        "условия",
+        "гайд"
+      ],
+      "priority": 28
+    },
+    {
+      "id": "new",
+      "label": "New",
+      "png": "qmu/bell-icons/new.png",
+      "webp": "qmu/bell-icons/new.webp",
+      "aliases": [
+        "new item",
+        "новинка"
+      ],
+      "keywords": [
+        "new feature",
+        "new game",
+        "what's new",
+        "новинка",
+        "новое"
+      ],
+      "priority": 29
+    },
+    {
+      "id": "info",
+      "label": "Info",
+      "png": "qmu/bell-icons/info.png",
+      "webp": "qmu/bell-icons/info.webp",
+      "aliases": [
+        "information",
+        "news"
+      ],
+      "keywords": [
+        "important information",
+        "information",
+        "announcement",
+        "информация",
+        "важно",
+        "объявление"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "darts",
+      "label": "Darts",
+      "png": "qmu/bell-icons/darts.png",
+      "webp": "qmu/bell-icons/darts.webp",
+      "aliases": [
+        "target",
+        "mission",
+        "goal"
+      ],
+      "keywords": [
+        "target",
+        "mission",
+        "challenge",
+        "goal",
+        "цель",
+        "миссия",
+        "задание",
+        "челлендж"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "bell",
+      "label": "Bell",
+      "png": "qmu/bell-icons/bell.png",
+      "webp": "qmu/bell-icons/bell.webp",
+      "aliases": [
+        "notification",
+        "bell white"
+      ],
+      "keywords": [],
+      "priority": 99
+    }
+  ],
+  "emailCoreLayouts": {
+    "timer_card": "qmu/core-layouts/timer_card.html",
+    "two_cards": "qmu/core-layouts/two_cards.html",
+    "digest": "qmu/core-layouts/digest.html"
   }
 }

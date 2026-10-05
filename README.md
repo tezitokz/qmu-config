@@ -1,8 +1,9 @@
 # QMU Config
 
 Public, versioned data package for Kumo. It contains company profiles, labels,
-logos, avatars, Email card artwork, GEO/language matrices and the slot image
-catalog. It contains no executable code and no private user data.
+logos, avatars, Email card artwork, GEO/language matrices, workflow links and the
+slot image catalog. Optional email layouts are inert HTML data. It contains no
+executable code and no private user drafts or personal settings.
 
 ## Install
 
@@ -18,8 +19,33 @@ when this package is installed, replaced or reset.
 - `qmu/config.json` — versioned configuration and public image references;
 - `qmu/profiles/` — company-specific logos, avatars and bundled card artwork;
 - `qmu/email-games/` — default Email game images;
+- `qmu/bell-icons/` — configurable notification artwork;
+- `qmu/core-layouts/` — company Email reference layouts;
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
+
+## October 6, 2026 — Company workflow data in configuration (v3.0.16)
+
+Company workflow defaults now live in this package rather than in the Kumo core:
+four document/link groups with 33 links, 31 notification-artwork entries with
+their 62 original PNG/WebP files, and three original Email reference layouts.
+The optional top-level fields are `defaultDocuments`, `bellImages` and
+`emailCoreLayouts`. All existing profiles, GEO/language routes, artwork, catalogs,
+regional Spanish mappings and six shared reference templates are preserved.
+
+Use **Kumo 0.22.68 or later** to read these optional fields. Older compatible
+cores ignore them. Configuration format remains **5**; this is a compatible data
+update. Reinstall the latest ZIP through **Kumo Settings → Config → Install
+config** to receive the company defaults. Existing drafts, document edits,
+favorites, notes and personal settings are retained. No company credentials or
+private user content are added to this public package.
+
+Validation: the package retains Store compression, all bundled assets are
+materialized by the Kumo validator, and original artwork/layout bytes are checked
+against their source. Installation replaces only the configuration-owned record.
+An isolated unpacked MV3 browser verifies installation and reinstallation,
+preservation of existing user records, and configured Workspace/project defaults.
+Authenticated company sites and email-client delivery are outside this check.
 
 ## October 5, 2026 — LATAM BO regional Spanish (v3.0.15)
 
