@@ -160,9 +160,10 @@
       "languages": [
         "ru",
         "kz",
+        "en",
         "mailru"
       ],
-      "description": "RU and KZ can be prepared together. mail.ru is a standalone email version.",
+      "description": "Russian, Kazakh and optional English email versions. mail.ru is a standalone email version.",
       "features": {
         "exclusiveLanguages": [
           "mailru"
@@ -778,6 +779,16 @@
                 "KZ"
               ],
               "currencies": [
+                "KZT"
+              ]
+            },
+            "en": {
+              "regions": [
+                "RU",
+                "KZ"
+              ],
+              "currencies": [
+                "RUB",
                 "KZT"
               ]
             }

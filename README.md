@@ -24,6 +24,28 @@ when this package is installed, replaced or reset.
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
 
+## October 8, 2026 — Optional PINCO English (v3.0.17)
+
+The ordinary PINCO RU/KZ email pack now offers RU, KZ, optional EN, then the
+standalone mail.ru version. EN uses the existing RU/KZ country and RUB/KZT
+currency catalogs. mail.ru remains exclusive; all other profiles, footers,
+artwork, layouts and original asset bytes are preserved.
+
+Configuration format remains **5**. This is a compatible data update; older
+compatible cores can read the added language. Use **Kumo 0.22.84 or later** for
+Mail.ru-owned automatic dates and the independent English Pacific date values.
+Reinstall the latest ZIP through **Kumo Settings → Config → Install config**.
+User settings, tasks, drafts, notes, saved email projects and BO recovery buffers
+are retained.
+
+Validation: the supported validator materializes all 131 Store-compressed entries;
+only qmu/config.json differs from v3.0.16. An isolated MV3 verifies installation
+and reinstallation with user-data preservation. Workspace builds RU/KZ/EN from
+this actual ZIP and checks mail.ru exclusivity. Isolated BO checks Mail.ru and
+RU/KZ/EN date ownership, Pacific daylight/standard time, native GEO imports,
+Undo/Redo and recovery. Campaign Save/Schedule counters remain zero. Production
+BO and delivery through email clients are outside these checks.
+
 ## October 6, 2026 — Company workflow data in configuration (v3.0.16)
 
 Company workflow defaults now live in this package rather than in the Kumo core:
