@@ -24,6 +24,29 @@ when this package is installed, replaced or reset.
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
 
+## October 8, 2026 — PINCO Send Test variants (v3.0.18)
+
+Adds a separate Send Test matrix for RU/KZ, AZ/TR, TUK and Canada. Ordinary
+RU/KZ tests are RU/RU, KZ/RU and KZ/KK. An optional Poker group adds RU/EN
+and KZ/EN. AZ also supports TR, while TR uses TR; TUK uses native UZ, KY,
+TG and RU codes. Canada uses EN, EN-CA and FR-CA. Each country keeps its
+own currency. Only language versions present in the selected BO email are
+shown. Email names select their own GEO before a shared campaign's countries.
+
+Use **Kumo 0.22.87 or later** for the new Send Test controls. Configuration
+format remains **5**; older compatible cores ignore the optional field. This
+matrix is independent from editor language/import catalogs. Existing profiles,
+artwork, layouts, assets and user settings/recovery data are preserved.
+Reinstall the latest ZIP through **Kumo Settings → Config → Install config**.
+
+Validation: the supported validator and an isolated unpacked MV3 installer
+read all 131 Store-compressed entries and preserve user-owned state on install
+and reinstall. Only qmu/config.json differs inside the ZIP. Real PINCO BO menus
+were read to confirm EN/KK/RU, AZ/EN/RU/TR, KY/RU/TG/UZ and EN/EN-CA/FR-CA.
+Isolated Send Test checks cover clicks, keyboard toggles, native language
+filtering, optional English, partial failures/retries and exact mocked gRPC
+requests. No production test email was sent; email-client delivery is unverified.
+
 ## October 8, 2026 — Optional PINCO English (v3.0.17)
 
 The ordinary PINCO RU/KZ email pack now offers RU, KZ, optional EN, then the

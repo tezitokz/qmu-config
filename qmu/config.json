@@ -1002,6 +1002,149 @@
           "actionKey": "openInternalLink",
           "path": "/mobile"
         }
+      },
+      "boEmailTestVariants": {
+        "variants": [
+          {
+            "geo": "RU",
+            "language": "RU",
+            "currency": "RUB"
+          },
+          {
+            "geo": "KZ",
+            "language": "RU",
+            "currency": "KZT"
+          },
+          {
+            "geo": "KZ",
+            "language": "KK",
+            "currency": "KZT"
+          },
+          {
+            "geo": "AZ",
+            "language": "AZ",
+            "currency": "AZN"
+          },
+          {
+            "geo": "AZ",
+            "language": "TR",
+            "currency": "AZN"
+          },
+          {
+            "geo": "AZ",
+            "language": "RU",
+            "currency": "AZN"
+          },
+          {
+            "geo": "AZ",
+            "language": "EN",
+            "currency": "AZN"
+          },
+          {
+            "geo": "TR",
+            "language": "TR",
+            "currency": "TRY"
+          },
+          {
+            "geo": "UZ",
+            "language": "UZ",
+            "currency": "UZS"
+          },
+          {
+            "geo": "UZ",
+            "language": "RU",
+            "currency": "UZS"
+          },
+          {
+            "geo": "KG",
+            "language": "KY",
+            "currency": "KGS"
+          },
+          {
+            "geo": "KG",
+            "language": "RU",
+            "currency": "KGS"
+          },
+          {
+            "geo": "TJ",
+            "language": "TG",
+            "currency": "TJS"
+          },
+          {
+            "geo": "TJ",
+            "language": "RU",
+            "currency": "TJS"
+          },
+          {
+            "geo": "CA",
+            "language": "EN",
+            "currency": "CAD"
+          },
+          {
+            "geo": "CA",
+            "language": "EN-CA",
+            "currency": "CAD"
+          },
+          {
+            "geo": "CA",
+            "language": "FR-CA",
+            "currency": "CAD"
+          }
+        ],
+        "optional": {
+          "label": "Poker",
+          "variants": [
+            {
+              "geo": "RU",
+              "language": "EN",
+              "currency": "RUB"
+            },
+            {
+              "geo": "KZ",
+              "language": "EN",
+              "currency": "KZT"
+            }
+          ]
+        },
+        "aliases": {
+          "RUKZ": [
+            "RU",
+            "KZ"
+          ],
+          "KZRU": [
+            "RU",
+            "KZ"
+          ],
+          "TRAZ": [
+            "AZ",
+            "TR"
+          ],
+          "AZTR": [
+            "AZ",
+            "TR"
+          ],
+          "TUK": [
+            "UZ",
+            "KG",
+            "TJ"
+          ],
+          "RUK": [
+            "UZ",
+            "KG",
+            "TJ"
+          ],
+          "ONT": [
+            "CA"
+          ],
+          "PINCOFLASHTRAZ": [
+            "AZ",
+            "TR"
+          ],
+          "PINCOOTRAZ": [
+            "AZ",
+            "TR"
+          ]
+        }
       }
     },
     {
