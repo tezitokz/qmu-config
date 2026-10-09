@@ -64,7 +64,7 @@
   "emailGeoProfiles": [
     {
       "id": "kz-uz",
-      "label": "KZ / UZ",
+      "label": "KZ / UZ / KG / TJ",
       "eyebrow": "CENTRAL ASIA",
       "enabled": true,
       "projectIds": [
@@ -74,9 +74,11 @@
       "languages": [
         "ru",
         "kz",
-        "uz"
+        "uz",
+        "kg",
+        "tj"
       ],
-      "description": "Russian, Kazakh and Uzbek email versions."
+      "description": "Russian, Kazakh, Uzbek, Kyrgyz and Tajik email versions."
     },
     {
       "id": "az",
@@ -549,17 +551,57 @@
         "kz-uz": {
           "regions": {
             "KZ": "Kazakhstan",
-            "UZ": "Uzbekistan"
+            "UZ": "Uzbekistan",
+            "KG": "Kyrgyzstan",
+            "TJ": "Tajikistan"
           },
           "currencies": {
             "KZT": "Tenge",
-            "UZS": "Uzbekistan Sum"
+            "UZS": "Uzbekistan Sum",
+            "KGS": "Som",
+            "TJS": "Somoni"
+          },
+          "currencyFormats": {
+            "KGS": {
+              "unit": "⊆",
+              "position": "suffix"
+            },
+            "TJS": {
+              "unit": "SM",
+              "position": "suffix"
+            }
+          },
+          "languageCopies": {
+            "kg": [
+              "ky"
+            ],
+            "tj": [
+              "tg"
+            ]
           }
         }
       },
       "boEmailOrigins": [
         "https://bo.tech-pu.com"
-      ]
+      ],
+      "emailFooterCopy": {
+        "kg": {
+          "social": "Биз социалдык тармактардабыз",
+          "apps": "Биздин колдонмолор",
+          "addr": "Сен бул катты алдың, анткени сен {{company}} клубунун катталган кардарысың.",
+          "unsubLead": "Эгер сен маалымат жиберүүгө жазылууну токтоткуң келсе, сураныч, өт",
+          "unsubLink": "шилтемеге.",
+          "support": "Суроолор калдыбы? Колдоо кызматынын онлайн-чаты 24/7 сайтта жеткиликтүү."
+        },
+        "tj": {
+          "social": "Мо дар шабакаҳои иҷтимоӣ",
+          "apps": "Барномаҳои мо",
+          "addr": "Шумо ин мактубро ҳамчун мизоҷи сабтиномшудаи клуби {{company}} гирифтед.",
+          "unsubLead": "Агар хоҳед, ки аз ин хабарнома даст кашед, лутфан ба ин",
+          "unsubLink": "ҷо гузаред.",
+          "support": "Савол доред? Онлайн-мусоҳибаи хадамоти дастгирӣ дар сомона 24/7 дастрас аст."
+        }
+      }
     },
     {
       "id": "company-2",

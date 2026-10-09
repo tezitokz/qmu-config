@@ -24,6 +24,31 @@ when this package is installed, replaced or reset.
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
 
+## October 9, 2026 — PIN-UP Kyrgyzstan and Tajikistan (v3.0.19)
+
+The Central Asia Email pack now offers **RU, KZ, UZ, KG, TJ** in that order.
+KG uses BO language **KY** and currency **KGS / Som / ⊆**; TJ uses **TG** and
+**TJS / Somoni / SM**. The PIN-UP variable catalog includes Kazakhstan,
+Uzbekistan, Kyrgyzstan and Tajikistan and all four currencies. Kyrgyz and Tajik
+footer copy keeps PIN-UP branding and the existing unsubscribe/link structure.
+PINCO language catalogs, Send Test matrices, artwork, layouts and all other
+package data remain unchanged.
+
+Use **Kumo 0.22.103 or later** for KG/TJ task parsing, Pop-up/NC currency fields
+and bidirectional main BO editor language synchronization. Configuration format
+remains **5**. Reinstall this ZIP through **Kumo Settings → Config → Install
+config**; user-owned settings, tasks, drafts, notes, saved projects and recovery
+buffers are retained.
+
+Validation: supported package validation and an isolated unpacked MV3 installer
+read all 131 Store-compressed entries, including install/reinstall preservation.
+Only qmu/config.json differs inside the ZIP. Isolated editor checks cover five
+independent language versions, native KY/TG, shared KGS/TJS amounts, GEO fields,
+all-language BO Update, Workspace editing, source import and native variable
+drawers. The authenticated PIN-UP language menu was read to confirm KY/TG.
+No production campaign was changed or scheduled; email-client delivery is
+unverified.
+
 ## October 8, 2026 — PINCO Send Test variants (v3.0.18)
 
 Adds a separate Send Test matrix for RU/KZ, AZ/TR, TUK and Canada. Ordinary
