@@ -11,7 +11,7 @@ executable code and no private user drafts or personal settings.
 2. Open Kumo Settings.
 3. Choose **Install config** and select the downloaded ZIP.
 
-The current package version is **5**. Kumo keeps drafts and personal settings
+The current package version is **6**. Kumo keeps drafts and personal settings
 when this package is installed, replaced or reset.
 
 ## Package layout
@@ -23,6 +23,25 @@ when this package is installed, replaced or reset.
 - `qmu/core-layouts/` — company Email reference layouts;
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
+
+## October 9, 2026 — Required configuration format 6 (v3.0.20)
+
+By explicit owner request, configVersion advances from **5 to 6** together with
+Kumo's required version. Use **Kumo 0.22.104 or later**. The data schema and every
+profile, language, currency, asset, layout and PINCO test matrix from v3.0.19
+are preserved; only the version integer changes inside the ZIP.
+
+Kumo now reminds operators in Jira, BO and Workspace to update an incompatible
+configuration after a core update. The action opens Settings → Config; Later
+keeps a compact menu entry on the work page. Installing the required ZIP clears
+the reminder across open surfaces. Previous configuration and user work are
+retained until replacement; installing replaces only configuration-owned state.
+
+Reinstall the ZIP through **Kumo Settings → Config → Install config** after
+loading core 0.22.104. Earlier cores requiring format 5 reject this package.
+Validation: supported validator, 131 stored ZIP entries, actual isolated MV3
+install/reinstall and 5→6 reminder checks with user-data preservation. No
+production campaign or Chrome Web Store rollout was exercised.
 
 ## October 9, 2026 — PIN-UP Kyrgyzstan and Tajikistan (v3.0.19)
 
