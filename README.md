@@ -24,6 +24,23 @@ when this package is installed, replaced or reset.
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
 
+## October 12, 2026 — Selected-language variable scopes (v3.0.21)
+
+BO currency and GEO rules now follow the selected COM translations. Central Asia
+keeps KZT for Kazakh, UZS for Uzbek, KGS for Kyrgyz and TJS for Tajik; ordinary
+Russian copy does not add an extra country. Africa keeps only the countries of
+its selected English, French and Swahili versions. Regional BO documents such
+as ES-MX and EN-KE have explicit country scopes. Existing PINCO RU-only and
+Mail.ru rules remain unchanged.
+
+Use Kumo 0.23.18 or later for regional-document scopes. Configuration format
+remains **6**; this compatible data update introduces an optional inert catalog
+field. Earlier format-6 cores can install the package and ignore that field.
+Reinstall the latest ZIP through Kumo Settings. Stored amounts for languages
+that are temporarily unselected remain in local drafts and are omitted from
+export/import. All artwork, layouts, other profiles and default values are
+preserved; no credentials or executable code are included.
+
 ## October 9, 2026 — Required configuration format 6 (v3.0.20)
 
 By explicit owner request, configVersion advances from **5 to 6** together with

@@ -512,6 +512,106 @@
               "es-hn",
               "es-ni"
             ]
+          },
+          "languageSelection": {
+            "es": {
+              "regions": [
+                "CL",
+                "MX",
+                "EC",
+                "BO",
+                "GT",
+                "HN",
+                "NI"
+              ],
+              "currencies": [
+                "CLP",
+                "MXN",
+                "USD",
+                "BOB",
+                "GTQ",
+                "HNL",
+                "NIO"
+              ]
+            },
+            "en": {
+              "regions": [
+                "CL",
+                "MX",
+                "EC",
+                "BO",
+                "GT",
+                "HN",
+                "NI"
+              ],
+              "currencies": [
+                "CLP",
+                "MXN",
+                "USD",
+                "BOB",
+                "GTQ",
+                "HNL",
+                "NIO"
+              ]
+            }
+          },
+          "regionalSelection": {
+            "es-cl": {
+              "regions": [
+                "CL"
+              ],
+              "currencies": [
+                "CLP"
+              ]
+            },
+            "es-mx": {
+              "regions": [
+                "MX"
+              ],
+              "currencies": [
+                "MXN"
+              ]
+            },
+            "es-ec": {
+              "regions": [
+                "EC"
+              ],
+              "currencies": [
+                "USD"
+              ]
+            },
+            "es-bo": {
+              "regions": [
+                "BO"
+              ],
+              "currencies": [
+                "BOB"
+              ]
+            },
+            "es-gt": {
+              "regions": [
+                "GT"
+              ],
+              "currencies": [
+                "GTQ"
+              ]
+            },
+            "es-hn": {
+              "regions": [
+                "HN"
+              ],
+              "currencies": [
+                "HNL"
+              ]
+            },
+            "es-ni": {
+              "regions": [
+                "NI"
+              ],
+              "currencies": [
+                "NIO"
+              ]
+            }
           }
         },
         "az": {
@@ -520,6 +620,32 @@
           },
           "currencies": {
             "AZN": "Azerbaijanian Manat"
+          },
+          "languageSelection": {
+            "ru": {
+              "regions": [
+                "AZ"
+              ],
+              "currencies": [
+                "AZN"
+              ]
+            },
+            "az": {
+              "regions": [
+                "AZ"
+              ],
+              "currencies": [
+                "AZN"
+              ]
+            },
+            "en": {
+              "regions": [
+                "AZ"
+              ],
+              "currencies": [
+                "AZN"
+              ]
+            }
           }
         },
         "africa": {
@@ -546,6 +672,66 @@
             "sw": [
               "sw"
             ]
+          },
+          "languageSelection": {
+            "en": {
+              "regions": [
+                "NG",
+                "KE"
+              ],
+              "currencies": [
+                "NGN",
+                "KES",
+                "USD"
+              ]
+            },
+            "fr": {
+              "regions": [
+                "CD"
+              ],
+              "currencies": [
+                "CDF",
+                "USD"
+              ]
+            },
+            "sw": {
+              "regions": [
+                "KE"
+              ],
+              "currencies": [
+                "KES",
+                "USD"
+              ]
+            }
+          },
+          "regionalSelection": {
+            "en-ke": {
+              "regions": [
+                "KE"
+              ],
+              "currencies": [
+                "KES",
+                "USD"
+              ]
+            },
+            "en-ng": {
+              "regions": [
+                "NG"
+              ],
+              "currencies": [
+                "NGN",
+                "USD"
+              ]
+            },
+            "fr-cd": {
+              "regions": [
+                "CD"
+              ],
+              "currencies": [
+                "CDF",
+                "USD"
+              ]
+            }
           }
         },
         "kz-uz": {
@@ -578,6 +764,44 @@
             "tj": [
               "tg"
             ]
+          },
+          "languageSelection": {
+            "ru": {
+              "regions": [],
+              "currencies": []
+            },
+            "kk": {
+              "regions": [
+                "KZ"
+              ],
+              "currencies": [
+                "KZT"
+              ]
+            },
+            "uz": {
+              "regions": [
+                "UZ"
+              ],
+              "currencies": [
+                "UZS"
+              ]
+            },
+            "kg": {
+              "regions": [
+                "KG"
+              ],
+              "currencies": [
+                "KGS"
+              ]
+            },
+            "tj": {
+              "regions": [
+                "TJ"
+              ],
+              "currencies": [
+                "TJS"
+              ]
+            }
           }
         }
       },
