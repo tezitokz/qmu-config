@@ -11,7 +11,7 @@ executable code and no private user drafts or personal settings.
 2. Open Kumo Settings.
 3. Choose **Install config** and select the downloaded ZIP.
 
-The current package version is **6**. Kumo keeps drafts and personal settings
+The current package version is **7**. Kumo keeps drafts and personal settings
 when this package is installed, replaced or reset.
 
 ## Package layout
@@ -23,6 +23,21 @@ when this package is installed, replaced or reset.
 - `qmu/core-layouts/` — company Email reference layouts;
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
+
+## October 13, 2026 — Required configuration format 7 (v3.0.22)
+
+The package now declares configuration format **7**, matching **Kumo 0.23.20**.
+Only the version integer changes inside the ZIP. Every profile, language,
+currency, asset, layout and other configuration value from v3.0.21 is preserved.
+
+Download the latest ZIP and reinstall it through **Kumo Settings → Config →
+Install config**. Installation retains settings, drafts, notes, saved projects
+and BO working buffers. Older Kumo builds requiring format 6 reject this package.
+
+Validation: all 131 ZIP entries checked; only qmu/config.json differs from the
+previous release. The supported validator and an isolated MV3 installation check
+verify format-7 compatibility, dismissal of the update request and preservation
+of user work. No production campaign or Chrome Web Store rollout is exercised.
 
 ## October 12, 2026 — Selected-language variable scopes (v3.0.21)
 
