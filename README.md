@@ -24,6 +24,27 @@ when this package is installed, replaced or reset.
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
 
+## October 13, 2026 — PIN-UP AZ CTA weight (v3.0.23)
+
+The PIN-UP AZ profile now declares `features.ctaWeight: 400`: new administration
+Email buttons use Regular in RU, AZ and EN. Other profiles retain the core's
+Medium (500) default. Kumo **0.23.26** reads this optional setting and fixes the
+Weight control so an explicit change follows Sync all into every prepared
+language and exported HTML. Existing authored emails retain their chosen styling.
+
+This is a compatible data update; configuration format remains **7**. Every
+other configuration value and all 130 other ZIP entries are preserved.
+Reinstall the latest ZIP through **Kumo Settings → Config → Install config**,
+then reload the updated local extension and BO page. Installation and
+reinstallation preserve user settings, drafts, notes, saved projects and BO
+buffers. Older compatible cores ignore this optional default.
+
+Validation: supported package parsing/materialization, exact archive comparison,
+Kumo Node regressions and isolated MV3 installation/reinstallation and BO builds
+for standard and AZ profiles, with exact synthetic source, rendered font weights,
+all-language synchronization and exported HTML. Authenticated production BO and
+email-client delivery are outside these checks.
+
 ## October 13, 2026 — Required configuration format 7 (v3.0.22)
 
 The package now declares configuration format **7**, matching **Kumo 0.23.20**.

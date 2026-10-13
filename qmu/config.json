@@ -97,7 +97,8 @@
       "description": "Russian, Azerbaijani and optional English email versions.",
       "features": {
         "cryptoBanner": true,
-        "cryptoRequired": true
+        "cryptoRequired": true,
+        "ctaWeight": 400
       }
     },
     {
