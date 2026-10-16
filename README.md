@@ -24,6 +24,28 @@ when this package is installed, replaced or reset.
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
 
+## October 16, 2026 — PIN-UP Send Test GEO groups (v3.0.24)
+
+PIN-UP now configures optional Send Test groups for KG/TJ, Africa (NG/KE/CD),
+LATAM (CL/MX/EC/BO/GT/HN/NI) and IN/BD. Each test keeps its country, exact
+authored language and matching currency. Africa includes local-currency and
+USD variants. Regional Spanish/English/French codes stay separate; variants
+absent from the actual BO email are never added to the send plan.
+
+Use **Kumo 0.23.57 or later** for the additional groups. The original seven
+KZ/UZ/AZ variants remain in the base matrix so earlier compatible cores can
+install this package and retain their existing Send Test scope. Format remains
+**7**. PINCO, ZAZINO, artwork, templates and all other configuration values
+are unchanged. Reinstall the latest ZIP through Kumo Settings, then reload BO.
+Personal settings, tasks, notes, projects and editor recovery are preserved.
+
+Validation covers package parsing/materialization, original non-config ZIP
+entry bytes, compatibility with the previous core parser, isolated MV3
+installation/reinstallation, old and new BO dialog components, explicit
+country scopes, exact native-language filtering, mocked request bytes,
+failure/retry and responsive long lists. Production catalogs were inspected
+without sending mail; delivery and recipient rendering are outside this check.
+
 ## October 13, 2026 — PIN-UP AZ CTA weight (v3.0.23)
 
 The PIN-UP AZ profile now declares `features.ctaWeight: 400`: new administration

@@ -826,6 +826,331 @@
           "unsubLink": "ҷо гузаред.",
           "support": "Савол доред? Онлайн-мусоҳибаи хадамоти дастгирӣ дар сомона 24/7 дастрас аст."
         }
+      },
+      "boEmailTestVariants": {
+        "variants": [
+          {
+            "geo": "KZ",
+            "language": "RU",
+            "currency": "KZT"
+          },
+          {
+            "geo": "KZ",
+            "language": "KK",
+            "currency": "KZT"
+          },
+          {
+            "geo": "UZ",
+            "language": "RU",
+            "currency": "UZS"
+          },
+          {
+            "geo": "UZ",
+            "language": "UZ",
+            "currency": "UZS"
+          },
+          {
+            "geo": "AZ",
+            "language": "RU",
+            "currency": "AZN"
+          },
+          {
+            "geo": "AZ",
+            "language": "AZ",
+            "currency": "AZN"
+          },
+          {
+            "geo": "AZ",
+            "language": "EN",
+            "currency": "AZN"
+          }
+        ],
+        "aliases": {
+          "KZUZ": [
+            "KZ",
+            "UZ"
+          ],
+          "UZKZ": [
+            "KZ",
+            "UZ"
+          ]
+        },
+        "groups": [
+          {
+            "variants": [
+              {
+                "geo": "KG",
+                "language": "RU",
+                "currency": "KGS"
+              },
+              {
+                "geo": "KG",
+                "language": "KY",
+                "currency": "KGS"
+              },
+              {
+                "geo": "TJ",
+                "language": "RU",
+                "currency": "TJS"
+              },
+              {
+                "geo": "TJ",
+                "language": "TG",
+                "currency": "TJS"
+              }
+            ],
+            "aliases": {
+              "KGTJ": [
+                "KG",
+                "TJ"
+              ],
+              "TJKG": [
+                "KG",
+                "TJ"
+              ]
+            }
+          },
+          {
+            "variants": [
+              {
+                "geo": "NG",
+                "language": "EN",
+                "currency": "NGN"
+              },
+              {
+                "geo": "NG",
+                "language": "EN",
+                "currency": "USD"
+              },
+              {
+                "geo": "NG",
+                "language": "EN-NG",
+                "currency": "NGN"
+              },
+              {
+                "geo": "NG",
+                "language": "EN-NG",
+                "currency": "USD"
+              },
+              {
+                "geo": "KE",
+                "language": "EN",
+                "currency": "KES"
+              },
+              {
+                "geo": "KE",
+                "language": "EN",
+                "currency": "USD"
+              },
+              {
+                "geo": "KE",
+                "language": "EN-KE",
+                "currency": "KES"
+              },
+              {
+                "geo": "KE",
+                "language": "EN-KE",
+                "currency": "USD"
+              },
+              {
+                "geo": "KE",
+                "language": "SW",
+                "currency": "KES"
+              },
+              {
+                "geo": "KE",
+                "language": "SW",
+                "currency": "USD"
+              },
+              {
+                "geo": "CD",
+                "language": "FR",
+                "currency": "CDF"
+              },
+              {
+                "geo": "CD",
+                "language": "FR",
+                "currency": "USD"
+              },
+              {
+                "geo": "CD",
+                "language": "FR-CD",
+                "currency": "CDF"
+              },
+              {
+                "geo": "CD",
+                "language": "FR-CD",
+                "currency": "USD"
+              }
+            ],
+            "aliases": {
+              "AFRICA": [
+                "NG",
+                "KE",
+                "CD"
+              ],
+              "AFR": [
+                "NG",
+                "KE",
+                "CD"
+              ]
+            }
+          },
+          {
+            "variants": [
+              {
+                "geo": "CL",
+                "language": "ES",
+                "currency": "CLP"
+              },
+              {
+                "geo": "CL",
+                "language": "ES-CL",
+                "currency": "CLP"
+              },
+              {
+                "geo": "CL",
+                "language": "EN",
+                "currency": "CLP"
+              },
+              {
+                "geo": "MX",
+                "language": "ES",
+                "currency": "MXN"
+              },
+              {
+                "geo": "MX",
+                "language": "ES-MX",
+                "currency": "MXN"
+              },
+              {
+                "geo": "MX",
+                "language": "EN",
+                "currency": "MXN"
+              },
+              {
+                "geo": "EC",
+                "language": "ES",
+                "currency": "USD"
+              },
+              {
+                "geo": "EC",
+                "language": "ES-EC",
+                "currency": "USD"
+              },
+              {
+                "geo": "EC",
+                "language": "EN",
+                "currency": "USD"
+              },
+              {
+                "geo": "BO",
+                "language": "ES",
+                "currency": "BOB"
+              },
+              {
+                "geo": "BO",
+                "language": "ES-BO",
+                "currency": "BOB"
+              },
+              {
+                "geo": "BO",
+                "language": "EN",
+                "currency": "BOB"
+              },
+              {
+                "geo": "GT",
+                "language": "ES",
+                "currency": "GTQ"
+              },
+              {
+                "geo": "GT",
+                "language": "ES-GT",
+                "currency": "GTQ"
+              },
+              {
+                "geo": "GT",
+                "language": "EN",
+                "currency": "GTQ"
+              },
+              {
+                "geo": "HN",
+                "language": "ES",
+                "currency": "HNL"
+              },
+              {
+                "geo": "HN",
+                "language": "ES-HN",
+                "currency": "HNL"
+              },
+              {
+                "geo": "HN",
+                "language": "EN",
+                "currency": "HNL"
+              },
+              {
+                "geo": "NI",
+                "language": "ES",
+                "currency": "NIO"
+              },
+              {
+                "geo": "NI",
+                "language": "ES-NI",
+                "currency": "NIO"
+              },
+              {
+                "geo": "NI",
+                "language": "EN",
+                "currency": "NIO"
+              }
+            ],
+            "aliases": {
+              "LATAM": [
+                "CL",
+                "MX",
+                "EC",
+                "BO",
+                "GT",
+                "HN",
+                "NI"
+              ]
+            }
+          },
+          {
+            "variants": [
+              {
+                "geo": "IN",
+                "language": "EN",
+                "currency": "INR"
+              },
+              {
+                "geo": "IN",
+                "language": "HI",
+                "currency": "INR"
+              },
+              {
+                "geo": "BD",
+                "language": "EN",
+                "currency": "BDT"
+              },
+              {
+                "geo": "BD",
+                "language": "BN",
+                "currency": "BDT"
+              }
+            ],
+            "aliases": {
+              "INBD": [
+                "IN",
+                "BD"
+              ],
+              "BDIN": [
+                "IN",
+                "BD"
+              ]
+            }
+          }
+        ]
       }
     },
     {
