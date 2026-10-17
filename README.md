@@ -11,7 +11,7 @@ executable code and no private user drafts or personal settings.
 2. Open Kumo Settings.
 3. Choose **Install config** and select the downloaded ZIP.
 
-The current package version is **7**. Kumo keeps drafts and personal settings
+The current package version is **8**. Kumo keeps drafts and personal settings
 when this package is installed, replaced or reset.
 
 ## Package layout
@@ -23,6 +23,16 @@ when this package is installed, replaced or reset.
 - `qmu/core-layouts/` — company Email reference layouts;
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
+
+## October 17, 2026 — Configuration 8 (v3.0.25)
+
+Kumo 0.23.64 requires configuration version 8 at the owner's request. This
+release increments the required package version; the existing profiles,
+catalogs, templates, artwork and defaults are unchanged.
+
+Update Kumo first, then download the latest ZIP and reinstall it through
+**Kumo Settings → Config → Install config**. Installation replaces configuration
+only and preserves personal settings, tasks, drafts, notes and saved emails.
 
 ## October 16, 2026 — PIN-UP Send Test GEO groups (v3.0.24)
 
