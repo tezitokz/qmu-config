@@ -24,6 +24,19 @@ when this package is installed, replaced or reset.
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
 
+## October 24, 2026 — PIN-UP Toast artwork (v3.0.26)
+
+The PIN-UP profile adds 32 Toast image pairs with English names and searchable
+Russian aliases: 15 supplied Extra artworks at their original 176 × 176 size
+and 17 standard artworks resized from 120 × 120 to 176 × 176. PNG/WebP files
+retain transparency. Resizing preserves the original design without generating
+new detail. Other profiles and the Bell collection are unchanged.
+
+This compatible optional data update keeps configuration format **8**.
+The Toast picker requires Kumo **0.23.162** or later; installing configuration
+does not update extension code. Download the latest ZIP and reinstall it in
+**Settings → Config**. User drafts and preferences are preserved.
+
 ## October 17, 2026 — Configuration 8 (v3.0.25)
 
 Kumo 0.23.64 requires configuration version 8 at the owner's request. This

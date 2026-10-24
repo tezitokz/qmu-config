@@ -1151,7 +1151,535 @@
             }
           }
         ]
-      }
+      },
+      "toastImages": [
+        {
+          "id": "toast-esports",
+          "label": "Esports",
+          "png": "qmu/profiles/company-1/toast-images/toast-esports.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-esports.webp",
+          "aliases": [
+            "Esports",
+            "киберспорт",
+            "спорт",
+            "gaming",
+            "gamepad"
+          ],
+          "keywords": [
+            "киберспорт",
+            "спорт",
+            "gaming",
+            "gamepad"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-aviator",
+          "label": "Aviator",
+          "png": "qmu/profiles/company-1/toast-images/toast-aviator.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-aviator.webp",
+          "aliases": [
+            "Aviator",
+            "авиатор",
+            "самолет",
+            "plane"
+          ],
+          "keywords": [
+            "авиатор",
+            "самолет",
+            "plane"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-free-spins",
+          "label": "Free spins",
+          "png": "qmu/profiles/company-1/toast-images/toast-free-spins.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-free-spins.webp",
+          "aliases": [
+            "FS",
+            "FS",
+            "фриспины",
+            "спины"
+          ],
+          "keywords": [
+            "FS",
+            "фриспины",
+            "спины"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-free-bet",
+          "label": "Free bet",
+          "png": "qmu/profiles/company-1/toast-images/toast-free-bet.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-free-bet.webp",
+          "aliases": [
+            "FB",
+            "FB",
+            "фрибет",
+            "ставки"
+          ],
+          "keywords": [
+            "FB",
+            "фрибет",
+            "ставки"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-vip",
+          "label": "VIP",
+          "png": "qmu/profiles/company-1/toast-images/toast-vip.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-vip.webp",
+          "aliases": [
+            "VIP",
+            "вип",
+            "премиум"
+          ],
+          "keywords": [
+            "вип",
+            "премиум"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-quiz",
+          "label": "Quiz",
+          "png": "qmu/profiles/company-1/toast-images/toast-quiz.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-quiz.webp",
+          "aliases": [
+            "Quiz",
+            "квиз",
+            "викторина",
+            "опрос"
+          ],
+          "keywords": [
+            "квиз",
+            "викторина",
+            "опрос"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-cashback",
+          "label": "Cashback",
+          "png": "qmu/profiles/company-1/toast-images/toast-cashback.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-cashback.webp",
+          "aliases": [
+            "Cashback",
+            "кешбэк",
+            "кэшбек",
+            "возврат"
+          ],
+          "keywords": [
+            "кешбэк",
+            "кэшбек",
+            "возврат"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-calendar",
+          "label": "Calendar",
+          "png": "qmu/profiles/company-1/toast-images/toast-calendar.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-calendar.webp",
+          "aliases": [
+            "Calendar",
+            "календарь",
+            "дата"
+          ],
+          "keywords": [
+            "календарь",
+            "дата"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-bonus-bag",
+          "label": "Bonus bag",
+          "png": "qmu/profiles/company-1/toast-images/toast-bonus-bag.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-bonus-bag.webp",
+          "aliases": [
+            "Bonus",
+            "бонус",
+            "мешок",
+            "money"
+          ],
+          "keywords": [
+            "бонус",
+            "мешок",
+            "money"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-bonus-tickets",
+          "label": "Bonus tickets",
+          "png": "qmu/profiles/company-1/toast-images/toast-bonus-tickets.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-bonus-tickets.webp",
+          "aliases": [
+            "Bonus-1",
+            "бонус",
+            "билеты",
+            "ваучеры"
+          ],
+          "keywords": [
+            "бонус",
+            "билеты",
+            "ваучеры"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-no-deposit",
+          "label": "No deposit",
+          "png": "qmu/profiles/company-1/toast-images/toast-no-deposit.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-no-deposit.webp",
+          "aliases": [
+            "No_deposit_bonus",
+            "бездепозитный бонус",
+            "no deposit bonus"
+          ],
+          "keywords": [
+            "бездепозитный бонус",
+            "no deposit bonus"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-gift-box",
+          "label": "Gift box",
+          "png": "qmu/profiles/company-1/toast-images/toast-gift-box.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-gift-box.webp",
+          "aliases": [
+            "Present",
+            "подарок",
+            "present"
+          ],
+          "keywords": [
+            "подарок",
+            "present"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-roulette",
+          "label": "Roulette",
+          "png": "qmu/profiles/company-1/toast-images/toast-roulette.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-roulette.webp",
+          "aliases": [
+            "Roulette",
+            "рулетка"
+          ],
+          "keywords": [
+            "рулетка"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-welcome-back",
+          "label": "Welcome back",
+          "png": "qmu/profiles/company-1/toast-images/toast-welcome-back.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-welcome-back.webp",
+          "aliases": [
+            "Welcome_back",
+            "возвращение",
+            "вернуться",
+            "с возвращением"
+          ],
+          "keywords": [
+            "возвращение",
+            "вернуться",
+            "с возвращением"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-winner",
+          "label": "Winner",
+          "png": "qmu/profiles/company-1/toast-images/toast-winner.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-winner.webp",
+          "aliases": [
+            "Winner",
+            "победитель",
+            "выигрыш"
+          ],
+          "keywords": [
+            "победитель",
+            "выигрыш"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-bell",
+          "label": "Bell",
+          "png": "qmu/profiles/company-1/toast-images/toast-bell.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-bell.webp",
+          "aliases": [
+            "Bell",
+            "колокол",
+            "уведомление"
+          ],
+          "keywords": [
+            "колокол",
+            "уведомление"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-bonus-coins",
+          "label": "Bonus coins",
+          "png": "qmu/profiles/company-1/toast-images/toast-bonus-coins.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-bonus-coins.webp",
+          "aliases": [
+            "Bonus",
+            "бонус",
+            "монеты"
+          ],
+          "keywords": [
+            "бонус",
+            "монеты"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-book",
+          "label": "Book",
+          "png": "qmu/profiles/company-1/toast-images/toast-book.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-book.webp",
+          "aliases": [
+            "Book",
+            "книга",
+            "правила"
+          ],
+          "keywords": [
+            "книга",
+            "правила"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-darts",
+          "label": "Darts",
+          "png": "qmu/profiles/company-1/toast-images/toast-darts.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-darts.webp",
+          "aliases": [
+            "Darts",
+            "дартс",
+            "цель"
+          ],
+          "keywords": [
+            "дартс",
+            "цель"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-payment-error",
+          "label": "Payment error",
+          "png": "qmu/profiles/company-1/toast-images/toast-payment-error.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-payment-error.webp",
+          "aliases": [
+            "Error pay",
+            "ошибка платежа",
+            "оплата"
+          ],
+          "keywords": [
+            "ошибка платежа",
+            "оплата"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-exclusives",
+          "label": "Exclusives",
+          "png": "qmu/profiles/company-1/toast-images/toast-exclusives.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-exclusives.webp",
+          "aliases": [
+            "Exclusives",
+            "эксклюзив"
+          ],
+          "keywords": [
+            "эксклюзив"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-info",
+          "label": "Info",
+          "png": "qmu/profiles/company-1/toast-images/toast-info.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-info.webp",
+          "aliases": [
+            "Info",
+            "информация",
+            "помощь"
+          ],
+          "keywords": [
+            "информация",
+            "помощь"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-jackpot",
+          "label": "Jackpot",
+          "png": "qmu/profiles/company-1/toast-images/toast-jackpot.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-jackpot.webp",
+          "aliases": [
+            "Jackpot",
+            "джекпот"
+          ],
+          "keywords": [
+            "джекпот"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-new",
+          "label": "New",
+          "png": "qmu/profiles/company-1/toast-images/toast-new.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-new.webp",
+          "aliases": [
+            "New",
+            "новинка",
+            "новое"
+          ],
+          "keywords": [
+            "новинка",
+            "новое"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-pincoins",
+          "label": "Pincoins",
+          "png": "qmu/profiles/company-1/toast-images/toast-pincoins.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-pincoins.webp",
+          "aliases": [
+            "Pincoins",
+            "пинкоины",
+            "монеты"
+          ],
+          "keywords": [
+            "пинкоины",
+            "монеты"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-gift",
+          "label": "Gift",
+          "png": "qmu/profiles/company-1/toast-images/toast-gift.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-gift.webp",
+          "aliases": [
+            "Present",
+            "подарок",
+            "present"
+          ],
+          "keywords": [
+            "подарок",
+            "present"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-recommendation",
+          "label": "Recommendation",
+          "png": "qmu/profiles/company-1/toast-images/toast-recommendation.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-recommendation.webp",
+          "aliases": [
+            "Recomendation",
+            "рекомендация",
+            "recommendation"
+          ],
+          "keywords": [
+            "рекомендация",
+            "recommendation"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-security",
+          "label": "Security",
+          "png": "qmu/profiles/company-1/toast-images/toast-security.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-security.webp",
+          "aliases": [
+            "Security",
+            "безопасность",
+            "защита"
+          ],
+          "keywords": [
+            "безопасность",
+            "защита"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-payment-success",
+          "label": "Payment success",
+          "png": "qmu/profiles/company-1/toast-images/toast-payment-success.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-payment-success.webp",
+          "aliases": [
+            "Success pay",
+            "платеж",
+            "успешная оплата"
+          ],
+          "keywords": [
+            "платеж",
+            "успешная оплата"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-support",
+          "label": "Support",
+          "png": "qmu/profiles/company-1/toast-images/toast-support.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-support.webp",
+          "aliases": [
+            "Support",
+            "поддержка",
+            "помощь"
+          ],
+          "keywords": [
+            "поддержка",
+            "помощь"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-maintenance",
+          "label": "Maintenance",
+          "png": "qmu/profiles/company-1/toast-images/toast-maintenance.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-maintenance.webp",
+          "aliases": [
+            "Technical works",
+            "технические работы",
+            "technical works"
+          ],
+          "keywords": [
+            "технические работы",
+            "technical works"
+          ],
+          "priority": 1
+        },
+        {
+          "id": "toast-tournament",
+          "label": "Tournament",
+          "png": "qmu/profiles/company-1/toast-images/toast-tournament.png",
+          "webp": "qmu/profiles/company-1/toast-images/toast-tournament.webp",
+          "aliases": [
+            "Tournament",
+            "турнир",
+            "соревнование"
+          ],
+          "keywords": [
+            "турнир",
+            "соревнование"
+          ],
+          "priority": 1
+        }
+      ]
     },
     {
       "id": "company-2",
