@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "configVersion": 8,
+  "configVersion": 9,
   "company": {
     "id": "company-workspace",
     "name": "Company Workspace"
@@ -1791,7 +1791,8 @@
         "android": "https://storage.googleapis.com/pinco-win/download_android_pinco.png",
         "annotationLogo": "https://storage.googleapis.com/pinco-win/PINCO_logo_Animation_001.gif",
         "instagram": "https://storage.googleapis.com/pinco-win/instagram_pinco_logo.png",
-        "telegram": "https://storage.googleapis.com/pinco-win/telegram_logo_pinco.png"
+        "telegram": "https://storage.googleapis.com/pinco-win/telegram_logo_pinco.png",
+        "vk": "https://storage.googleapis.com/pinco-win/vk_esport.png"
       },
       "emailFooterCopy": {
         "ru": {

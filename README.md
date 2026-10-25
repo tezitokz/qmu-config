@@ -11,7 +11,7 @@ executable code and no private user drafts or personal settings.
 2. Open Kumo Settings.
 3. Choose **Install config** and select the downloaded ZIP.
 
-The current package version is **8**. Kumo keeps drafts and personal settings
+The current package version is **9**. Kumo keeps drafts and personal settings
 when this package is installed, replaced or reset.
 
 ## Package layout
@@ -23,6 +23,18 @@ when this package is installed, replaced or reset.
 - `qmu/core-layouts/` — company Email reference layouts;
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
+
+## October 27, 2026 — Scheduled release configuration (v3.0.27)
+
+Configuration 9 accompanies the scheduled Kumo 0.23.178 feature release on
+27 October 2026 at 14:00 UTC. Install that core build first, then reinstall this
+ZIP through Settings → Config. The prepared core accepts this package before
+activation; older core versions requiring format 8 do not.
+
+All three profiles, catalogs, templates, avatars and the 32 Toast PNG/WebP pairs
+are preserved. The compact profile now owns its VK artwork URL instead of the
+core bundle. The format requirement advances to 9 at the owner's request.
+Installation replaces only configuration-owned data and preserves user work.
 
 ## October 24, 2026 — PIN-UP Toast artwork (v3.0.26)
 
