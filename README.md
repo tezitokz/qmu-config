@@ -24,6 +24,21 @@ when this package is installed, replaced or reset.
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
 
+## October 27, 2026 — Four additional slot catalog entries (v3.0.29)
+
+The slot catalog adds the supplied names, game IDs and existing PNG artwork:
+
+- AFRICAN BUFFALO 5000 — 134507;
+- APHRODITES BLESSING — 134510;
+- CLEOPATRA'S FORTUNE WAYS — 108998;
+- MR DIAMOND DELUXE — 134509.
+
+This compatible data update keeps configuration format **9**. The catalog now
+contains 505 slots; all previous entries, profiles, templates, currencies and
+bundled artwork are preserved. All four supplied images return PNG at 250 × 197.
+Reinstall the latest ZIP in **Kumo Settings → Config** to load the new entries.
+Installation preserves settings, tasks, notes, saved emails and editor buffers.
+
 ## October 27, 2026 — TUK additional RUB currency (v3.0.28)
 
 WL/PINCO TUK adds Russian Ruble (RUB) after TJS, KGS and UZS in Email

@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T21:03:22.517Z",
+  "generatedAt": "2026-10-27T17:37:27.843Z",
   "sourceFile": "codexposmotri - Drive Links - Image Drop.xlsx",
   "lookup": "Normalize a slot name to lowercase words separated by one space; ampersand becomes \"and\" and punctuation is removed.",
   "stats": {
-    "storageRows": 521,
-    "uniqueSlots": 501,
-    "withId": 466,
+    "storageRows": 525,
+    "uniqueSlots": 505,
+    "withId": 470,
     "withoutId": 35,
     "withMultipleIds": 4,
     "withMultipleImageUrls": 3,
     "kumoImages": 388,
-    "existingImages": 113
+    "existingImages": 117
   },
   "slotsByName": {
     "3 big barrels buffalo": {
@@ -21584,6 +21584,114 @@
       "sourceRows": [
         401
       ]
+    },
+    "african buffalo 5000": {
+      "name": "AFRICAN BUFFALO 5000",
+      "normalizedName": "african buffalo 5000",
+      "aliases": [],
+      "sourceNames": [
+        "AFRICAN BUFFALO 5000"
+      ],
+      "sourceDeclaredIds": [
+        "134507"
+      ],
+      "id": "134507",
+      "ids": [
+        "134507"
+      ],
+      "provider": null,
+      "providers": [],
+      "imageUrl": "https://storage.googleapis.com/pin-up-com/AFRICAN_BUFFALO_IN.png",
+      "imageUrls": [
+        "https://storage.googleapis.com/pin-up-com/AFRICAN_BUFFALO_IN.png"
+      ],
+      "generatedByKumo": false,
+      "designSourceUrls": [],
+      "originalPaths": [],
+      "catalogPaths": [],
+      "registerMatches": [],
+      "sourceRows": []
+    },
+    "aphrodites blessing": {
+      "name": "APHRODITES BLESSING",
+      "normalizedName": "aphrodites blessing",
+      "aliases": [],
+      "sourceNames": [
+        "APHRODITES BLESSING"
+      ],
+      "sourceDeclaredIds": [
+        "134510"
+      ],
+      "id": "134510",
+      "ids": [
+        "134510"
+      ],
+      "provider": null,
+      "providers": [],
+      "imageUrl": "https://storage.googleapis.com/pin-up-com/APHRODITES_BLESSING_IN.png",
+      "imageUrls": [
+        "https://storage.googleapis.com/pin-up-com/APHRODITES_BLESSING_IN.png"
+      ],
+      "generatedByKumo": false,
+      "designSourceUrls": [],
+      "originalPaths": [],
+      "catalogPaths": [],
+      "registerMatches": [],
+      "sourceRows": []
+    },
+    "cleopatras fortune ways": {
+      "name": "CLEOPATRA'S FORTUNE WAYS",
+      "normalizedName": "cleopatras fortune ways",
+      "aliases": [],
+      "sourceNames": [
+        "CLEOPATRA'S FORTUNE WAYS"
+      ],
+      "sourceDeclaredIds": [
+        "108998"
+      ],
+      "id": "108998",
+      "ids": [
+        "108998"
+      ],
+      "provider": null,
+      "providers": [],
+      "imageUrl": "https://storage.googleapis.com/pin-up-com/CLEOPATRA_FORTUNE_WAYS_IN.png",
+      "imageUrls": [
+        "https://storage.googleapis.com/pin-up-com/CLEOPATRA_FORTUNE_WAYS_IN.png"
+      ],
+      "generatedByKumo": false,
+      "designSourceUrls": [],
+      "originalPaths": [],
+      "catalogPaths": [],
+      "registerMatches": [],
+      "sourceRows": []
+    },
+    "mr diamond deluxe": {
+      "name": "MR DIAMOND DELUXE",
+      "normalizedName": "mr diamond deluxe",
+      "aliases": [],
+      "sourceNames": [
+        "MR DIAMOND DELUXE"
+      ],
+      "sourceDeclaredIds": [
+        "134509"
+      ],
+      "id": "134509",
+      "ids": [
+        "134509"
+      ],
+      "provider": null,
+      "providers": [],
+      "imageUrl": "https://storage.googleapis.com/pin-up-com/MR_DIAMOND_DELUXE_IN.png",
+      "imageUrls": [
+        "https://storage.googleapis.com/pin-up-com/MR_DIAMOND_DELUXE_IN.png"
+      ],
+      "generatedByKumo": false,
+      "designSourceUrls": [],
+      "originalPaths": [],
+      "catalogPaths": [],
+      "registerMatches": [],
+      "sourceRows": []
     }
   }
 }
