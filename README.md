@@ -24,6 +24,20 @@ when this package is installed, replaced or reset.
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
 
+## October 27, 2026 — TUK additional RUB currency (v3.0.28)
+
+WL/PINCO TUK adds Russian Ruble (RUB) after TJS, KGS and UZS in Email
+Currency fields, including the linked Subject/Preheader amount. RUB remains
+available alongside each selected existing translation. GEO selection and
+independent RU/TJ/KG/UZ copy keep their existing rules; Russia is not selected
+by this additional currency. Existing inactive amounts remain recoverable.
+
+This compatible data update keeps configuration format **9**. Use local Kumo
+**0.23.202** or later containing the TUK currency fix, reload the extension and BO, then
+reinstall the latest ZIP in **Kumo Settings → Config**. Installing configuration
+preserves settings, tasks, notes, saved emails and separate editor buffers.
+Other profiles, catalogs, templates and artwork are unchanged.
+
 ## October 27, 2026 — Scheduled release configuration (v3.0.27)
 
 Configuration 9 accompanies the scheduled Kumo 0.23.178 feature release on

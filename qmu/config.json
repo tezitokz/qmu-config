@@ -1935,7 +1935,8 @@
           "currencies": {
             "TJS": "Somoni",
             "KGS": "Som",
-            "UZS": "Uzbekistan Sum"
+            "UZS": "Uzbekistan Sum",
+            "RUB": "Russian Ruble"
           },
           "languageCopies": {
             "kg": [
@@ -1948,14 +1949,17 @@
           "languageSelection": {
             "ru": {
               "regions": [],
-              "currencies": []
+              "currencies": [
+                "RUB"
+              ]
             },
             "tj": {
               "regions": [
                 "TJ"
               ],
               "currencies": [
-                "TJS"
+                "TJS",
+                "RUB"
               ]
             },
             "kg": {
@@ -1963,7 +1967,8 @@
                 "KG"
               ],
               "currencies": [
-                "KGS"
+                "KGS",
+                "RUB"
               ]
             },
             "uz": {
@@ -1971,7 +1976,8 @@
                 "UZ"
               ],
               "currencies": [
-                "UZS"
+                "UZS",
+                "RUB"
               ]
             }
           },
@@ -1986,6 +1992,10 @@
             },
             "UZS": {
               "unit": "SO'M",
+              "position": "suffix"
+            },
+            "RUB": {
+              "unit": "₽",
               "position": "suffix"
             }
           }
