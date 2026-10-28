@@ -2059,7 +2059,8 @@
             "CA": "Canada"
           },
           "currencies": {
-            "CAD": "Canadian Dollar"
+            "CAD": "Canadian Dollar",
+            "USD": "US Dollar"
           },
           "languageCopies": {
             "en": [
@@ -2076,7 +2077,8 @@
                 "CA"
               ],
               "currencies": [
-                "CAD"
+                "CAD",
+                "USD"
               ]
             },
             "fr": {
@@ -2084,13 +2086,18 @@
                 "CA"
               ],
               "currencies": [
-                "CAD"
+                "CAD",
+                "USD"
               ]
             }
           },
           "currencyFormats": {
             "CAD": {
               "unit": "C$",
+              "position": "prefix"
+            },
+            "USD": {
+              "unit": "$",
               "position": "prefix"
             }
           }

@@ -24,6 +24,20 @@ when this package is installed, replaced or reset.
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
 
+## October 28, 2026 — Canada USD (v3.0.30)
+
+WL/PINCO Canada adds USD after CAD to Currency fields for both English and
+French source translations and their existing EN-CA/EN/FR-CA copies. CAD uses
+C$ and USD uses $, with ISO currency codes for Subject/Preheader rules. This
+compatible data update retains format **9**, the existing language mapping,
+Canada GEO and all previous profiles, catalogs, templates and artwork.
+
+Reinstall the latest ZIP through **Kumo Settings → Config**. Installation keeps
+settings, tasks, drafts, notes, saved emails and separate BO buffers. Local Kumo
+**0.23.216** also preserves regional composed state after Update, supports the
+Canada/PIN-UP AZ Custom value mode and defaults Canada to a custom banner URL.
+These editor fixes require the updated extension as well as this data package.
+
 ## October 27, 2026 — Four additional slot catalog entries (v3.0.29)
 
 The slot catalog adds the supplied names, game IDs and existing PNG artwork:
