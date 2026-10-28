@@ -24,6 +24,16 @@ when this package is installed, replaced or reset.
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
 
+## October 28, 2026 — Canada social destinations (v3.0.31)
+
+WL/PINCO Canada supplies scoped BO Internal link destinations for the existing
+`%%fb%%` Facebook and `%%inst%%` Instagram macros. The updated BO constructor
+keeps these macros in HTML and fills their destinations after Content Update
+when the corresponding icons are enabled. Application keeps `/mobile`.
+Existing manually filled BO destinations remain intact. Other GEOs and profiles
+are unchanged. Reload the updated Kumo extension and reinstall this package.
+This is an optional data addition; package format remains **9**.
+
 ## October 28, 2026 — Canada USD (v3.0.30)
 
 WL/PINCO Canada adds USD after CAD to Currency fields for both English and
