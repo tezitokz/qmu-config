@@ -2287,7 +2287,412 @@
             "TR"
           ]
         }
-      }
+      },
+      "bellImages": [
+        {
+          "id": "wl-bell-info",
+          "label": "Info",
+          "aliases": [
+            "информация"
+          ],
+          "keywords": [
+            "information",
+            "информация"
+          ],
+          "priority": 1,
+          "png": "qmu/profiles/company-2/notifications/bell/info.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/info.webp"
+        },
+        {
+          "id": "wl-bell-bonus",
+          "label": "Bonus",
+          "aliases": [
+            "бонус"
+          ],
+          "keywords": [
+            "bonus",
+            "бонус*",
+            "free spins",
+            "фриспин*"
+          ],
+          "priority": 2,
+          "webp": "qmu/profiles/company-2/notifications/bell/bonus.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/bonus.png"
+        },
+        {
+          "id": "wl-bell-giftbox",
+          "label": "Giftbox",
+          "aliases": [
+            "gift",
+            "подарок"
+          ],
+          "keywords": [
+            "gift",
+            "present",
+            "подар*"
+          ],
+          "priority": 3,
+          "webp": "qmu/profiles/company-2/notifications/bell/giftbox.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/giftbox.png"
+        },
+        {
+          "id": "wl-bell-maintenance",
+          "label": "Maintenance",
+          "aliases": [
+            "maintanence",
+            "maintainence",
+            "technical works",
+            "техработы"
+          ],
+          "keywords": [
+            "maintenance",
+            "technical works",
+            "технические работы",
+            "техработ*"
+          ],
+          "priority": 4,
+          "png": "qmu/profiles/company-2/notifications/bell/maintenance.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/maintenance.webp"
+        },
+        {
+          "id": "wl-bell-new",
+          "label": "New",
+          "aliases": [
+            "новое",
+            "новинка"
+          ],
+          "keywords": [
+            "new",
+            "новинк*",
+            "новое"
+          ],
+          "priority": 5,
+          "png": "qmu/profiles/company-2/notifications/bell/new.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/new.webp"
+        },
+        {
+          "id": "wl-bell-pincoins",
+          "label": "Pincoins",
+          "aliases": [
+            "pincoin",
+            "пинкоины",
+            "пинкоин"
+          ],
+          "keywords": [
+            "pincoin*",
+            "пинкоин*"
+          ],
+          "priority": 6,
+          "png": "qmu/profiles/company-2/notifications/bell/pincoins.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/pincoins.webp"
+        },
+        {
+          "id": "wl-bell-problem",
+          "label": "Problem",
+          "aliases": [
+            "ошибка",
+            "error",
+            "alert"
+          ],
+          "keywords": [
+            "error",
+            "failed",
+            "problem",
+            "ошибк*",
+            "проблем*"
+          ],
+          "priority": 7,
+          "png": "qmu/profiles/company-2/notifications/bell/problem.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/problem.webp"
+        },
+        {
+          "id": "wl-bell-security",
+          "label": "Security",
+          "aliases": [
+            "безопасность"
+          ],
+          "keywords": [
+            "security",
+            "password",
+            "verification",
+            "безопасность",
+            "пароль",
+            "верификац*"
+          ],
+          "priority": 8,
+          "webp": "qmu/profiles/company-2/notifications/bell/security.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/security.png"
+        },
+        {
+          "id": "wl-bell-success",
+          "label": "Success",
+          "aliases": [
+            "успех",
+            "success payment",
+            "success_payment"
+          ],
+          "keywords": [
+            "success",
+            "successful",
+            "успешн*"
+          ],
+          "priority": 9,
+          "png": "qmu/profiles/company-2/notifications/bell/success.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/success.webp"
+        },
+        {
+          "id": "wl-bell-support",
+          "label": "Support",
+          "aliases": [
+            "поддержка"
+          ],
+          "keywords": [
+            "support",
+            "поддержк*"
+          ],
+          "priority": 10,
+          "png": "qmu/profiles/company-2/notifications/bell/support.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/support.webp"
+        },
+        {
+          "id": "wl-bell-tournaments",
+          "label": "Tournaments",
+          "aliases": [
+            "tournament",
+            "турнир"
+          ],
+          "keywords": [
+            "tournament*",
+            "турнир*"
+          ],
+          "priority": 11,
+          "png": "qmu/profiles/company-2/notifications/bell/tournaments.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/tournaments.webp"
+        }
+      ],
+      "toastImages": [
+        {
+          "id": "wl-toast-info",
+          "label": "Info",
+          "aliases": [
+            "информация"
+          ],
+          "keywords": [
+            "information",
+            "информация"
+          ],
+          "priority": 1,
+          "png": "qmu/profiles/company-2/notifications/toast/info.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/info.webp"
+        },
+        {
+          "id": "wl-toast-alert",
+          "label": "Alert",
+          "aliases": [
+            "внимание",
+            "problem",
+            "error"
+          ],
+          "keywords": [
+            "alert",
+            "warning",
+            "внимание",
+            "предупреждение"
+          ],
+          "priority": 2,
+          "webp": "qmu/profiles/company-2/notifications/toast/alert.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/alert.png"
+        },
+        {
+          "id": "wl-toast-bonus",
+          "label": "Bonus",
+          "aliases": [
+            "бонус"
+          ],
+          "keywords": [
+            "bonus",
+            "бонус*",
+            "free spins",
+            "фриспин*"
+          ],
+          "priority": 3,
+          "png": "qmu/profiles/company-2/notifications/toast/bonus.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/bonus.webp"
+        },
+        {
+          "id": "wl-toast-fifa-2026",
+          "label": "FIFA 2026",
+          "aliases": [
+            "fifa_2026"
+          ],
+          "keywords": [
+            "fifa",
+            "фифа"
+          ],
+          "priority": 4,
+          "png": "qmu/profiles/company-2/notifications/toast/fifa-2026.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/fifa-2026.webp"
+        },
+        {
+          "id": "wl-toast-giftbox",
+          "label": "Giftbox",
+          "aliases": [
+            "gift",
+            "подарок"
+          ],
+          "keywords": [
+            "gift",
+            "present",
+            "подар*"
+          ],
+          "priority": 5,
+          "png": "qmu/profiles/company-2/notifications/toast/giftbox.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/giftbox.webp"
+        },
+        {
+          "id": "wl-toast-maintenance",
+          "label": "Maintenance",
+          "aliases": [
+            "maintanence",
+            "maintainence",
+            "technical works",
+            "техработы"
+          ],
+          "keywords": [
+            "maintenance",
+            "technical works",
+            "технические работы",
+            "техработ*"
+          ],
+          "priority": 6,
+          "png": "qmu/profiles/company-2/notifications/toast/maintenance.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/maintenance.webp"
+        },
+        {
+          "id": "wl-toast-new",
+          "label": "New",
+          "aliases": [
+            "новое",
+            "новинка"
+          ],
+          "keywords": [
+            "new",
+            "новинк*",
+            "новое"
+          ],
+          "priority": 7,
+          "webp": "qmu/profiles/company-2/notifications/toast/new.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/new.png"
+        },
+        {
+          "id": "wl-toast-pincoin",
+          "label": "Pincoin",
+          "aliases": [
+            "pincoins",
+            "пинкоин",
+            "пинкоины"
+          ],
+          "keywords": [
+            "pincoin*",
+            "пинкоин*"
+          ],
+          "priority": 8,
+          "webp": "qmu/profiles/company-2/notifications/toast/pincoin.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/pincoin.png"
+        },
+        {
+          "id": "wl-toast-relic-trail",
+          "label": "Relic Trail",
+          "aliases": [
+            "Relic Trail"
+          ],
+          "keywords": [
+            "relic trail"
+          ],
+          "priority": 9,
+          "png": "qmu/profiles/company-2/notifications/toast/relic-trail.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/relic-trail.webp"
+        },
+        {
+          "id": "wl-toast-security",
+          "label": "Security",
+          "aliases": [
+            "безопасность"
+          ],
+          "keywords": [
+            "security",
+            "password",
+            "verification",
+            "безопасность",
+            "пароль",
+            "верификац*"
+          ],
+          "priority": 10,
+          "webp": "qmu/profiles/company-2/notifications/toast/security.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/security.png"
+        },
+        {
+          "id": "wl-toast-success-payment",
+          "label": "Success payment",
+          "aliases": [
+            "success_payment",
+            "success",
+            "успешная оплата"
+          ],
+          "keywords": [
+            "payment successful",
+            "deposit successful",
+            "успешное пополнение",
+            "успешная оплата"
+          ],
+          "priority": 11,
+          "webp": "qmu/profiles/company-2/notifications/toast/success-payment.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/success-payment.png"
+        },
+        {
+          "id": "wl-toast-support",
+          "label": "Support",
+          "aliases": [
+            "поддержка"
+          ],
+          "keywords": [
+            "support",
+            "поддержк*"
+          ],
+          "priority": 12,
+          "webp": "qmu/profiles/company-2/notifications/toast/support.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/support.png"
+        },
+        {
+          "id": "wl-toast-tournament",
+          "label": "Tournament",
+          "aliases": [
+            "tournaments",
+            "турнир"
+          ],
+          "keywords": [
+            "tournament*",
+            "турнир*"
+          ],
+          "priority": 13,
+          "webp": "qmu/profiles/company-2/notifications/toast/tournament.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/tournament.png"
+        },
+        {
+          "id": "wl-toast-uefa-2026",
+          "label": "UEFA 2026",
+          "aliases": [
+            "UEFA_2026"
+          ],
+          "keywords": [
+            "uefa",
+            "уефа"
+          ],
+          "priority": 14,
+          "webp": "qmu/profiles/company-2/notifications/toast/uefa-2026.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/uefa-2026.png"
+        }
+      ]
     },
     {
       "id": "company-3",

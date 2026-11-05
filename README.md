@@ -24,6 +24,31 @@ when this package is installed, replaced or reset.
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
 
+## November 5, 2026 — WL Bell and Toast libraries (v3.0.32)
+
+The WL/PINCO profile adds 11 Bell and 14 Toast PNG/WebP pairs supplied by the
+owner. Original image bytes, transparency and sizes are retained: Bell 50 × 50,
+Toast 176 × 176. The existing primary-profile collections and every other
+configuration value are preserved. No executable code is included.
+
+Use local Kumo **0.23.273** or later for installed WL libraries. Bell uses the
+existing picker and selection rules; Toast has its own picker and saved choice.
+Task icon folders are no longer read during source import. Pop-up still uses
+its explicit design-folder link. The communication Admin gate remains required.
+This optional addition keeps configuration format **9**.
+
+Reload the updated unpacked extension, download the latest ZIP and **reinstall
+it in Kumo Settings → Config**, then reload the work page. Installation replaces
+only configuration data and preserves personal settings, tasks, drafts, notes,
+saved email projects and BO editor buffers. Installing config does not update
+extension code. Production campaign saving/scheduling is not exercised.
+
+Validation: all 50 delivered images decode in isolated MV3. Gallery search,
+keyboard choice, recovery, intentional removal and paired native-file uploads
+pass. The supported installer/reinstaller preserves tested user buffers. The
+primary Toast collection and Pop-up copy/unsaved Fill path pass separately.
+All 194 pre-existing non-config ZIP entries remain byte-identical.
+
 ## October 28, 2026 — Canada social destinations (v3.0.31)
 
 WL/PINCO Canada supplies scoped BO Internal link destinations for the existing
