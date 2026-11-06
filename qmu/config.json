@@ -59,6 +59,14 @@
     "tr": {
       "label": "TR",
       "htmlLang": "tr"
+    },
+    "hi": {
+      "label": "HI",
+      "htmlLang": "hi"
+    },
+    "bn": {
+      "label": "BN",
+      "htmlLang": "bn"
     }
   },
   "emailGeoProfiles": [
@@ -105,13 +113,22 @@
       "id": "in-bd",
       "label": "IN / BD",
       "eyebrow": "SOUTH ASIA",
-      "enabled": false,
+      "enabled": true,
       "projectIds": [
         "company-1"
       ],
       "primary": "en",
-      "languages": [],
-      "description": "Language pack is being prepared."
+      "languages": [
+        "en",
+        "hi",
+        "bn"
+      ],
+      "description": "English, Hindi and Bengali promo emails.",
+      "features": {
+        "footerLocales": {
+          "en": "in-bd-en"
+        }
+      }
     },
     {
       "id": "africa",
@@ -804,6 +821,54 @@
               ]
             }
           }
+        },
+        "in-bd": {
+          "regions": {
+            "IN": "India",
+            "BD": "Bangladesh"
+          },
+          "currencies": {
+            "INR": "Indian Rupee",
+            "BDT": "Taka"
+          },
+          "languageSelection": {
+            "en": {
+              "regions": [
+                "IN",
+                "BD"
+              ],
+              "currencies": [
+                "INR",
+                "BDT"
+              ]
+            },
+            "hi": {
+              "regions": [
+                "IN"
+              ],
+              "currencies": [
+                "INR"
+              ]
+            },
+            "bn": {
+              "regions": [
+                "BD"
+              ],
+              "currencies": [
+                "BDT"
+              ]
+            }
+          },
+          "currencyFormats": {
+            "INR": {
+              "unit": "INR",
+              "position": "suffix"
+            },
+            "BDT": {
+              "unit": "BDT",
+              "position": "suffix"
+            }
+          }
         }
       },
       "boEmailOrigins": [
@@ -825,6 +890,30 @@
           "unsubLead": "Агар хоҳед, ки аз ин хабарнома даст кашед, лутфан ба ин",
           "unsubLink": "ҷо гузаред.",
           "support": "Савол доред? Онлайн-мусоҳибаи хадамоти дастгирӣ дар сомона 24/7 дастрас аст."
+        },
+        "hi": {
+          "addr": "तुम्हें यह ईमेल {{company}} क्लब के पंजीकृत ग्राहक के रूप में प्राप्त हुआ है।",
+          "unsubLead": "यदि तुम मेलिंग से सदस्यता समाप्त करना चाहते हो,",
+          "unsubLink": "तो कृपया लिंक पर क्लिक करो।",
+          "support": "कोई सवाल हैं? हमारी ग्राहक सहायता ऑनलाइन चैट वेबसाइट पर 24/7 उपलब्ध है।",
+          "apps": "हमारे ऐप्स",
+          "social": "सोशल मीडिया पर हमसे जुड़ें"
+        },
+        "bn": {
+          "addr": "তুমি {{company}} ক্লাবের একজন নিবন্ধিত ক্লায়েন্ট হিসেবে এই ইমেইলটি পেয়েছো।",
+          "unsubLead": "এই মেইলিং থেকে আনসাবস্ক্রাইব করতে চাইলে, অনুগ্রহ করে",
+          "unsubLink": "লিংকে ক্লিক করো",
+          "support": "প্রশ্ন আছে? আমাদের কাস্টমার সাপোর্ট অনলাইন চ্যাট ওয়েবসাইটে 24/7 উপলব্ধ।",
+          "apps": "আমাদের অ্যাপ্লিকেশন",
+          "social": "সামাজিক যোগাযোগমাধ্যমে আমাদের সঙ্গে থাকুন"
+        },
+        "in-bd-en": {
+          "addr": "You’ve received this email as a registered client of the {{company}} club.",
+          "unsubLead": "If you want to unsubscribe from the mailing, please,",
+          "unsubLink": "click on the link.",
+          "support": "Have questions? Our customer support online chat is available on the website 24/7.",
+          "apps": "Our applications",
+          "social": "Our social networks"
         }
       },
       "boEmailTestVariants": {

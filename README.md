@@ -24,6 +24,19 @@ when this package is installed, replaced or reset.
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
 
+## November 6, 2026 — India / Bangladesh promo emails (v3.0.33)
+
+Select IN / BD under Email GEO for the primary company profile. English
+supplies the layout. Hindi and Bengali use their own copy and localized
+unsubscribe text. For a currency variable, India uses INR (Indian Rupee)
+and Bangladesh uses BDT (Taka). English serves both countries.
+
+Install the ZIP through Kumo Settings → Config and reload BO. Format **9**
+is compatible with the current installer. Core 0.23.280 adds the English
+layout and coupon checks and formats the two currencies in lakh/crore groups.
+The package adds language and profile data to the existing configuration.
+All 244 other ZIP entries retain their previous bytes.
+
 ## November 5, 2026 — WL Bell and Toast libraries (v3.0.32)
 
 The WL/PINCO profile adds 11 Bell and 14 Toast PNG/WebP pairs supplied by the
