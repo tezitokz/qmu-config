@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "configVersion": 9,
+  "configVersion": 10,
   "company": {
     "id": "company-workspace",
     "name": "Company Workspace"
