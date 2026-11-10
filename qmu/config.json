@@ -2382,6 +2382,9 @@
           "id": "wl-bell-info",
           "label": "Info",
           "aliases": [
+            "info fill",
+            "Info",
+            "Casino info fill",
             "информация"
           ],
           "keywords": [
@@ -2389,29 +2392,33 @@
             "информация"
           ],
           "priority": 1,
-          "png": "qmu/profiles/company-2/notifications/bell/info.png",
-          "webp": "qmu/profiles/company-2/notifications/bell/info.webp"
+          "webp": "qmu/profiles/company-2/notifications/bell/info.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/info.png"
         },
         {
           "id": "wl-bell-bonus",
           "label": "Bonus",
           "aliases": [
+            "bonus",
+            "Bonus",
+            "Casino bonus",
             "бонус"
           ],
           "keywords": [
             "bonus",
-            "бонус*",
-            "free spins",
-            "фриспин*"
+            "бонус*"
           ],
           "priority": 2,
-          "webp": "qmu/profiles/company-2/notifications/bell/bonus.webp",
-          "png": "qmu/profiles/company-2/notifications/bell/bonus.png"
+          "png": "qmu/profiles/company-2/notifications/bell/bonus.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/bonus.webp"
         },
         {
           "id": "wl-bell-giftbox",
           "label": "Giftbox",
           "aliases": [
+            "giftbox",
+            "Giftbox",
+            "Casino giftbox",
             "gift",
             "подарок"
           ],
@@ -2421,13 +2428,16 @@
             "подар*"
           ],
           "priority": 3,
-          "webp": "qmu/profiles/company-2/notifications/bell/giftbox.webp",
-          "png": "qmu/profiles/company-2/notifications/bell/giftbox.png"
+          "png": "qmu/profiles/company-2/notifications/bell/giftbox.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/giftbox.webp"
         },
         {
           "id": "wl-bell-maintenance",
           "label": "Maintenance",
           "aliases": [
+            "fix",
+            "Maintenance",
+            "Casino fix",
             "maintanence",
             "maintainence",
             "technical works",
@@ -2447,6 +2457,8 @@
           "id": "wl-bell-new",
           "label": "New",
           "aliases": [
+            "New",
+            "Casino New",
             "новое",
             "новинка"
           ],
@@ -2479,6 +2491,9 @@
           "id": "wl-bell-problem",
           "label": "Problem",
           "aliases": [
+            "Alert_warning",
+            "Alert",
+            "Casino Alert_warning",
             "ошибка",
             "error",
             "alert"
@@ -2498,6 +2513,8 @@
           "id": "wl-bell-security",
           "label": "Security",
           "aliases": [
+            "Security",
+            "Casino Security",
             "безопасность"
           ],
           "keywords": [
@@ -2509,13 +2526,16 @@
             "верификац*"
           ],
           "priority": 8,
-          "webp": "qmu/profiles/company-2/notifications/bell/security.webp",
-          "png": "qmu/profiles/company-2/notifications/bell/security.png"
+          "png": "qmu/profiles/company-2/notifications/bell/security.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/security.webp"
         },
         {
           "id": "wl-bell-success",
           "label": "Success",
           "aliases": [
+            "Alert_ success",
+            "Success",
+            "Casino Alert_ success",
             "успех",
             "success payment",
             "success_payment"
@@ -2526,13 +2546,16 @@
             "успешн*"
           ],
           "priority": 9,
-          "png": "qmu/profiles/company-2/notifications/bell/success.png",
-          "webp": "qmu/profiles/company-2/notifications/bell/success.webp"
+          "webp": "qmu/profiles/company-2/notifications/bell/success.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/success.png"
         },
         {
           "id": "wl-bell-support",
           "label": "Support",
           "aliases": [
+            "support",
+            "Support",
+            "Casino support",
             "поддержка"
           ],
           "keywords": [
@@ -2548,6 +2571,8 @@
           "label": "Tournaments",
           "aliases": [
             "tournament",
+            "Tournament",
+            "Casino tournament",
             "турнир"
           ],
           "keywords": [
@@ -2557,6 +2582,1350 @@
           "priority": 11,
           "png": "qmu/profiles/company-2/notifications/bell/tournaments.png",
           "webp": "qmu/profiles/company-2/notifications/bell/tournaments.webp"
+        },
+        {
+          "id": "wl-bell-casino-advent",
+          "label": "Advent",
+          "aliases": [
+            "advent",
+            "Advent",
+            "Casino advent"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-advent.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-advent.webp"
+        },
+        {
+          "id": "wl-bell-casino-advent-calendar",
+          "label": "Advent calendar",
+          "aliases": [
+            "advent_calendar",
+            "Advent calendar",
+            "Casino advent_calendar"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-advent-calendar.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/casino-advent-calendar.png"
+        },
+        {
+          "id": "wl-bell-casino-approved",
+          "label": "Approved",
+          "aliases": [
+            "approve",
+            "Approved",
+            "Casino approve"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-approved.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-approved.webp"
+        },
+        {
+          "id": "wl-bell-casino-aviator-fb",
+          "label": "Aviator FB",
+          "aliases": [
+            "aviator_fb",
+            "Aviator FB",
+            "Casino aviator_fb"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-aviator-fb.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/casino-aviator-fb.png"
+        },
+        {
+          "id": "wl-bell-casino-bell",
+          "label": "Bell",
+          "aliases": [
+            "bell",
+            "Bell",
+            "Casino bell"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-bell.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-bell.webp"
+        },
+        {
+          "id": "wl-bell-casino-bonus-money",
+          "label": "Bonus money",
+          "aliases": [
+            "bonus_icon",
+            "Bonus money",
+            "Casino bonus_icon"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-bonus-money.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-bonus-money.webp"
+        },
+        {
+          "id": "wl-bell-casino-book",
+          "label": "Book",
+          "aliases": [
+            "book",
+            "Book",
+            "Casino book"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-book.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-book.webp"
+        },
+        {
+          "id": "wl-bell-casino-cashback",
+          "label": "Cashback",
+          "aliases": [
+            "cashback",
+            "Cashback",
+            "Casino cashback",
+            "кэшбэк",
+            "кешбэк"
+          ],
+          "keywords": [
+            "cashback",
+            "кешбэк*",
+            "кэшбэк*"
+          ],
+          "priority": 15,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-cashback.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-cashback.webp"
+        },
+        {
+          "id": "wl-bell-casino-darts",
+          "label": "Darts",
+          "aliases": [
+            "darts",
+            "Darts",
+            "Casino darts"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-darts.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-darts.webp"
+        },
+        {
+          "id": "wl-bell-casino-fb",
+          "label": "FB",
+          "aliases": [
+            "FB",
+            "Casino FB",
+            "фрибет",
+            "free bet"
+          ],
+          "keywords": [
+            "free bet",
+            "freebet*",
+            "фрибет*",
+            "fb"
+          ],
+          "priority": 15,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-fb.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-fb.webp"
+        },
+        {
+          "id": "wl-bell-casino-fs",
+          "label": "FS",
+          "aliases": [
+            "FS",
+            "Casino FS",
+            "фриспины",
+            "фриспин",
+            "free spins"
+          ],
+          "keywords": [
+            "free spins",
+            "фриспин*",
+            "fs"
+          ],
+          "priority": 15,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-fs.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-fs.webp"
+        },
+        {
+          "id": "wl-bell-casino-fs-and-cash",
+          "label": "FS and Cash",
+          "aliases": [
+            "FS and Cash",
+            "Casino FS and Cash"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-fs-and-cash.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-fs-and-cash.webp"
+        },
+        {
+          "id": "wl-bell-casino-fs-gift",
+          "label": "FS gift",
+          "aliases": [
+            "FS gift"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-fs-gift.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-fs-gift.webp"
+        },
+        {
+          "id": "wl-bell-casino-gift-boxes",
+          "label": "Gift boxes",
+          "aliases": [
+            "gift_box",
+            "Gift boxes",
+            "Casino gift_box",
+            "подарки"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-gift-boxes.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-gift-boxes.webp"
+        },
+        {
+          "id": "wl-bell-casino-jackpot",
+          "label": "Jackpot",
+          "aliases": [
+            "jackpot",
+            "Jackpot",
+            "Casino jackpot",
+            "джекпот"
+          ],
+          "keywords": [
+            "jackpot*",
+            "джекпот*"
+          ],
+          "priority": 15,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-jackpot.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-jackpot.webp"
+        },
+        {
+          "id": "wl-bell-casino-medal",
+          "label": "Medal",
+          "aliases": [
+            "Trophy",
+            "Medal",
+            "Casino Trophy"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-medal.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-medal.webp"
+        },
+        {
+          "id": "wl-bell-casino-no-deposit-bonus",
+          "label": "No deposit bonus",
+          "aliases": [
+            "no_dep_bonus",
+            "No deposit bonus",
+            "Casino no_dep_bonus",
+            "бездепозитный бонус"
+          ],
+          "keywords": [
+            "no deposit",
+            "бездепозит*"
+          ],
+          "priority": 15,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-no-deposit-bonus.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-no-deposit-bonus.webp"
+        },
+        {
+          "id": "wl-bell-casino-non-vip-halloween",
+          "label": "Non-VIP · Halloween",
+          "aliases": [
+            "Non-Vip",
+            "Non-VIP · Halloween",
+            "Casino Non-Vip"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-non-vip-halloween.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/casino-non-vip-halloween.png"
+        },
+        {
+          "id": "wl-bell-casino-quiz",
+          "label": "Quiz",
+          "aliases": [
+            "quiz",
+            "Quiz",
+            "Casino quiz",
+            "квиз",
+            "викторина"
+          ],
+          "keywords": [
+            "quiz",
+            "квиз*",
+            "викторин*"
+          ],
+          "priority": 15,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-quiz.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-quiz.webp"
+        },
+        {
+          "id": "wl-bell-casino-top-event",
+          "label": "Top event",
+          "aliases": [
+            "top_ivent",
+            "Top event",
+            "Casino top_ivent"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-top-event.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-top-event.webp"
+        },
+        {
+          "id": "wl-bell-casino-valentine-day",
+          "label": "Valentine Day",
+          "aliases": [
+            "valentine day",
+            "Valentine Day",
+            "Casino valentine day"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-valentine-day.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-valentine-day.webp"
+        },
+        {
+          "id": "wl-bell-casino-vip-crown",
+          "label": "VIP crown",
+          "aliases": [
+            "vip(1)",
+            "VIP crown",
+            "Casino vip(1)",
+            "корона",
+            "vip"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-vip-crown.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-vip-crown.webp"
+        },
+        {
+          "id": "wl-bell-casino-vip-halloween",
+          "label": "VIP · Halloween",
+          "aliases": [
+            "Vip",
+            "VIP · Halloween",
+            "Casino Vip"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-vip-halloween.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-vip-halloween.webp"
+        },
+        {
+          "id": "wl-bell-casino-vpn",
+          "label": "VPN",
+          "aliases": [
+            "VPN"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-vpn.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-vpn.webp"
+        },
+        {
+          "id": "wl-bell-casino-welcome-back",
+          "label": "Welcome Back",
+          "aliases": [
+            "welcome_back",
+            "Welcome Back",
+            "Casino welcome_back",
+            "возвращение"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-welcome-back.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-welcome-back.webp"
+        },
+        {
+          "id": "wl-bell-casino-welcome-back-door",
+          "label": "Welcome Back · door",
+          "aliases": [
+            "Welcome Back",
+            "Welcome Back · door",
+            "Casino Welcome Back"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-welcome-back-door.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-welcome-back-door.webp"
+        },
+        {
+          "id": "wl-bell-casino-wheel-of-fortune",
+          "label": "Wheel of Fortune",
+          "aliases": [
+            "wheel_fortune",
+            "Wheel of Fortune",
+            "Casino wheel_fortune",
+            "колесо фортуны"
+          ],
+          "keywords": [
+            "wheel of fortune",
+            "колесо фортуны"
+          ],
+          "priority": 15,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-wheel-of-fortune.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-wheel-of-fortune.webp"
+        },
+        {
+          "id": "wl-bell-casino-winner",
+          "label": "Winner",
+          "aliases": [
+            "winner",
+            "Winner",
+            "Casino winner"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/casino-winner.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/casino-winner.webp"
+        },
+        {
+          "id": "wl-bell-advent-relic-trail-vip-non-vip-relic-trail-artwork",
+          "label": "Advent/Relic Trail (VIP+non VIP) · Relic Trail · artwork",
+          "aliases": [
+            "Copy of Relic Trail",
+            "Relic Trail · artwork",
+            "Advent/Relic Trail (VIP+non VIP) Copy of Relic Trail"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/advent-relic-trail-vip-non-vip-relic-trail-artwork.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/advent-relic-trail-vip-non-vip-relic-trail-artwork.png"
+        },
+        {
+          "id": "wl-bell-advent-relic-trail-vip-non-vip-relic-trail-icon",
+          "label": "Advent/Relic Trail (VIP+non VIP) · Relic Trail · icon",
+          "aliases": [
+            "Copy of Icon in 50x50",
+            "Relic Trail · icon",
+            "Advent/Relic Trail (VIP+non VIP) Copy of Icon in 50x50"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/advent-relic-trail-vip-non-vip-relic-trail-icon.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/advent-relic-trail-vip-non-vip-relic-trail-icon.webp"
+        },
+        {
+          "id": "wl-bell-awol-8-icons-fs-and-cash",
+          "label": "AWOL · FS and Cash",
+          "aliases": [
+            "FS и Cash",
+            "FS and Cash",
+            "AWOL [8 icons] FS и Cash"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/awol-8-icons-fs-and-cash.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/awol-8-icons-fs-and-cash.webp"
+        },
+        {
+          "id": "wl-bell-awol-8-icons-vip-crown",
+          "label": "AWOL · VIP crown",
+          "aliases": [
+            "VIP crown",
+            "AWOL [8 icons] VIP crown",
+            "корона",
+            "vip"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/awol-8-icons-vip-crown.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/awol-8-icons-vip-crown.png"
+        },
+        {
+          "id": "wl-bell-awol-8-icons-welcome-back-door",
+          "label": "AWOL · Welcome Back · door",
+          "aliases": [
+            "Welcome Back",
+            "Welcome Back · door",
+            "AWOL [8 icons] Welcome Back"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/awol-8-icons-welcome-back-door.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/awol-8-icons-welcome-back-door.webp"
+        },
+        {
+          "id": "wl-bell-e-sport-esport",
+          "label": "E-sport · Esport",
+          "aliases": [
+            "esport",
+            "Esport",
+            "E-sport esport"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/e-sport-esport.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/e-sport-esport.webp"
+        },
+        {
+          "id": "wl-bell-event-halloween-express-plus",
+          "label": "Event/Halloween · Express plus",
+          "aliases": [
+            "express+",
+            "Express plus",
+            "Event/Halloween express+"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/event-halloween-express-plus.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/event-halloween-express-plus.png"
+        },
+        {
+          "id": "wl-bell-event-halloween-fb-basketball",
+          "label": "Event/Halloween · FB basketball",
+          "aliases": [
+            "fb_bascketball",
+            "FB basketball",
+            "Event/Halloween fb_bascketball"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/event-halloween-fb-basketball.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/event-halloween-fb-basketball.webp"
+        },
+        {
+          "id": "wl-bell-event-halloween-fb-football",
+          "label": "Event/Halloween · Fb football",
+          "aliases": [
+            "fb_football",
+            "Fb football",
+            "Event/Halloween fb_football"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/event-halloween-fb-football.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/event-halloween-fb-football.webp"
+        },
+        {
+          "id": "wl-bell-event-halloween-fb-hockey",
+          "label": "Event/Halloween · Fb hockey",
+          "aliases": [
+            "fb_hockey",
+            "Fb hockey",
+            "Event/Halloween fb_hockey"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/event-halloween-fb-hockey.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/event-halloween-fb-hockey.png"
+        },
+        {
+          "id": "wl-bell-event-halloween-football-preview",
+          "label": "Event/Halloween · Football preview",
+          "aliases": [
+            "look_football",
+            "Football preview",
+            "Event/Halloween look_football"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/event-halloween-football-preview.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/event-halloween-football-preview.png"
+        },
+        {
+          "id": "wl-bell-event-halloween-gift",
+          "label": "Event/Halloween · Gift",
+          "aliases": [
+            "gift",
+            "Gift",
+            "Event/Halloween gift",
+            "подарок"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/event-halloween-gift.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/event-halloween-gift.png"
+        },
+        {
+          "id": "wl-bell-event-halloween-mid-week",
+          "label": "Event/Halloween · Mid week",
+          "aliases": [
+            "mid_week",
+            "Mid week",
+            "Event/Halloween mid_week"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/event-halloween-mid-week.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/event-halloween-mid-week.webp"
+        },
+        {
+          "id": "wl-bell-event-halloween-quiz",
+          "label": "Event/Halloween · Quiz",
+          "aliases": [
+            "quiz",
+            "Quiz",
+            "Event/Halloween quiz",
+            "квиз",
+            "викторина"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/event-halloween-quiz.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/event-halloween-quiz.webp"
+        },
+        {
+          "id": "wl-bell-event-halloween-royal-player",
+          "label": "Event/Halloween · Royal player",
+          "aliases": [
+            "royal_player",
+            "Royal player",
+            "Event/Halloween royal_player"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/event-halloween-royal-player.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/event-halloween-royal-player.webp"
+        },
+        {
+          "id": "wl-bell-event-halloween-sport-bonus",
+          "label": "Event/Halloween · Sport bonus",
+          "aliases": [
+            "sport_bonus",
+            "Sport bonus",
+            "Event/Halloween sport_bonus"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/event-halloween-sport-bonus.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/event-halloween-sport-bonus.webp"
+        },
+        {
+          "id": "wl-bell-event-halloween-trophy",
+          "label": "Event/Halloween · Trophy",
+          "aliases": [
+            "trophy",
+            "Trophy",
+            "Event/Halloween trophy"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/event-halloween-trophy.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/event-halloween-trophy.png"
+        },
+        {
+          "id": "wl-bell-event-halloween-weekend-event",
+          "label": "Event/Halloween · Weekend event",
+          "aliases": [
+            "weekend_event",
+            "Weekend event",
+            "Event/Halloween weekend_event"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/event-halloween-weekend-event.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/event-halloween-weekend-event.webp"
+        },
+        {
+          "id": "wl-bell-event-new-year-2027-new-year-2027",
+          "label": "Event/New Year 2027 · New Year 2027",
+          "aliases": [
+            "NC Bell",
+            "New Year 2027",
+            "Event/New Year 2027 NC Bell",
+            "новый год 2027"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/event-new-year-2027-new-year-2027.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/event-new-year-2027-new-year-2027.png"
+        },
+        {
+          "id": "wl-bell-event-nowruz-2026-tulip",
+          "label": "Event/Nowruz 2026 · Tulip",
+          "aliases": [
+            "Property 1=tulip",
+            "Tulip",
+            "Event/Nowruz 2026 Property 1=tulip"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/event-nowruz-2026-tulip.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/event-nowruz-2026-tulip.png"
+        },
+        {
+          "id": "wl-bell-event-st-patrick-s-day-st-patrick-green",
+          "label": "Event/St. Patrick_s Day · St. Patrick · green",
+          "aliases": [
+            "St. Patrick_s Day_icon_green",
+            "St. Patrick · green",
+            "Event/St. Patrick_s Day St. Patrick_s Day_icon_green"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/event-st-patrick-s-day-st-patrick-green.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/event-st-patrick-s-day-st-patrick-green.png"
+        },
+        {
+          "id": "wl-bell-event-st-patrick-s-day-st-patrick-red",
+          "label": "Event/St. Patrick_s Day · St. Patrick · red",
+          "aliases": [
+            "St. Patrick_s Day_icon_red",
+            "St. Patrick · red",
+            "Event/St. Patrick_s Day St. Patrick_s Day_icon_red"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/event-st-patrick-s-day-st-patrick-red.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/event-st-patrick-s-day-st-patrick-red.png"
+        },
+        {
+          "id": "wl-bell-event-uefa-2026-uefa-2026",
+          "label": "Event/UEFA 2026 · UEFA 2026",
+          "aliases": [
+            "UEFA 2026",
+            "Event/UEFA 2026 UEFA 2026"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/event-uefa-2026-uefa-2026.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/event-uefa-2026-uefa-2026.png"
+        },
+        {
+          "id": "wl-bell-event-valentine-day-valentine-day",
+          "label": "Event/Valentine day · Valentine Day",
+          "aliases": [
+            "Vlentine_day",
+            "Valentine Day",
+            "Event/Valentine day Vlentine_day"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/event-valentine-day-valentine-day.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/event-valentine-day-valentine-day.png"
+        },
+        {
+          "id": "wl-bell-poker-cash-game",
+          "label": "Poker · Cash game",
+          "aliases": [
+            "cash_game",
+            "Cash game",
+            "Poker cash_game",
+            "кэш игра"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/poker-cash-game.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/poker-cash-game.webp"
+        },
+        {
+          "id": "wl-bell-poker-mm-ticket",
+          "label": "Poker · Mm ticket",
+          "aliases": [
+            "mm_ticket",
+            "Mm ticket",
+            "Poker mm_ticket"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/poker-mm-ticket.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/poker-mm-ticket.webp"
+        },
+        {
+          "id": "wl-bell-poker-poker-tournament",
+          "label": "Poker · Poker tournament",
+          "aliases": [
+            "poker_tournament",
+            "Poker tournament",
+            "Poker poker_tournament",
+            "покерный турнир"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/poker-poker-tournament.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/poker-poker-tournament.webp"
+        },
+        {
+          "id": "wl-bell-poker-rakeback",
+          "label": "Poker · Rakeback",
+          "aliases": [
+            "rakeback",
+            "Rakeback",
+            "Poker rakeback",
+            "рейкбек"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/poker-rakeback.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/poker-rakeback.webp"
+        },
+        {
+          "id": "wl-bell-sport-new-achievement",
+          "label": "Sport · Achievement",
+          "aliases": [
+            "achive",
+            "Achievement",
+            "Sport New achive"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-achievement.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-achievement.png"
+        },
+        {
+          "id": "wl-bell-sport-new-arena",
+          "label": "Sport · Arena",
+          "aliases": [
+            "arena",
+            "Arena",
+            "Sport New arena"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-arena.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-arena.png"
+        },
+        {
+          "id": "wl-bell-sport-baseball",
+          "label": "Sport · Baseball",
+          "aliases": [
+            "Baseball",
+            "Sport Baseball"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-baseball.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-baseball.png"
+        },
+        {
+          "id": "wl-bell-sport-basketball",
+          "label": "Sport · Basketball",
+          "aliases": [
+            "basketball",
+            "Basketball",
+            "Sport basketball",
+            "баскетбол"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-basketball.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-basketball.png"
+        },
+        {
+          "id": "wl-bell-sport-new-basketball-arrow",
+          "label": "Sport · Basketball arrow",
+          "aliases": [
+            "bascetball_arrow",
+            "Basketball arrow",
+            "Sport New bascetball_arrow"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-basketball-arrow.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-basketball-arrow.png"
+        },
+        {
+          "id": "wl-bell-sport-new-basketball-in-fire",
+          "label": "Sport · Basketball in fire",
+          "aliases": [
+            "basketball_in_fire",
+            "Basketball in fire",
+            "Sport New basketball_in_fire"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-basketball-in-fire.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-basketball-in-fire.webp"
+        },
+        {
+          "id": "wl-bell-sport-box",
+          "label": "Sport · Box",
+          "aliases": [
+            "Box",
+            "Sport Box"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-box.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-box.png"
+        },
+        {
+          "id": "wl-bell-sport-new-cashback",
+          "label": "Sport · Cashback",
+          "aliases": [
+            "cashback",
+            "Cashback",
+            "Sport New cashback",
+            "кэшбэк",
+            "кешбэк"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-cashback.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-cashback.webp"
+        },
+        {
+          "id": "wl-bell-sport-esport",
+          "label": "Sport · Esport",
+          "aliases": [
+            "Esport",
+            "Sport Esport"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/sport-esport.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-esport.webp"
+        },
+        {
+          "id": "wl-bell-sport-new-express-plus",
+          "label": "Sport · Express plus",
+          "aliases": [
+            "express+",
+            "Express plus",
+            "Sport New express+"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-express-plus.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-express-plus.png"
+        },
+        {
+          "id": "wl-bell-sport-new-fb-baseball",
+          "label": "Sport · Fb baseball",
+          "aliases": [
+            "fb_baseball",
+            "Fb baseball",
+            "Sport New fb_baseball"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-fb-baseball.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-fb-baseball.png"
+        },
+        {
+          "id": "wl-bell-sport-new-fb-basketball",
+          "label": "Sport · Fb basketball",
+          "aliases": [
+            "fb_basketball",
+            "Fb basketball",
+            "Sport New fb_basketball"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-fb-basketball.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-fb-basketball.png"
+        },
+        {
+          "id": "wl-bell-sport-new-fb-football",
+          "label": "Sport · Fb football",
+          "aliases": [
+            "fb_football",
+            "Fb football",
+            "Sport New fb_football"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-fb-football.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-fb-football.png"
+        },
+        {
+          "id": "wl-bell-sport-new-fb-hockey",
+          "label": "Sport · Fb hockey",
+          "aliases": [
+            "fb_hockey",
+            "Fb hockey",
+            "Sport New fb_hockey"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-fb-hockey.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-fb-hockey.png"
+        },
+        {
+          "id": "wl-bell-sport-new-fb-mix",
+          "label": "Sport · Fb mix",
+          "aliases": [
+            "fb_mix",
+            "Fb mix",
+            "Sport New fb_mix"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-fb-mix.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-fb-mix.png"
+        },
+        {
+          "id": "wl-bell-sport-new-fb-tennis",
+          "label": "Sport · FB tennis",
+          "aliases": [
+            "fb_tenis",
+            "FB tennis",
+            "Sport New fb_tenis"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-fb-tennis.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-fb-tennis.png"
+        },
+        {
+          "id": "wl-bell-sport-football",
+          "label": "Sport · Football",
+          "aliases": [
+            "Football",
+            "Sport Football",
+            "футбол"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/sport-football.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-football.webp"
+        },
+        {
+          "id": "wl-bell-sport-new-football-arrow",
+          "label": "Sport · Football arrow",
+          "aliases": [
+            "football_arrow",
+            "Football arrow",
+            "Sport New football_arrow"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-football-arrow.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-football-arrow.png"
+        },
+        {
+          "id": "wl-bell-sport-new-football-gift",
+          "label": "Sport · Football gift",
+          "aliases": [
+            "football_gift",
+            "Football gift",
+            "Sport New football_gift"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-football-gift.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-football-gift.png"
+        },
+        {
+          "id": "wl-bell-sport-new-football-in-fire",
+          "label": "Sport · Football in fire",
+          "aliases": [
+            "football_in_fire",
+            "Football in fire",
+            "Sport New football_in_fire"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-football-in-fire.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-football-in-fire.png"
+        },
+        {
+          "id": "wl-bell-sport-new-football-live",
+          "label": "Sport · Football live",
+          "aliases": [
+            "football_live",
+            "Football live",
+            "Sport New football_live"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-football-live.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-football-live.png"
+        },
+        {
+          "id": "wl-bell-sport-new-football-live-1",
+          "label": "Sport · Football live 1",
+          "aliases": [
+            "football_live-1",
+            "Football live 1",
+            "Sport New football_live-1"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-football-live-1.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-football-live-1.png"
+        },
+        {
+          "id": "wl-bell-sport-new-football-preview",
+          "label": "Sport · Football preview",
+          "aliases": [
+            "look_football",
+            "Football preview",
+            "Sport New look_football"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-football-preview.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-football-preview.png"
+        },
+        {
+          "id": "wl-bell-sport-new-football-x2",
+          "label": "Sport · Football x2",
+          "aliases": [
+            "football_x2",
+            "Football x2",
+            "Sport New football_x2"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-football-x2.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-football-x2.png"
+        },
+        {
+          "id": "wl-bell-sport-new-gift",
+          "label": "Sport · Gift",
+          "aliases": [
+            "gift",
+            "Gift",
+            "Sport New gift",
+            "подарок"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-gift.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-gift.png"
+        },
+        {
+          "id": "wl-bell-sport-hockey",
+          "label": "Sport · Hockey",
+          "aliases": [
+            "Hockey",
+            "Sport Hockey",
+            "хоккей"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-hockey.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-hockey.png"
+        },
+        {
+          "id": "wl-bell-sport-new-hockey-arrow",
+          "label": "Sport · Hockey arrow",
+          "aliases": [
+            "hockey_arrow",
+            "Hockey arrow",
+            "Sport New hockey_arrow"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-hockey-arrow.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-hockey-arrow.png"
+        },
+        {
+          "id": "wl-bell-sport-new-hockey-in-fire",
+          "label": "Sport · Hockey in fire",
+          "aliases": [
+            "hockey_in_fire",
+            "Hockey in fire",
+            "Sport New hockey_in_fire"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-hockey-in-fire.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-hockey-in-fire.png"
+        },
+        {
+          "id": "wl-bell-sport-new-midweek",
+          "label": "Sport · Midweek",
+          "aliases": [
+            "midweek",
+            "Midweek",
+            "Sport New midweek"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-midweek.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-midweek.png"
+        },
+        {
+          "id": "wl-bell-sport-new-money",
+          "label": "Sport · Money",
+          "aliases": [
+            "money",
+            "Money",
+            "Sport New money"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-money.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-money.png"
+        },
+        {
+          "id": "wl-bell-sport-no-risk",
+          "label": "Sport · No risk",
+          "aliases": [
+            "No risk",
+            "Sport No risk"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/sport-no-risk.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-no-risk.webp"
+        },
+        {
+          "id": "wl-bell-sport-new-notification",
+          "label": "Sport · Notification",
+          "aliases": [
+            "notofication",
+            "Notification",
+            "Sport New notofication"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-notification.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-notification.png"
+        },
+        {
+          "id": "wl-bell-sport-new-quiz",
+          "label": "Sport · Quiz",
+          "aliases": [
+            "quiz",
+            "Quiz",
+            "Sport New quiz",
+            "квиз",
+            "викторина"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-quiz.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-quiz.png"
+        },
+        {
+          "id": "wl-bell-sport-new-royal-player",
+          "label": "Sport · Royal player",
+          "aliases": [
+            "royal_player",
+            "Royal player",
+            "Sport New royal_player"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-royal-player.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-royal-player.png"
+        },
+        {
+          "id": "wl-bell-sport-new-sport-bonus",
+          "label": "Sport · Sport bonus",
+          "aliases": [
+            "sport bonus",
+            "Sport bonus",
+            "Sport New sport bonus"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-sport-bonus.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-sport-bonus.webp"
+        },
+        {
+          "id": "wl-bell-sport-sport-weekend",
+          "label": "Sport · Sport weekend",
+          "aliases": [
+            "sport_weekend",
+            "Sport weekend",
+            "Sport sport_weekend"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/bell/sport-sport-weekend.png",
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-sport-weekend.webp"
+        },
+        {
+          "id": "wl-bell-sport-new-star-grow",
+          "label": "Sport · Star grow",
+          "aliases": [
+            "star_grow",
+            "Star grow",
+            "Sport New star_grow"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-star-grow.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-star-grow.png"
+        },
+        {
+          "id": "wl-bell-sport-new-strategy",
+          "label": "Sport · Strategy",
+          "aliases": [
+            "strategy",
+            "Strategy",
+            "Sport New strategy"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-strategy.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-strategy.png"
+        },
+        {
+          "id": "wl-bell-sport-tennis",
+          "label": "Sport · Tennis",
+          "aliases": [
+            "Tennis",
+            "Sport Tennis",
+            "теннис"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-tennis.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-tennis.png"
+        },
+        {
+          "id": "wl-bell-sport-new-tennis-arrow",
+          "label": "Sport · Tennis arrow",
+          "aliases": [
+            "tenis_arrow",
+            "Tennis arrow",
+            "Sport New tenis_arrow"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-tennis-arrow.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-tennis-arrow.png"
+        },
+        {
+          "id": "wl-bell-sport-new-time-in-fire",
+          "label": "Sport · Time in fire",
+          "aliases": [
+            "time_in_fire",
+            "Time in fire",
+            "Sport New time_in_fire"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-time-in-fire.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-time-in-fire.png"
+        },
+        {
+          "id": "wl-bell-sport-new-trophy",
+          "label": "Sport · Trophy",
+          "aliases": [
+            "trophy",
+            "Trophy",
+            "Sport New trophy"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-trophy.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-trophy.png"
+        },
+        {
+          "id": "wl-bell-sport-new-vip",
+          "label": "Sport · Vip",
+          "aliases": [
+            "vip",
+            "Vip",
+            "Sport New vip"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-vip.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-vip.png"
+        },
+        {
+          "id": "wl-bell-sport-new-weekend",
+          "label": "Sport · Weekend",
+          "aliases": [
+            "weekend",
+            "Weekend",
+            "Sport New weekend"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/bell/sport-new-weekend.webp",
+          "png": "qmu/profiles/company-2/notifications/bell/sport-new-weekend.png"
         }
       ],
       "toastImages": [
@@ -2564,6 +3933,9 @@
           "id": "wl-toast-info",
           "label": "Info",
           "aliases": [
+            "10-info",
+            "Info",
+            "Casino 10-info",
             "информация"
           ],
           "keywords": [
@@ -2571,13 +3943,16 @@
             "информация"
           ],
           "priority": 1,
-          "png": "qmu/profiles/company-2/notifications/toast/info.png",
-          "webp": "qmu/profiles/company-2/notifications/toast/info.webp"
+          "webp": "qmu/profiles/company-2/notifications/toast/info.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/info.png"
         },
         {
           "id": "wl-toast-alert",
           "label": "Alert",
           "aliases": [
+            "02-alert",
+            "Alert",
+            "Casino 02-alert",
             "внимание",
             "problem",
             "error"
@@ -2589,20 +3964,21 @@
             "предупреждение"
           ],
           "priority": 2,
-          "webp": "qmu/profiles/company-2/notifications/toast/alert.webp",
-          "png": "qmu/profiles/company-2/notifications/toast/alert.png"
+          "png": "qmu/profiles/company-2/notifications/toast/alert.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/alert.webp"
         },
         {
           "id": "wl-toast-bonus",
           "label": "Bonus",
           "aliases": [
+            "01-bonus",
+            "Bonus",
+            "Casino 01-bonus",
             "бонус"
           ],
           "keywords": [
             "bonus",
-            "бонус*",
-            "free spins",
-            "фриспин*"
+            "бонус*"
           ],
           "priority": 3,
           "png": "qmu/profiles/company-2/notifications/toast/bonus.png",
@@ -2614,10 +3990,7 @@
           "aliases": [
             "fifa_2026"
           ],
-          "keywords": [
-            "fifa",
-            "фифа"
-          ],
+          "keywords": [],
           "priority": 4,
           "png": "qmu/profiles/company-2/notifications/toast/fifa-2026.png",
           "webp": "qmu/profiles/company-2/notifications/toast/fifa-2026.webp"
@@ -2626,6 +3999,9 @@
           "id": "wl-toast-giftbox",
           "label": "Giftbox",
           "aliases": [
+            "09-giftbox",
+            "Giftbox",
+            "Casino 09-giftbox",
             "gift",
             "подарок"
           ],
@@ -2642,6 +4018,9 @@
           "id": "wl-toast-maintenance",
           "label": "Maintenance",
           "aliases": [
+            "08-maintenance",
+            "Maintenance",
+            "Casino 08-maintenance",
             "maintanence",
             "maintainence",
             "technical works",
@@ -2654,13 +4033,16 @@
             "техработ*"
           ],
           "priority": 6,
-          "png": "qmu/profiles/company-2/notifications/toast/maintenance.png",
-          "webp": "qmu/profiles/company-2/notifications/toast/maintenance.webp"
+          "webp": "qmu/profiles/company-2/notifications/toast/maintenance.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/maintenance.png"
         },
         {
           "id": "wl-toast-new",
           "label": "New",
           "aliases": [
+            "04-new",
+            "New",
+            "Casino 04-new",
             "новое",
             "новинка"
           ],
@@ -2670,13 +4052,16 @@
             "новое"
           ],
           "priority": 7,
-          "webp": "qmu/profiles/company-2/notifications/toast/new.webp",
-          "png": "qmu/profiles/company-2/notifications/toast/new.png"
+          "png": "qmu/profiles/company-2/notifications/toast/new.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/new.webp"
         },
         {
           "id": "wl-toast-pincoin",
           "label": "Pincoin",
           "aliases": [
+            "05-pincoin",
+            "Pincoin",
+            "Casino 05-pincoin",
             "pincoins",
             "пинкоин",
             "пинкоины"
@@ -2686,8 +4071,8 @@
             "пинкоин*"
           ],
           "priority": 8,
-          "webp": "qmu/profiles/company-2/notifications/toast/pincoin.webp",
-          "png": "qmu/profiles/company-2/notifications/toast/pincoin.png"
+          "png": "qmu/profiles/company-2/notifications/toast/pincoin.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/pincoin.webp"
         },
         {
           "id": "wl-toast-relic-trail",
@@ -2695,9 +4080,7 @@
           "aliases": [
             "Relic Trail"
           ],
-          "keywords": [
-            "relic trail"
-          ],
+          "keywords": [],
           "priority": 9,
           "png": "qmu/profiles/company-2/notifications/toast/relic-trail.png",
           "webp": "qmu/profiles/company-2/notifications/toast/relic-trail.webp"
@@ -2706,6 +4089,9 @@
           "id": "wl-toast-security",
           "label": "Security",
           "aliases": [
+            "07-security",
+            "Security",
+            "Casino 07-security",
             "безопасность"
           ],
           "keywords": [
@@ -2717,13 +4103,16 @@
             "верификац*"
           ],
           "priority": 10,
-          "webp": "qmu/profiles/company-2/notifications/toast/security.webp",
-          "png": "qmu/profiles/company-2/notifications/toast/security.png"
+          "png": "qmu/profiles/company-2/notifications/toast/security.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/security.webp"
         },
         {
           "id": "wl-toast-success-payment",
           "label": "Success payment",
           "aliases": [
+            "11-card-success",
+            "Card success",
+            "Casino 11-card-success",
             "success_payment",
             "success",
             "успешная оплата"
@@ -2735,13 +4124,16 @@
             "успешная оплата"
           ],
           "priority": 11,
-          "webp": "qmu/profiles/company-2/notifications/toast/success-payment.webp",
-          "png": "qmu/profiles/company-2/notifications/toast/success-payment.png"
+          "png": "qmu/profiles/company-2/notifications/toast/success-payment.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/success-payment.webp"
         },
         {
           "id": "wl-toast-support",
           "label": "Support",
           "aliases": [
+            "06-support",
+            "Support",
+            "Casino 06-support",
             "поддержка"
           ],
           "keywords": [
@@ -2756,6 +4148,9 @@
           "id": "wl-toast-tournament",
           "label": "Tournament",
           "aliases": [
+            "03-tournament",
+            "Tournament",
+            "Casino 03-tournament",
             "tournaments",
             "турнир"
           ],
@@ -2764,8 +4159,8 @@
             "турнир*"
           ],
           "priority": 13,
-          "webp": "qmu/profiles/company-2/notifications/toast/tournament.webp",
-          "png": "qmu/profiles/company-2/notifications/toast/tournament.png"
+          "png": "qmu/profiles/company-2/notifications/toast/tournament.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/tournament.webp"
         },
         {
           "id": "wl-toast-uefa-2026",
@@ -2773,13 +4168,1208 @@
           "aliases": [
             "UEFA_2026"
           ],
-          "keywords": [
-            "uefa",
-            "уефа"
-          ],
+          "keywords": [],
           "priority": 14,
           "webp": "qmu/profiles/company-2/notifications/toast/uefa-2026.webp",
           "png": "qmu/profiles/company-2/notifications/toast/uefa-2026.png"
+        },
+        {
+          "id": "wl-toast-casino-advent",
+          "label": "Advent",
+          "aliases": [
+            "29-advent",
+            "Advent",
+            "Casino 29-advent"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-advent.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/casino-advent.png"
+        },
+        {
+          "id": "wl-toast-casino-advent-calendar",
+          "label": "Advent calendar",
+          "aliases": [
+            "33-advent_calendar_toast",
+            "Advent calendar",
+            "Casino 33-advent_calendar_toast"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-advent-calendar.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-advent-calendar.webp"
+        },
+        {
+          "id": "wl-toast-casino-aviator",
+          "label": "Aviator",
+          "aliases": [
+            "32-aviator",
+            "Aviator",
+            "Casino 32-aviator"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-aviator.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-aviator.webp"
+        },
+        {
+          "id": "wl-toast-casino-aviator-fb",
+          "label": "Aviator fb",
+          "aliases": [
+            "27-aviator-fb",
+            "Aviator fb",
+            "Casino 27-aviator-fb"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-aviator-fb.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/casino-aviator-fb.png"
+        },
+        {
+          "id": "wl-toast-casino-bonus",
+          "label": "Bonus",
+          "aliases": [
+            "20-bonus",
+            "Bonus",
+            "Casino 20-bonus"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-bonus.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-bonus.webp"
+        },
+        {
+          "id": "wl-toast-casino-book",
+          "label": "Book",
+          "aliases": [
+            "14-book",
+            "Book",
+            "Casino 14-book"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-book.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-book.webp"
+        },
+        {
+          "id": "wl-toast-casino-cashback",
+          "label": "Cashback",
+          "aliases": [
+            "19-cashback",
+            "Cashback",
+            "Casino 19-cashback",
+            "кэшбэк",
+            "кешбэк"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-cashback.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-cashback.webp"
+        },
+        {
+          "id": "wl-toast-casino-darts",
+          "label": "Darts",
+          "aliases": [
+            "16-darts",
+            "Darts",
+            "Casino 16-darts"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-darts.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-darts.webp"
+        },
+        {
+          "id": "wl-toast-casino-exclusives",
+          "label": "Exclusives",
+          "aliases": [
+            "17-exclusives",
+            "Exclusives",
+            "Casino 17-exclusives"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-exclusives.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-exclusives.webp"
+        },
+        {
+          "id": "wl-toast-casino-fb",
+          "label": "FB",
+          "aliases": [
+            "21-FB",
+            "FB",
+            "Casino 21-FB",
+            "фрибет",
+            "free bet"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-fb.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-fb.webp"
+        },
+        {
+          "id": "wl-toast-casino-fs",
+          "label": "FS",
+          "aliases": [
+            "22-FS",
+            "FS",
+            "Casino 22-FS",
+            "фриспины",
+            "фриспин",
+            "free spins"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-fs.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-fs.webp"
+        },
+        {
+          "id": "wl-toast-casino-gift-box",
+          "label": "Gift box",
+          "aliases": [
+            "28-gift-box",
+            "Gift box",
+            "Casino 28-gift-box"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-gift-box.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/casino-gift-box.png"
+        },
+        {
+          "id": "wl-toast-casino-jackpot",
+          "label": "Jackpot",
+          "aliases": [
+            "15-kackpot",
+            "Jackpot",
+            "Casino 15-kackpot",
+            "джекпот"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-jackpot.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-jackpot.webp"
+        },
+        {
+          "id": "wl-toast-casino-jackpot-bell",
+          "label": "Jackpot bell",
+          "aliases": [
+            "18-jackpot-bell",
+            "Jackpot bell",
+            "Casino 18-jackpot-bell"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-jackpot-bell.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-jackpot-bell.webp"
+        },
+        {
+          "id": "wl-toast-casino-no-deposit-bonus",
+          "label": "No deposit bonus",
+          "aliases": [
+            "31-no-dep-bonus",
+            "No deposit bonus",
+            "Casino 31-no-dep-bonus",
+            "бездепозитный бонус"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-no-deposit-bonus.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-no-deposit-bonus.webp"
+        },
+        {
+          "id": "wl-toast-casino-non-vip-3d",
+          "label": "Non-VIP 3D",
+          "aliases": [
+            "non-vip-3d",
+            "Non-VIP 3D",
+            "Casino non-vip-3d"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-non-vip-3d.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-non-vip-3d.webp"
+        },
+        {
+          "id": "wl-toast-casino-quiz",
+          "label": "Quiz",
+          "aliases": [
+            "26-quiz",
+            "Quiz",
+            "Casino 26-quiz",
+            "квиз",
+            "викторина"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-quiz.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-quiz.webp"
+        },
+        {
+          "id": "wl-toast-casino-recommendation",
+          "label": "Recommendation",
+          "aliases": [
+            "13-recomendation",
+            "Recommendation",
+            "Casino 13-recomendation"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-recommendation.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-recommendation.webp"
+        },
+        {
+          "id": "wl-toast-casino-summer-rush",
+          "label": "Summer rush",
+          "aliases": [
+            "12-summer-rush",
+            "Summer rush",
+            "Casino 12-summer-rush"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-summer-rush.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-summer-rush.webp"
+        },
+        {
+          "id": "wl-toast-casino-top-event",
+          "label": "Top event",
+          "aliases": [
+            "34-top_event_toast",
+            "Top event",
+            "Casino 34-top_event_toast"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-top-event.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-top-event.webp"
+        },
+        {
+          "id": "wl-toast-casino-vip",
+          "label": "VIP",
+          "aliases": [
+            "24-VIP",
+            "VIP",
+            "Casino 24-VIP"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-vip.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/casino-vip.png"
+        },
+        {
+          "id": "wl-toast-casino-vip-3d",
+          "label": "VIP 3D",
+          "aliases": [
+            "vip-3d",
+            "VIP 3D",
+            "Casino vip-3d"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-vip-3d.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-vip-3d.webp"
+        },
+        {
+          "id": "wl-toast-casino-welcome-back",
+          "label": "Welcome back",
+          "aliases": [
+            "30-welcome-back",
+            "Welcome back",
+            "Casino 30-welcome-back",
+            "возвращение"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-welcome-back.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-welcome-back.webp"
+        },
+        {
+          "id": "wl-toast-casino-wheel-fortune",
+          "label": "Wheel fortune",
+          "aliases": [
+            "23-wheel-fortune",
+            "Wheel fortune",
+            "Casino 23-wheel-fortune"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-wheel-fortune.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-wheel-fortune.webp"
+        },
+        {
+          "id": "wl-toast-casino-winners",
+          "label": "Winners",
+          "aliases": [
+            "25-winners",
+            "Winners",
+            "Casino 25-winners"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/casino-winners.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/casino-winners.webp"
+        },
+        {
+          "id": "wl-toast-e-sport-esport",
+          "label": "E-sport · Esport",
+          "aliases": [
+            "01-esport",
+            "Esport",
+            "e-Sport 01-esport"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/e-sport-esport.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/e-sport-esport.webp"
+        },
+        {
+          "id": "wl-toast-halloween-express-plus",
+          "label": "Halloween · Express plus",
+          "aliases": [
+            "express+",
+            "Express plus",
+            "Halloween express+"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/halloween-express-plus.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/halloween-express-plus.png"
+        },
+        {
+          "id": "wl-toast-halloween-fb-football",
+          "label": "Halloween · Fb football",
+          "aliases": [
+            "fb_football",
+            "Fb football",
+            "Halloween fb_football"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/halloween-fb-football.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/halloween-fb-football.png"
+        },
+        {
+          "id": "wl-toast-halloween-fb-hockey",
+          "label": "Halloween · Fb hockey",
+          "aliases": [
+            "fb_hockey",
+            "Fb hockey",
+            "Halloween fb_hockey"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/halloween-fb-hockey.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/halloween-fb-hockey.png"
+        },
+        {
+          "id": "wl-toast-halloween-fb-mix",
+          "label": "Halloween · Fb mix",
+          "aliases": [
+            "fb_mix",
+            "Fb mix",
+            "Halloween fb_mix"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/halloween-fb-mix.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/halloween-fb-mix.png"
+        },
+        {
+          "id": "wl-toast-halloween-football-preview",
+          "label": "Halloween · Football preview",
+          "aliases": [
+            "look_football",
+            "Football preview",
+            "Halloween look_football"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/halloween-football-preview.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/halloween-football-preview.png"
+        },
+        {
+          "id": "wl-toast-halloween-gift",
+          "label": "Halloween · Gift",
+          "aliases": [
+            "gift",
+            "Gift",
+            "Halloween gift",
+            "подарок"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/halloween-gift.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/halloween-gift.png"
+        },
+        {
+          "id": "wl-toast-halloween-mid-week",
+          "label": "Halloween · Mid week",
+          "aliases": [
+            "mid_week",
+            "Mid week",
+            "Halloween mid_week"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/halloween-mid-week.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/halloween-mid-week.png"
+        },
+        {
+          "id": "wl-toast-halloween-quiz",
+          "label": "Halloween · Quiz",
+          "aliases": [
+            "quiz",
+            "Quiz",
+            "Halloween quiz",
+            "квиз",
+            "викторина"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/halloween-quiz.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/halloween-quiz.png"
+        },
+        {
+          "id": "wl-toast-halloween-royal-player",
+          "label": "Halloween · Royal player",
+          "aliases": [
+            "royal_payer",
+            "Royal player",
+            "Halloween royal_payer"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/halloween-royal-player.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/halloween-royal-player.png"
+        },
+        {
+          "id": "wl-toast-halloween-sport-bonus",
+          "label": "Halloween · Sport bonus",
+          "aliases": [
+            "sport_bonus",
+            "Sport bonus",
+            "Halloween sport_bonus"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/halloween-sport-bonus.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/halloween-sport-bonus.png"
+        },
+        {
+          "id": "wl-toast-halloween-trophy",
+          "label": "Halloween · Trophy",
+          "aliases": [
+            "trophy",
+            "Trophy",
+            "Halloween trophy"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/halloween-trophy.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/halloween-trophy.png"
+        },
+        {
+          "id": "wl-toast-halloween-weekend-event",
+          "label": "Halloween · Weekend event",
+          "aliases": [
+            "weekend_event",
+            "Weekend event",
+            "Halloween weekend_event"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/halloween-weekend-event.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/halloween-weekend-event.png"
+        },
+        {
+          "id": "wl-toast-new-year-2027-new-year-2027",
+          "label": "New Year 2027 · New Year 2027",
+          "aliases": [
+            "NC toast",
+            "New Year 2027",
+            "New Year 2027 NC toast",
+            "новый год 2027"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/new-year-2027-new-year-2027.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/new-year-2027-new-year-2027.webp"
+        },
+        {
+          "id": "wl-toast-poker-cash-game",
+          "label": "Poker · Cash game",
+          "aliases": [
+            "04-cash-game",
+            "Cash game",
+            "Poker 04-cash-game",
+            "кэш игра"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/poker-cash-game.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/poker-cash-game.png"
+        },
+        {
+          "id": "wl-toast-poker-mm-ticket",
+          "label": "Poker · Mm ticket",
+          "aliases": [
+            "03-mm-ticket",
+            "Mm ticket",
+            "Poker 03-mm-ticket"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/poker-mm-ticket.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/poker-mm-ticket.png"
+        },
+        {
+          "id": "wl-toast-poker-poker-tournament",
+          "label": "Poker · Poker tournament",
+          "aliases": [
+            "01-poker-tournament",
+            "Poker tournament",
+            "Poker 01-poker-tournament",
+            "покерный турнир"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/poker-poker-tournament.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/poker-poker-tournament.png"
+        },
+        {
+          "id": "wl-toast-poker-rakeback",
+          "label": "Poker · Rakeback",
+          "aliases": [
+            "02-rakeback",
+            "Rakeback",
+            "Poker 02-rakeback",
+            "рейкбек"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/poker-rakeback.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/poker-rakeback.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-achievement",
+          "label": "Sport · Achievement",
+          "aliases": [
+            "achive",
+            "Achievement",
+            "Sport New achive"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-achievement.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-achievement.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-arena",
+          "label": "Sport · Arena",
+          "aliases": [
+            "arena",
+            "Arena",
+            "Sport New arena"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-arena.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-arena.png"
+        },
+        {
+          "id": "wl-toast-sport-baseball",
+          "label": "Sport · Baseball",
+          "aliases": [
+            "baseball",
+            "Baseball",
+            "Sport baseball"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-baseball.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-baseball.webp"
+        },
+        {
+          "id": "wl-toast-sport-basketball",
+          "label": "Sport · Basketball",
+          "aliases": [
+            "basketball",
+            "Basketball",
+            "Sport basketball",
+            "баскетбол"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-basketball.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/sport-basketball.png"
+        },
+        {
+          "id": "wl-toast-sport-new-basketball-arrow",
+          "label": "Sport · Basketball arrow",
+          "aliases": [
+            "bascetball_arrow",
+            "Basketball arrow",
+            "Sport New bascetball_arrow"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-basketball-arrow.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-basketball-arrow.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-basketball-in-fire",
+          "label": "Sport · Basketball in fire",
+          "aliases": [
+            "basketball_in_fire",
+            "Basketball in fire",
+            "Sport New basketball_in_fire"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-basketball-in-fire.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-basketball-in-fire.webp"
+        },
+        {
+          "id": "wl-toast-sport-box",
+          "label": "Sport · Box",
+          "aliases": [
+            "box",
+            "Box",
+            "Sport box"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-box.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-box.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-cashback",
+          "label": "Sport · Cashback",
+          "aliases": [
+            "cashback",
+            "Cashback",
+            "Sport New cashback",
+            "кэшбэк",
+            "кешбэк"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-cashback.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-cashback.webp"
+        },
+        {
+          "id": "wl-toast-sport-esport",
+          "label": "Sport · Esport",
+          "aliases": [
+            "esport",
+            "Esport",
+            "Sport esport"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-esport.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/sport-esport.png"
+        },
+        {
+          "id": "wl-toast-sport-new-express-plus",
+          "label": "Sport · Express plus",
+          "aliases": [
+            "express+",
+            "Express plus",
+            "Sport New express+"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-express-plus.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-express-plus.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-fb-baseball",
+          "label": "Sport · Fb baseball",
+          "aliases": [
+            "fb_baseball",
+            "Fb baseball",
+            "Sport New fb_baseball"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-fb-baseball.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-fb-baseball.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-fb-basketball",
+          "label": "Sport · Fb basketball",
+          "aliases": [
+            "fb_basketball",
+            "Fb basketball",
+            "Sport New fb_basketball"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-fb-basketball.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-fb-basketball.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-fb-football",
+          "label": "Sport · Fb football",
+          "aliases": [
+            "fb_football",
+            "Fb football",
+            "Sport New fb_football"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-fb-football.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-fb-football.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-fb-hockey",
+          "label": "Sport · Fb hockey",
+          "aliases": [
+            "fb_hockey",
+            "Fb hockey",
+            "Sport New fb_hockey"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-fb-hockey.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-fb-hockey.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-fb-mix",
+          "label": "Sport · Fb mix",
+          "aliases": [
+            "fb_mix",
+            "Fb mix",
+            "Sport New fb_mix"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-fb-mix.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-fb-mix.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-fb-tennis",
+          "label": "Sport · FB tennis",
+          "aliases": [
+            "fb_tenis",
+            "FB tennis",
+            "Sport New fb_tenis"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-fb-tennis.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-fb-tennis.webp"
+        },
+        {
+          "id": "wl-toast-sport-football",
+          "label": "Sport · Football",
+          "aliases": [
+            "footbal",
+            "Football",
+            "Sport footbal",
+            "футбол"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-football.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-football.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-football-arrow",
+          "label": "Sport · Football arrow",
+          "aliases": [
+            "football_arrow",
+            "Football arrow",
+            "Sport New football_arrow"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-football-arrow.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-football-arrow.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-football-gift",
+          "label": "Sport · Football gift",
+          "aliases": [
+            "football_gift",
+            "Football gift",
+            "Sport New football_gift"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-football-gift.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-football-gift.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-football-in-fire",
+          "label": "Sport · Football in fire",
+          "aliases": [
+            "football_in_fire",
+            "Football in fire",
+            "Sport New football_in_fire"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-football-in-fire.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-football-in-fire.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-football-live",
+          "label": "Sport · Football live",
+          "aliases": [
+            "football_live",
+            "Football live",
+            "Sport New football_live"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-football-live.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-football-live.png"
+        },
+        {
+          "id": "wl-toast-sport-new-football-preview",
+          "label": "Sport · Football preview",
+          "aliases": [
+            "football_look",
+            "Football preview",
+            "Sport New football_look"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-football-preview.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-football-preview.webp"
+        },
+        {
+          "id": "wl-toast-sport-football-promo",
+          "label": "Sport · Football promo",
+          "aliases": [
+            "02-football-promo",
+            "Football promo",
+            "Sport 02-football-promo"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-football-promo.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-football-promo.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-football-x2",
+          "label": "Sport · Football x2",
+          "aliases": [
+            "football_x2",
+            "Football x2",
+            "Sport New football_x2"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-football-x2.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-football-x2.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-gift",
+          "label": "Sport · Gift",
+          "aliases": [
+            "gift",
+            "Gift",
+            "Sport New gift",
+            "подарок"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-gift.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-gift.webp"
+        },
+        {
+          "id": "wl-toast-sport-hockey",
+          "label": "Sport · Hockey",
+          "aliases": [
+            "hockey",
+            "Hockey",
+            "Sport hockey",
+            "хоккей"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-hockey.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-hockey.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-hockey-arrow",
+          "label": "Sport · Hockey arrow",
+          "aliases": [
+            "hockey_arrow",
+            "Hockey arrow",
+            "Sport New hockey_arrow"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-hockey-arrow.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-hockey-arrow.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-hockey-in-fire",
+          "label": "Sport · Hockey in fire",
+          "aliases": [
+            "hockey_in_fire",
+            "Hockey in fire",
+            "Sport New hockey_in_fire"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-hockey-in-fire.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-hockey-in-fire.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-midweek",
+          "label": "Sport · Midweek",
+          "aliases": [
+            "midweek",
+            "Midweek",
+            "Sport New midweek"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-midweek.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-midweek.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-money",
+          "label": "Sport · Money",
+          "aliases": [
+            "money",
+            "Money",
+            "Sport New money"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-money.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-money.webp"
+        },
+        {
+          "id": "wl-toast-sport-no-risk",
+          "label": "Sport · No risk",
+          "aliases": [
+            "norisk",
+            "No risk",
+            "Sport norisk"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-no-risk.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-no-risk.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-notification",
+          "label": "Sport · Notification",
+          "aliases": [
+            "notofication",
+            "Notification",
+            "Sport New notofication"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-notification.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-notification.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-quiz",
+          "label": "Sport · Quiz",
+          "aliases": [
+            "quiz",
+            "Quiz",
+            "Sport New quiz",
+            "квиз",
+            "викторина"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-quiz.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-quiz.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-royal-player",
+          "label": "Sport · Royal player",
+          "aliases": [
+            "royal_player",
+            "Royal player",
+            "Sport New royal_player"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-royal-player.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-royal-player.webp"
+        },
+        {
+          "id": "wl-toast-sport-sport",
+          "label": "Sport · Sport",
+          "aliases": [
+            "01-sport",
+            "Sport",
+            "Sport 01-sport"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-sport.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/sport-sport.png"
+        },
+        {
+          "id": "wl-toast-sport-new-sport-bonus",
+          "label": "Sport · Sport bonus",
+          "aliases": [
+            "sport bonus",
+            "Sport bonus",
+            "Sport New sport bonus"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-sport-bonus.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-sport-bonus.webp"
+        },
+        {
+          "id": "wl-toast-sport-sport-quiz",
+          "label": "Sport · Sport quiz",
+          "aliases": [
+            "03-sport-quiz",
+            "Sport quiz",
+            "Sport 03-sport-quiz"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-sport-quiz.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-sport-quiz.webp"
+        },
+        {
+          "id": "wl-toast-sport-sport-weekend",
+          "label": "Sport · Sport weekend",
+          "aliases": [
+            "04-sport-weekend",
+            "Sport weekend",
+            "Sport 04-sport-weekend"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-sport-weekend.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/sport-sport-weekend.png"
+        },
+        {
+          "id": "wl-toast-sport-new-star-grow",
+          "label": "Sport · Star grow",
+          "aliases": [
+            "star_grow",
+            "Star grow",
+            "Sport New star_grow"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-star-grow.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-star-grow.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-strategy",
+          "label": "Sport · Strategy",
+          "aliases": [
+            "strategy",
+            "Strategy",
+            "Sport New strategy"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-strategy.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-strategy.webp"
+        },
+        {
+          "id": "wl-toast-sport-tennis",
+          "label": "Sport · Tennis",
+          "aliases": [
+            "tennis",
+            "Tennis",
+            "Sport tennis",
+            "теннис"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-tennis.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/sport-tennis.png"
+        },
+        {
+          "id": "wl-toast-sport-new-tennis-arrow",
+          "label": "Sport · Tennis arrow",
+          "aliases": [
+            "tenis_arrow",
+            "Tennis arrow",
+            "Sport New tenis_arrow"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-tennis-arrow.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-tennis-arrow.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-tennis-in-fire",
+          "label": "Sport · Tennis in fire",
+          "aliases": [
+            "tennis_in_fire",
+            "Tennis in fire",
+            "Sport New tennis_in_fire"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-tennis-in-fire.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-tennis-in-fire.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-time-in-fire",
+          "label": "Sport · Time in fire",
+          "aliases": [
+            "time_in_fire",
+            "Time in fire",
+            "Sport New time_in_fire"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-time-in-fire.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-time-in-fire.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-trophy",
+          "label": "Sport · Trophy",
+          "aliases": [
+            "trophy",
+            "Trophy",
+            "Sport New trophy"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-trophy.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-trophy.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-vip",
+          "label": "Sport · Vip",
+          "aliases": [
+            "vip",
+            "Vip",
+            "Sport New vip"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-vip.png",
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-vip.webp"
+        },
+        {
+          "id": "wl-toast-sport-new-weekend",
+          "label": "Sport · Weekend",
+          "aliases": [
+            "weekend",
+            "Weekend",
+            "Sport New weekend"
+          ],
+          "keywords": [],
+          "priority": 60,
+          "webp": "qmu/profiles/company-2/notifications/toast/sport-new-weekend.webp",
+          "png": "qmu/profiles/company-2/notifications/toast/sport-new-weekend.png"
         }
       ]
     },

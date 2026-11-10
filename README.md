@@ -24,6 +24,35 @@ when this package is installed, replaced or reset.
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
 
+## November 10, 2026 — Updated PINCO notification artwork (v3.0.35)
+
+The PINCO libraries now contain **111 Bell** and **104 Toast** PNG/WebP pairs.
+Current Casino, Sport, E-sport, Poker, AWOL and event artwork replaces the basic
+icons and expands the picker. Names and category aliases support search; ordinary
+FS, FB, quiz and cashback names resolve before seasonal variants. Existing saved
+image IDs remain valid, including four earlier choices without a current replacement.
+
+The source library's second collection is **NC Toast**. It is connected to Toast;
+Pop-up continues to use the campaign's explicit banner artwork. These collections
+do not replace each other's images. The primary project's libraries are unchanged.
+
+All pairs satisfy the native BO limits: at most **50 × 50** for Bell and
+**176 × 176** for Toast, below **200 KB** per file. Twelve oversized source files
+were reduced proportionally with transparency preserved. Other source bytes and
+all unrelated package data remain unchanged. Images are bundled in the ZIP;
+selecting or filling them does not require a Drive request.
+
+This is a compatible data update: format remains **10**. Download the latest ZIP,
+**reinstall it through Kumo Settings → Config → Install config**, and reload BO.
+A compatible-format badge does not automatically install new library contents.
+Settings, tasks, drafts, notes, saved emails and editor recovery remain intact.
+
+Validation covers all 422 replacement/new image files, package boundaries and
+hashes, the supported MV3 installer/reinstaller, all gallery images, search and
+keyboard selection, selection recovery, PNG/WebP file assignment and repeat
+idempotence in isolated BO fixtures. Native BO size validation was inspected;
+the new library was not submitted through a production campaign.
+
 ## November 7, 2026 — Configuration 10 (v3.0.34)
 
 Kumo **0.23.284** requires configuration format **10**. Update Kumo first,
