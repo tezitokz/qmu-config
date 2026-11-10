@@ -11,7 +11,7 @@ executable code and no private user drafts or personal settings.
 2. Open Kumo Settings.
 3. Choose **Install config** and select the downloaded ZIP.
 
-The current package version is **10**. Kumo keeps drafts and personal settings
+The current package version is **11**. Kumo keeps drafts and personal settings
 when this package is installed, replaced or reset.
 
 ## Package layout
@@ -23,6 +23,18 @@ when this package is installed, replaced or reset.
 - `qmu/core-layouts/` — company Email reference layouts;
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
+
+## November 10, 2026 — Configuration 11 (v3.0.36)
+
+Kumo **0.23.297** requires configuration format **11**, as requested by the
+owner. Update Kumo first, then download and reinstall this package through
+Settings → Config. Older packages remain stored and show an update request;
+settings, tasks, drafts, notes, saved emails and editor recovery are preserved.
+
+Only the format marker changes from 10 to 11. All profiles, language/currency
+data, templates and artwork remain unchanged. The other **624 ZIP entries**
+are byte-identical to v3.0.35, including the **111 Bell** and **104 Toast**
+PINCO image pairs. Installing this package does not update extension code.
 
 ## November 10, 2026 — Updated PINCO notification artwork (v3.0.35)
 
