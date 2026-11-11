@@ -1973,15 +1973,21 @@
           },
           "currencies": {
             "RUB": "Russian Ruble",
-            "KZT": "Kazakhstani Tenge"
+            "KZT": "Kazakhstani Tenge",
+            "USD": "US Dollar",
+            "EUR": "Euro"
           },
           "languageSelection": {
             "ru": {
               "regions": [
-                "RU"
+                "RU",
+                "KZ"
               ],
               "currencies": [
-                "RUB"
+                "RUB",
+                "KZT",
+                "USD",
+                "EUR"
               ]
             },
             "kk": {
@@ -1989,7 +1995,9 @@
                 "KZ"
               ],
               "currencies": [
-                "KZT"
+                "KZT",
+                "USD",
+                "EUR"
               ]
             },
             "en": {
@@ -1999,7 +2007,9 @@
               ],
               "currencies": [
                 "RUB",
-                "KZT"
+                "KZT",
+                "USD",
+                "EUR"
               ]
             }
           },
@@ -2011,6 +2021,14 @@
             "KZT": {
               "unit": "₸",
               "position": "suffix"
+            },
+            "USD": {
+              "unit": "$",
+              "position": "prefix"
+            },
+            "EUR": {
+              "unit": "€",
+              "position": "prefix"
             }
           }
         },
@@ -2025,7 +2043,9 @@
             "TJS": "Somoni",
             "KGS": "Som",
             "UZS": "Uzbekistan Sum",
-            "RUB": "Russian Ruble"
+            "RUB": "Russian Ruble",
+            "USD": "US Dollar",
+            "EUR": "Euro"
           },
           "languageCopies": {
             "kg": [
@@ -2037,9 +2057,17 @@
           },
           "languageSelection": {
             "ru": {
-              "regions": [],
+              "regions": [
+                "TJ",
+                "KG",
+                "UZ"
+              ],
               "currencies": [
-                "RUB"
+                "TJS",
+                "KGS",
+                "UZS",
+                "USD",
+                "EUR"
               ]
             },
             "tj": {
@@ -2048,7 +2076,8 @@
               ],
               "currencies": [
                 "TJS",
-                "RUB"
+                "USD",
+                "EUR"
               ]
             },
             "kg": {
@@ -2057,7 +2086,8 @@
               ],
               "currencies": [
                 "KGS",
-                "RUB"
+                "USD",
+                "EUR"
               ]
             },
             "uz": {
@@ -2066,7 +2096,8 @@
               ],
               "currencies": [
                 "UZS",
-                "RUB"
+                "USD",
+                "EUR"
               ]
             }
           },
@@ -2080,12 +2111,20 @@
               "position": "suffix"
             },
             "UZS": {
-              "unit": "SO'M",
+              "unit": "SO’M",
               "position": "suffix"
             },
             "RUB": {
               "unit": "₽",
               "position": "suffix"
+            },
+            "USD": {
+              "unit": "$",
+              "position": "prefix"
+            },
+            "EUR": {
+              "unit": "€",
+              "position": "prefix"
             }
           }
         },
@@ -2096,7 +2135,9 @@
           },
           "currencies": {
             "AZN": "Azerbaijanian Manat",
-            "TRY": "Turkish lira"
+            "TRY": "Turkish lira",
+            "USD": "US Dollar",
+            "EUR": "Euro"
           },
           "languageSelection": {
             "ru": {
@@ -2104,7 +2145,9 @@
                 "AZ"
               ],
               "currencies": [
-                "AZN"
+                "AZN",
+                "USD",
+                "EUR"
               ]
             },
             "az": {
@@ -2112,7 +2155,9 @@
                 "AZ"
               ],
               "currencies": [
-                "AZN"
+                "AZN",
+                "USD",
+                "EUR"
               ]
             },
             "en": {
@@ -2120,15 +2165,19 @@
                 "AZ"
               ],
               "currencies": [
-                "AZN"
+                "AZN",
+                "USD",
+                "EUR"
               ]
             },
             "tr": {
               "regions": [
-                "TR"
+                "AZ"
               ],
               "currencies": [
-                "TRY"
+                "AZN",
+                "USD",
+                "EUR"
               ]
             }
           },
@@ -2140,6 +2189,14 @@
             "TRY": {
               "unit": "₺",
               "position": "prefix"
+            },
+            "USD": {
+              "unit": "$",
+              "position": "prefix"
+            },
+            "EUR": {
+              "unit": "€",
+              "position": "prefix"
             }
           }
         },
@@ -2149,7 +2206,8 @@
           },
           "currencies": {
             "CAD": "Canadian Dollar",
-            "USD": "US Dollar"
+            "USD": "US Dollar",
+            "EUR": "Euro"
           },
           "languageCopies": {
             "en": [
@@ -2167,7 +2225,8 @@
               ],
               "currencies": [
                 "CAD",
-                "USD"
+                "USD",
+                "EUR"
               ]
             },
             "fr": {
@@ -2176,7 +2235,8 @@
               ],
               "currencies": [
                 "CAD",
-                "USD"
+                "USD",
+                "EUR"
               ]
             }
           },
@@ -2187,6 +2247,10 @@
             },
             "USD": {
               "unit": "$",
+              "position": "prefix"
+            },
+            "EUR": {
+              "unit": "€",
               "position": "prefix"
             }
           },
@@ -2200,7 +2264,9 @@
             "TR": "Turkey"
           },
           "currencies": {
-            "TRY": "Turkish lira"
+            "TRY": "Turkish lira",
+            "USD": "US Dollar",
+            "EUR": "Euro"
           },
           "languageSelection": {
             "tr": {
@@ -2208,13 +2274,23 @@
                 "TR"
               ],
               "currencies": [
-                "TRY"
+                "TRY",
+                "USD",
+                "EUR"
               ]
             }
           },
           "currencyFormats": {
             "TRY": {
               "unit": "₺",
+              "position": "prefix"
+            },
+            "USD": {
+              "unit": "$",
+              "position": "prefix"
+            },
+            "EUR": {
+              "unit": "€",
               "position": "prefix"
             }
           }

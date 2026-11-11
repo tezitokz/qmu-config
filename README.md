@@ -24,6 +24,31 @@ when this package is installed, replaced or reset.
 - `qmu/catalogs/` — slot image catalog;
 - `qmu-company-config.zip` — ready-to-install package.
 
+## November 11, 2026 — PINCO regional currency profiles (v3.0.37)
+
+PINCO currency profiles follow the task's country. Russian copy for Central
+Asia offers the corresponding local currencies; Turkish copy in the Azerbaijan
+profile uses AZN. Standalone Turkey continues to use TRY. USD and EUR are
+available alongside each profile's local currencies. Existing inactive values,
+language copies, templates and artwork are retained.
+
+Currency formatting uses the configured units and positions: RUB, KZT, AZN,
+KGS, UZS and TJS after the amount; TRY, CAD, USD and EUR before it. UZS uses
+`SO’M`. These compatible data changes retain configuration format **11**.
+All **624 other ZIP entries** are byte-identical to v3.0.36.
+
+Kumo **0.23.304** also aligns the automatic NC Bell, Toast, Pop-up and Push
+language plan with the eight supported PINCO countries. Native aliases are
+KK for KZ, KY for KG and TG for TJ. AZ uses RU/AZ/TR; Canada uses exact EN/FR
+without substituting EN-CA/FR-CA. Those workflow changes require the updated
+extension; installing configuration alone does not update code.
+
+Download and **reinstall the latest ZIP through Settings → Config**, then
+reload the updated extension and BO page. Tested installation and reinstallation
+preserve settings, tasks, drafts, notes, saved emails and editor recovery.
+Authenticated native language/CMS catalogs were read without saving a campaign;
+import and currency creation workflows are checked in isolated MV3 fixtures.
+
 ## November 10, 2026 — Configuration 11 (v3.0.36)
 
 Kumo **0.23.297** requires configuration format **11**, as requested by the
